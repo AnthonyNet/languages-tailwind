@@ -100,7 +100,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="mottoCover border-b border-gray-300 my-4 text-sm sm:text-lg">
-            <p>Evolution means everyday learning</p>
+            <p>Evolution means everyday learning </p>
           </div>
           <nav>
             <ul className="flex flex-col  z-20">

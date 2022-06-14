@@ -3,7 +3,7 @@ import { ThemeContext } from "../../ThemeContext";
 import Table from "./Table";
 import "./Main.css"
 
-//This is a simple API for BitCoin currency
+//This is an simple API for BitCoin currency
 const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
 //The whole components is imported  into pages/Home
