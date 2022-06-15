@@ -28,9 +28,7 @@ const Main = () => {
 
   return (
     <section
-      className={
-        "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] h-auto sm:h-[90%] border-red-300  border-t-2"
-      }
+      className={styles.section}
       style={darkMode ? stylesSwitch.dark.slate : stylesSwitch.transparent}
     >
       <h1
