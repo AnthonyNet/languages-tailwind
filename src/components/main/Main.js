@@ -6,6 +6,10 @@ import "./Main.css"
 //This is an simple API for BitCoin currency
 const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
+const styles= {
+  section: "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] h-auto sm:h-[90%] border-red-300  border-t-2",
+}
+
 //The whole components is imported  into pages/Home
 
 const Main = () => {
