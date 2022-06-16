@@ -8,7 +8,7 @@ const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
 const styles= {
   section: "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] h-auto sm:h-[90%] border-red-300  border-t-2",
-  h1: "text-3xl sm:text-4xl text-center font-bold text-gray-700",
+  h2: "text-3xl sm:text-4xl text-center font-bold text-gray-700",
 }
 
 //The whole components is imported  into pages/Home
@@ -32,12 +32,12 @@ const Main = () => {
       className={styles.section}
       style={darkMode ? stylesSwitch.dark.slate : stylesSwitch.transparent}
     >
-      <h1
+      <h2
         className="ml-[-50px] mt-2 sm:mt-0"
         style={darkMode ? stylesSwitch.dark.slate.font : null}
       >
         Welcome
-      </h1>
+      </h2>
       <h1 className="ml-[50px]">
         <strong>humans...</strong>
       </h1>
