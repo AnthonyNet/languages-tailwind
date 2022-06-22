@@ -10,7 +10,7 @@ const styles= {
   section: "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] h-auto sm:h-[90%] border-red-300  border-t-2",
   h2: "text-3xl sm:text-4xl text-center font-bold text-gray-700",
   sectionDiv:"mainCard w-[300px] h-[420px] bg-transparent cursor-pointer group perspective",
-  
+
 }
 
 //The whole components is imported  into pages/Home
@@ -43,8 +43,8 @@ const Main = () => {
       <h2 className="ml-[50px]">
         <strong>humans...</strong>
       </h2>
-      <div className="mainCard w-[300px] h-[420px] bg-transparent cursor-pointer group perspective">
-        <div className="preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+      <div className={styles.sectionDiv}>
+        <article className="preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="border-2 w-full h-full">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg4.wikia.nocookie.net%2F__cb20081229142345%2Ffallout%2Fimages%2F2%2F2a%2FFallout2front.jpg&f=1&nofb=1"
@@ -69,7 +69,7 @@ const Main = () => {
               </h1>
             </div>
           </div>
-        </div>
+        </article>
       </div>
       {/*
          <div class="flex w-full h-full items-center justify-center flex-wrap">
