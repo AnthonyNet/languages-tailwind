@@ -45,7 +45,7 @@ const Main = () => {
         <strong>humans...</strong>
       </h2>
       <div className={styles.sectionDiv}>
-        <article className="preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+        <article className={styles.article}>
           <div className="border-2 w-full h-full">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg4.wikia.nocookie.net%2F__cb20081229142345%2Ffallout%2Fimages%2F2%2F2a%2FFallout2front.jpg&f=1&nofb=1"
