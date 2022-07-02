@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
-import Irregular from '../components/Deutsch/Verben'
+import Navbar from '../components/navbar/Navbar'
+import Irregular from '../components/deutsch/Verben'
 
 const German = () => {
   return (

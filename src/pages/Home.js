@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar/Navbar'
-import Main from '../components/Main/Main'
+import Navbar from '../components/navbar/Navbar'
+import Main from '../components/main/Main'
 
 const Home = () => {
   return (
