@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from '../components/Navbar/Navbar'
 
-import Irregular from '../components/english/Irregular'
+import Irregular from '../components/English/Irregular'
 
 const English = () => {
 
