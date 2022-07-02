@@ -7,4 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+}
 }
