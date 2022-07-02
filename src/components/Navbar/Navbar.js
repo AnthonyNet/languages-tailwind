@@ -49,26 +49,26 @@ const Navbar = () => {
             <p>Evolution means everyday learning</p>
           </div>
           <nav>
-            <ul className="uppercase flex flex-col text-2xl">
-              <Link className="py-4" to="/">
+            <ul className="flex flex-col text-2xl">
+              <Link className="py-4 uppercase" to="/">
                 Home
               </Link>
 
               <details className="py-4 cursor-pointer">
-                <summary>English</summary>
+                <summary className="uppercase border-gray-300 border-b logo"><strong>English</strong></summary>
                 <ul className="flex flex-col">
-                  <Link to="/english">English test</Link>
-                  <Link to="/">File 2</Link>
-                  <Link to="/">File 3</Link>
+                  <Link to="/english">Irregular verbs</Link>
+                  <Link to="/">EmptyFile 2</Link>
+                  <Link to="/">EmptyFile 3</Link>
                 </ul>
               </details>
 
               <details className="cursor-pointer">
-                <summary>Deutsch</summary>
+                <summary className="uppercase border-gray-300 border-b logo">Deutsch</summary>
                 <ul className="flex flex-col">
-                  <Link to="/">File 1</Link>
-                  <Link to="/">File 2</Link>
-                  <Link to="/">File 3</Link>
+                  <Link to="/german">Uregelmäßige Verben</Link>
+                  <Link to="/">EmptyFile 2</Link>
+                  <Link to="/">EmptyFile 3</Link>
                 </ul>
               </details>
             </ul>

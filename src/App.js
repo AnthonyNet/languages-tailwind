@@ -1,4 +1,5 @@
 import './App.css';
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
 import English from './pages/English';
@@ -6,7 +7,9 @@ import German from './pages/German';
 import Error from './pages/Error';
 
 
+
 function App() {
+ 
   return (
     <div className="App"> 
        <BrowserRouter>

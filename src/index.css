@@ -23,9 +23,9 @@
     @apply cursor-pointer
   }
 
-  button {
+  /*button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
-  }
+  }*/
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
@@ -37,3 +37,11 @@
 strong{
   color:#709dff;
 }
+
+
+.scoreDiv span{
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
