@@ -12,6 +12,9 @@ const IrregularVerbs = () => {
   const [hint, setHint] = useState(false);
   const [rand, setRand] = useState(0);
 
+    const[value, setValue] = useState('');
+    const[data, setData] = useState('');
+
   useEffect(() => {
     localStorage.setItem("totalScore", JSON.stringify(totalScore));
   }, [totalScore]);
@@ -71,14 +74,14 @@ const IrregularVerbs = () => {
 
   {/*check inputs values and change font, border or background */}
   const handleChange = (e) => {
-    const value = e.target.value;
-    const data = e.target.attributes.data.value;
+  const value = e.target.value;
+  const data = e.target.attributes.data.value;
     const inputElement = e.target;
     if (value === "") {
       inputElement.style.color = "gray";
     } else if (data === value) {
-      e.target.parentElement.style.backgroundColor = "MediumSeaGreen";
-      e.target.readOnly = true;
+     inputElement.parentElement.style.backgroundColor = "MediumSeaGreen";
+     inputElement.readOnly = true;
       setTotalScore((count) => +count + 1);
       setScore((count) => count + 1);
     } else if (data.startsWith(value)) {
