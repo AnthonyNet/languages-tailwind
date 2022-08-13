@@ -9,7 +9,7 @@ const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
 const styles= {
   section: "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] h-auto sm:h-[90%] border-red-300  border-t-2",
   h2: "text-3xl sm:text-4xl text-center font-bold text-gray-700",
-  sectionDiv:"mainCard w-[300px] h-[420px] bg-transparent cursor-pointer group perspective",
+  mainCard: "mainCard w-[300px] h-[420px] bg-transparent cursor-pointer group perspective",
   article: "preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000",
   articleDiv: "border-2 w-full h-full",
 }
@@ -44,7 +44,7 @@ const Main = () => {
       <h2 className="ml-[50px]">
         <strong>humans...</strong>
       </h2>
-      <div className={styles.sectionDiv}>
+      <div className={styles.mainCard}>
         <article className={styles.article}>
           <div className={styles.articleDiv}>
             <img
