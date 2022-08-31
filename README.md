@@ -1,6 +1,6 @@
 # Getting started
 
-You can use the app to learn a new vocabulary or practise you knowledge.
+You can use the app to learn a new vocabulary or practise your knowledge.
 
 ## English German to Czech
 
