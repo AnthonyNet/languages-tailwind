@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState } from "react";
 import { BsFillStarFill } from "react-icons/bs";
 
 
-import Data from "./English1Data";
+import Data from "../data/json/IrregularVerbs";
 import getLocalStorage from "../Functions";
 
 
@@ -12,12 +12,6 @@ const IrregularVerbs = () => {
   const [hint, setHint] = useState(false);
   const [rand, setRand] = useState(0);
 
-    const[value, setValue] = useState('');
-    const[data, setData] = useState('');
-
-  useEffect(() => {
-    localStorage.setItem("totalScore", JSON.stringify(totalScore));
-  }, [totalScore]);
 
 {/*the function gives stars depends on score number */}
   const runMe = (score) => {
@@ -76,11 +70,13 @@ const IrregularVerbs = () => {
   const handleChange = (e) => {
   const value = e.target.value;
   const data = e.target.attributes.data.value;
+
     const inputElement = e.target;
     if (value === "") {
       inputElement.style.color = "gray";
     } else if (data === value) {
-     inputElement.parentElement.style.backgroundColor = "MediumSeaGreen";
+    // inputElement.parentElement.style.backgroundColor = "MediumSeaGreen";
+   
      inputElement.readOnly = true;
       setTotalScore((count) => +count + 1);
       setScore((count) => count + 1);
@@ -92,6 +88,9 @@ const IrregularVerbs = () => {
       inputElement.style.fontWeight = "bold";
     }
   };
+
+
+  
 
   {/* Gives a random number -> word from a list
       Change input styles to default
@@ -107,7 +106,7 @@ const IrregularVerbs = () => {
       input.firstChild.readOnly = false;
       input.firstChild.value = "";
     });
-    setScore(0);
+    //setScore(0);
     setHint(false);
   }
 
@@ -128,7 +127,8 @@ const IrregularVerbs = () => {
             {Data[rand].cz}
           </h5>
           <ul className="flex flex-col justify-around text-center mb-2">
-            <li className="p-2">
+            <li
+            className="p-2">
               <input
                 className="quizInput text-center border border-gray-300"
                 data={Data[rand].base}
@@ -137,7 +137,8 @@ const IrregularVerbs = () => {
                 onChange={handleChange}
               ></input>
             </li>
-            <li className="p-2">
+            <li
+            className="p-2">
               <input
                 className="quizInput text-center border border-gray-300"
                 data={Data[rand].pastSimple}

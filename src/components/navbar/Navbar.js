@@ -10,17 +10,33 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <nav className="sticky w-full h-20 shadow-xl z-[100]">
-      <div className="flex justify-between items-center w-full h-full text-xl p-8">
-        <aside className="logo mr-40">
+    <nav className="sticky w-full min-h-20 shadow-xl z-[100]">
+      <div className="flex justify-between items-start w-full h-full text-xl p-8">
+        <aside className="logo w-1/3 mr-4">
           Learn <strong>languages</strong>
         </aside>
-        <ul className="justify-between items-center w-full h-full hidden md:flex">
+        <ul className="justify-around items-start w-full h-full hidden md:flex">
           <Link 
           to="/"
           >Home</Link>
-          <Link to="/english">English</Link>
-          <Link to="/german">German</Link>
+          <details className="cursor-pointer">
+                <summary className="uppercase border-gray-300 border-b logo"><strong>English</strong></summary>
+                <ul className="flex flex-col gh">
+                  <Link to="/english">Irregular verbs</Link>
+                  <Link to="/english2">Irregular verbs2</Link>
+                  <Link to="/irregularSearch">Irregular List</Link>
+
+                </ul>
+              </details>
+              
+              <details className="cursor-pointer">
+                <summary className="uppercase border-gray-300 border-b logo"><strong>Deutsch</strong></summary>
+                <ul className="flex flex-col">
+                  <Link to="/german">Uregelmäßige Verben</Link>
+                  <Link to="/">EmptyFile 2</Link>
+                  <Link to="/">EmptyFile 3</Link>
+                </ul>
+              </details>
         </ul>
         <div className="text-4xl md:hidden">
           <TiThMenu onClick={handleNav} />
@@ -58,8 +74,8 @@ const Navbar = () => {
                 <summary className="uppercase border-gray-300 border-b logo"><strong>English</strong></summary>
                 <ul className="flex flex-col">
                   <Link to="/english">Irregular verbs</Link>
-                  <Link to="/">EmptyFile 2</Link>
-                  <Link to="/">EmptyFile 3</Link>
+                  <Link to="/english2">Irregular verbs2</Link>
+                  <Link to="/irregularSearch">Irregular List</Link>
                 </ul>
               </details>
 

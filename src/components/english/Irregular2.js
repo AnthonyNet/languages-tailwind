@@ -1,65 +1,71 @@
-import {useState, useEffect} from "react";
+import React, { useEffect, useState } from "react";
 import { BsFillStarFill } from "react-icons/bs";
-
-import Card from '../card/Card';
+import Card from "../card/Card";
 import CardButton from '../card/CardButton';
-import CardHint from '../card/CardHint';
-import Score from '../card/Score'
+import CardHint from "../card/CardHint";
 
-import Data from './VerbenData';
+import Data from "../data/json/IrregularVerbs";
+
+// import functions
 import getLocalStorage from "../Functions";
+import Score from "../card/Score";
 
-import React from 'react'
+const IrregularVerbs = () => {
+  const [totalScore, setTotalScore] = useState(getLocalStorage());
+  const [score, setScore] = useState(0);
+  const [stars, setStars] = useState(0);
+  const [hint, setHint] = useState(false);
+  const [rand, setRand] = useState(0);
 
-const Verben = () => {
-    const [totalScore, setTotalScore] = useState(getLocalStorage());
-    const [score, setScore] = useState(0);
-    const [hint, setHint] = useState(false);
-    const [rand, setRand] = useState(0);
-    const [stars, setStars] = useState();
+  useEffect(() => {
+    localStorage.setItem("totalScore", JSON.stringify(totalScore));
+}, [totalScore]);
 
-    useEffect(() => {
-        localStorage.setItem("totalScore", JSON.stringify(totalScore));
-    }, [totalScore]);
-  
-    const handleChange = (e) => {
-      const value = e.target.value;
-      const data = e.target.attributes.data.value;
-      const inputElement = e.target;
-      if (value === "") {
-        inputElement.style.color = "gray";
-      } else if (data === value) {
-        e.target.parentElement.style.backgroundColor = "MediumSeaGreen";
-        e.target.readOnly = true;
-        setTotalScore((count) => +count + 1);
-        setScore((count) => count + 1);
-      } else if (data.startsWith(value)) {
-        inputElement.style.color = "green";
-        inputElement.style.fontWeight = "bold";
-      } else {
-        inputElement.style.color = "red";
-        inputElement.style.fontWeight = "bold";
-      }
-    };
-  
-    {/* Gives a random number -> word from a list
-        Change input styles to default
-  */}
-    function randomWord(e) {
-      setRand(Math.floor(Math.random() * Data.length));
-      const quizInput = e.target.previousSibling.childNodes;
-  
-      quizInput.forEach((input) => {
-        input.style.backgroundColor = "transparent";
-        input.firstChild.style.color = "gray";
-        input.firstChild.style.fontWeight = "normal";
-        input.firstChild.readOnly = false;
-        input.firstChild.value = "";
-      });
-      setScore(0);
-      setHint(false);
+  {
+    /*check inputs values and change font, border or background */
+  }
+  const handleChange = (e) => {
+    const value = e.target.value;
+    const data = e.target.attributes.data.value;
+
+    const inputElement = e.target;
+    if (value === "") {
+      inputElement.style.color = "gray";
+    } else if (data === value) {
+      inputElement.parentElement.style.backgroundColor = "MediumSeaGreen";
+
+      inputElement.readOnly = true;
+      setTotalScore((count) => +count + 1);
+      setScore((count) => count + 1);
+      setStars((count) => count + 1);
+    } else if (data.startsWith(value)) {
+      inputElement.style.color = "green";
+      inputElement.style.fontWeight = "bold";
+    } else {
+      inputElement.style.color = "red";
+      inputElement.style.fontWeight = "bold";
     }
+  };
 
+  {
+    /* Gives a random number -> word from a list
+      Change input styles to default
+*/
+  }
+  function randomWord(e) {
+    setRand(Math.floor(Math.random() * Data.length));
+    const quizInput = e.target.previousSibling.childNodes;
+
+    quizInput.forEach((input) => {
+      input.style.backgroundColor = "transparent";
+      input.firstChild.style.color = "gray";
+      input.firstChild.style.fontWeight = "normal";
+      input.firstChild.readOnly = false;
+      input.firstChild.value = "";
+    });
+    setStars(0);
+    setHint(false);
+  }
 
   return (
     <section className="flex justify-center items-center w-full h-[91vh]">
@@ -139,8 +145,7 @@ const Verben = () => {
         </div>
       </div>
     </section>
+  );
+};
 
-  )
-}
-
-export default Verben
+export default IrregularVerbs;
