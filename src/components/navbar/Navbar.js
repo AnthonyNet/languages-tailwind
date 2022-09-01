@@ -21,7 +21,7 @@ const Navbar = () => {
           >Home</Link>
           <details className="cursor-pointer">
                 <summary className="uppercase logo"><strong>English</strong></summary>
-                <ul className="flex flex-col gh">
+                <ul className="flex flex-col border-solid border-t-4 border-indigo-600 ">
                   <Link to="/english">Irregular verbs</Link>
                   <Link to="/english2">Irregular verbs2</Link>
                   <Link to="/irregularSearch">Irregular List</Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
               
               <details className="cursor-pointer">
                 <summary className="uppercase logo"><strong>Deutsch</strong></summary>
-                <ul className="flex flex-col">
+                <ul className="flex flex-col border-solid border-t-4 border-indigo-600">
                   <Link to="/german">Uregelmäßige Verben</Link>
                   <Link to="/">EmptyFile 2</Link>
                   <Link to="/">EmptyFile 3</Link>

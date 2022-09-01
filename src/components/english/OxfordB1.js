@@ -13,8 +13,8 @@ const OxfordB1 = () => {
   };
 
   return (
-    <section className="flex justify-center items-center w-full h-[100vh]">
-      <div className=" p-8 w-[1000px] border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white max-w-sm text-center">
+    <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
+      <div className="w-full sm:w-[30rem]  py-8 border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white text-center">
         <div className="scoreDiv py-3 px-6 border-b border-gray-300 font-bold">
           <ul className="flex flex-col justify-around text-center mb-2">
             {switchLanguage ? (
@@ -37,11 +37,11 @@ const OxfordB1 = () => {
           </ul>
         </div>
 
-        <ul className="flex justify-around text-center mb-2">
+        <ul className="flex justify-around text-center">
           <button
             onClick={randomWord}
             type="button"
-            className="w-2/3 m-2 py-4 bg-blue-600  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="font-bold w-2/3 mt-8 py-4 bg-blue-600  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
           >
             Next word
           </button>
@@ -49,9 +49,9 @@ const OxfordB1 = () => {
           <button
             onClick={() => setSwitchLanguage(!switchLanguage)}
             type="button"
-            className="w-2/3 m-2 py-4  bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="mt-8 py-4 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
           >
-            {switchLanguage ? "CZ -> ENG" : "ENG -> CZ"}
+            {switchLanguage ? "CZ ➜ ENG" : "ENG ➜ CZ"}
           </button>
         </ul>
       </div>
