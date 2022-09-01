@@ -113,8 +113,8 @@ const IrregularVerbs = () => {
   
 
   return (
-    <section className="flex justify-center items-center w-full h-[91vh]">
-      <div className="rounded-lg shadow-lg bg-white max-w-sm text-center">
+    <section className="testSection flex justify-center items-center w-full h-[100vh]">
+      <div className=" rounded-lg shadow-lg bg-white max-w-sm text-center">
         <div className="scoreDiv py-3 px-6 border-b border-gray-300">
           {runMe(score)}
         </div>

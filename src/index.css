@@ -56,5 +56,24 @@ details[open] summary ~ * {
   100%  {opacity: 1; transform: translateX(0)}
 }
 
+@media screen and (max-width: 450px){
+  .navClose{
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-height: 600px){
+  .testSection{
+    height: 120vh;
+  }
+ 
+}
+@media screen and (max-height: 370px){
+  .testSection{
+    height: 200vh;
+  }
+ 
+}
+
 
 

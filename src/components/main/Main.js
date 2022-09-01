@@ -2,8 +2,8 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full h-[91vh] border-2'>
-      <h1 className='ml-[-50px]'>Welcome</h1>
+    <div className='testSection flex flex-col justify-center items-center w-full h-[100vh] border-2'>
+      <h1 className='ml-[-50px] mt-8'>Welcome</h1>
       <h1 className='ml-[50px]'><strong>humans...</strong></h1>
       <div
         className="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective"

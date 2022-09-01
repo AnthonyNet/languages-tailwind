@@ -10,7 +10,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <nav className="sticky w-full min-h-20 shadow-xl z-[100]">
+    <nav className="w-full min-h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-start w-full h-full text-xl p-8">
         <aside className="logo w-1/3 mr-4">
           Learn <strong>languages</strong>
@@ -20,7 +20,7 @@ const Navbar = () => {
           to="/"
           >Home</Link>
           <details className="cursor-pointer">
-                <summary className="uppercase border-gray-300 border-b logo"><strong>English</strong></summary>
+                <summary className="uppercase logo"><strong>English</strong></summary>
                 <ul className="flex flex-col gh">
                   <Link to="/english">Irregular verbs</Link>
                   <Link to="/english2">Irregular verbs2</Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
               </details>
               
               <details className="cursor-pointer">
-                <summary className="uppercase border-gray-300 border-b logo"><strong>Deutsch</strong></summary>
+                <summary className="uppercase logo"><strong>Deutsch</strong></summary>
                 <ul className="flex flex-col">
                   <Link to="/german">Uregelmäßige Verben</Link>
                   <Link to="/">EmptyFile 2</Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <aside className="logo mr-40">
               Learn <strong>languages</strong>
             </aside>
-            <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+            <div onClick={handleNav} className="navClose rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
               <CgClose />
             </div>
           </div>
