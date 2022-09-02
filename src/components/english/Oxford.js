@@ -53,7 +53,7 @@ const OxfordB1 = ({ dataJSON }) => {
               <li onClick={() => setTransparent(!transparent)}>show answer</li>
             ) : (
               <li className="flex flex-col" onClick={() => setTransparent(!transparent)}>
-                <div className="relative"><CgClose className="absolute right-2 top-1" /></div>
+                <div className="relative"><CgClose className="absolute right-0 top-1 " /></div>
                 <strong>{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
                 
              
