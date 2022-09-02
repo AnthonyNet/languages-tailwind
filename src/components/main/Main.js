@@ -12,6 +12,7 @@ const styles= {
   mainCard: "mainCard w-[300px] h-[420px] bg-transparent cursor-pointer group perspective",
   article: "preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000",
   articleDiv: "border-2 w-full h-full",
+  cardback: "mainCardBack my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400",
 }
 
 //The whole components is imported  into pages/Home
@@ -54,7 +55,7 @@ const Main = () => {
             />
           </div>
           <div
-            className="mainCardBack my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400"
+            className={styles.cardBack}
             style={darkMode ? stylesSwitch.dark.card : stylesSwitch.light.basic}
           >
             <div className="text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ">
