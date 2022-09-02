@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CardButton from "../card/CardButton";
 import { CgClose } from "react-icons/cg";
+
 
 //import Data from "../data/json/OxfordB1";
 
@@ -19,7 +20,7 @@ const OxfordB1 = ({ dataJSON }) => {
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
       <div className="w-full sm:w-[30rem]  py-8 border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white text-center">
       {/*IF czWord exists */}
-      {data[rand].czWord?(
+      {
         <div className=" border-b border-gray-300 font-bold">
           <ul>
             {switchLanguage ? (
@@ -30,10 +31,11 @@ const OxfordB1 = ({ dataJSON }) => {
             )}
           </ul>
         </div>
-      ):null}
+      }
 
-        {data[rand].sentenceTranslated? (
-          <div className=" border-b border-gray-300 font-bold">
+
+      {data[rand].sentenceTranslated? (
+          <div className={switchLanguage?"border-b border-gray-300 font-bold":"hidden"}>
           <ul className="flex flex-col justify-around text-center m-6">
             {switchLanguage ? (
               <li>{data[rand].sentenceTranslated}</li>
