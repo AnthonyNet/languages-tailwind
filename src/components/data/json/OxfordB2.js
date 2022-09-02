@@ -3,31 +3,31 @@ export default [
     engWord: "	abandon  v.	",
     engSentence: "	 her natural mother had abandoned her at an early age	",
     czWord: "	opustit	",
-    czSentence: "",
+    
   },
   {
     engWord: "	acceptable adj.	",
     engSentence: "	 has tried to find a solution acceptable to everyone	",
     czWord: "	přijatelný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	accompany  v.	",
     engSentence: "	 I don't want to go alone, can you accompany me?	",
     czWord: "	doprovázet		",
-    czSentence: "",
+    
   },
   {
     engWord: "	account  v.	",
     engSentence: "	 be accounted	",
     czWord: "	účet být považován		",
-    czSentence: "",
+    
   },
   {
     engWord: "	accurate adj.	",
     engSentence: "	 accurate shooter	",
     czWord: "	přesný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	accuse  v.	",
@@ -39,7 +39,7 @@ export default [
     engWord: "	acknowledge  v.	",
     engSentence: "	 His friends had to acknowledge he's a good programmer.	",
     czWord: "	uznat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	acquire  v.	",
@@ -57,19 +57,19 @@ export default [
     engWord: "	adapt  v.	",
     engSentence: "	 Adapt yourself the you´ll survive	",
     czWord: "	přizpůsobit se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	additional adj.	",
-    engSentence: "		",
+    
     czWord: "	přídavný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	administration n.	",
-    engSentence: "		",
+    
     czWord: "	správa, administrativa		",
-    czSentence: "",
+    
   },
   {
     engWord: "	adopt  v.	",
@@ -81,26 +81,26 @@ export default [
     engWord: "	advance n. v. adj.	",
     engSentence: "	 the advance of civilization army advanced	",
     czWord: "	pokrok, postup, záloha		",
-    czSentence: "",
+    
   },
-  { engWord: "	affair n.	", engSentence: "		", czWord: "	aféra		", czSentence: "		" },
+  { engWord: "	affair n.	",  czWord: "	aféra		",  },
   {
     engWord: "	afterwards ad v.	",
     engSentence: "	 the offender was arrested shortly afterwards	",
     czWord: "	poté, později		",
-    czSentence: "",
+    
   },
   {
     engWord: "	agency n.	",
-    engSentence: "		",
+    
     czWord: "	agentura, kancelář		",
-    czSentence: "",
+    
   },
   {
     engWord: "	agenda n.	",
     engSentence: "	 the government had its own agenda	",
     czWord: "	denní program		",
-    czSentence: "",
+    
   },
   {
     engWord: "	aid n.  v.	",
@@ -111,31 +111,31 @@ export default [
   },
   {
     engWord: "	aircraft n.	",
-    engSentence: "		",
+    
     czWord: "	letadlo		",
-    czSentence: "",
+    
   },
-  { engWord: "	alter  v.	", engSentence: "		", czWord: "	změnit		", czSentence: "		" },
+  { engWord: "	alter  v.	",  czWord: "	změnit		",  },
   {
     engWord: "	amount  v.	",
     engSentence: "	 losses amounted to over 10 million dollars	",
     czWord: "	částka, činit		",
-    czSentence: "",
+    
   },
-  { engWord: "	anger n.	", engSentence: "		", czWord: "	hněv		", czSentence: "		" },
-  { engWord: "	angle n.	", engSentence: "		", czWord: "	úhel		", czSentence: "		" },
+  { engWord: "	anger n.	",  czWord: "	hněv		",  },
+  { engWord: "	angle n.	",  czWord: "	úhel		",  },
   {
     engWord: "	anniversary n.	",
-    engSentence: "		",
+    
     czWord: "	výročí		",
-    czSentence: "",
+    
   },
-  { engWord: "	annual adj.	", engSentence: "		", czWord: "	roční		", czSentence: "		" },
+  { engWord: "	annual adj.	",  czWord: "	roční		",  },
   {
     engWord: "	anxious adj.	",
     engSentence: "	 she was extremely anxious about her exams	",
     czWord: "	úzkostný, znepokojený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	apparent adj.	",
@@ -147,38 +147,38 @@ export default [
     engWord: "	apparently ad v.	",
     engSentence: "	 I'm apparently not as good as I thought	",
     czWord: "	zřejmě		",
-    czSentence: "",
+    
   },
   {
     engWord: "	appeal n.  v.	",
     engSentence:
       "	 He appealed to Adam to bring back what he stolehe said he would appeal against the conviction	",
     czWord: "	apelovat, odvolání		",
-    czSentence: "",
+    
   },
   {
     engWord: "	approach n. v	",
     engSentence: "	 Slow down as you approach the corner.	",
     czWord: "	přiblížit se, přístup		",
-    czSentence: "",
+    
   },
   {
     engWord: "	appropriate adj.	",
     engSentence: "	 What is appropriate external soundcard with headphones?	",
     czWord: "	vhodný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	approval n.	",
     engSentence: "	 the road plans have been given approval	",
     czWord: "	schválení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	approve  v.	",
     engSentence: "	 I approve it to you	",
     czWord: "	schválit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	arise  v.	",
@@ -188,102 +188,102 @@ export default [
   },
   {
     engWord: "	armed adj.	",
-    engSentence: "		",
+    
     czWord: "	ozbrojený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	arms n.	",
     engSentence: "	 arms exports	",
     czWord: "	zbraně, náručí		",
-    czSentence: "",
+    
   },
   {
     engWord: "	artificial adj.	",
-    engSentence: "		",
+    
     czWord: "	umělý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	artistic adj.	",
-    engSentence: "		",
+    
     czWord: "	umělecký		",
-    czSentence: "",
+    
   },
   {
     engWord: "	ashamed adj.	",
-    engSentence: "		",
+    
     czWord: "	zahanbený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	assess  v.	",
     engSentence: "	 judge must assess who is guilty	",
     czWord: "	posoudit, odhadnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	assessment n.	",
     engSentence: "	 Assessment of candidates	",
     czWord: "	hodnocení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	associate  v.	",
     engSentence: "	 a business associate I associated wealth with freedom	",
     czWord: "	společník, spojovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	associated adj.	",
-    engSentence: "		",
+    
     czWord: "	sdružený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	association n.	",
     engSentence: "	 the National Association of Broadcasters	",
     czWord: "	sdružení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	assume  v.	",
     engSentence: "	 I assume he's gayhe assumed full responsibility	",
     czWord: "	předpokládat, převzít		",
-    czSentence: "",
+    
   },
   {
     engWord: "	attempt n.  v.	",
-    engSentence: "		",
+    
     czWord: "	pokus		",
-    czSentence: "",
+    
   },
   {
     engWord: "	back  v.	",
     engSentence: "	 enty backed him	",
     czWord: "	podporovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	bacteria n.	",
-    engSentence: "		",
+    
     czWord: "	bakterie		",
-    czSentence: "",
+    
   },
   {
     engWord: "	bar  v.	",
     engSentence: "	 She bars the door	",
     czWord: "	zatarasit		",
-    czSentence: "",
+    
   },
-  { engWord: "	barrier n.	", engSentence: "		", czWord: "	bariéra		", czSentence: "		" },
+  { engWord: "	barrier n.	",  czWord: "	bariéra		",  },
   {
     engWord: "	basically ad v.	",
     engSentence: "	 People are basically monsters	",
     czWord: "	v podstatě		",
-    czSentence: "",
+    
   },
-  { engWord: "	battle  v.	", engSentence: "		", czWord: "	bojovat		", czSentence: "		" },
+  { engWord: "	battle  v.	",  czWord: "	bojovat		",  },
   {
     engWord: "	bear (deal with)  v.	",
     engSentence: "	 carry the weighshe could hardly bear his sarcasm	",
@@ -292,69 +292,69 @@ export default [
   },
   {
     engWord: "	beat n.	",
-    engSentence: "		",
+    
     czWord: "	tlukot, takt, úder		",
-    czSentence: "",
+    
   },
-  { engWord: "	beg  v.	", engSentence: "		", czWord: "	prosit		", czSentence: "		" },
+  { engWord: "	beg  v.	",  czWord: "	prosit		",  },
   {
     engWord: "	being n.	",
-    engSentence: "		",
+    
     czWord: "	Bytost, tvor		",
-    czSentence: "",
+    
   },
-  { engWord: "	bent adj.	", engSentence: "		", czWord: "	ohnutý		", czSentence: "		" },
+  { engWord: "	bent adj.	",  czWord: "	ohnutý		",  },
   {
     engWord: "	beyond prep., ad v.	",
     engSentence: "	 he pointed to a spot beyond the trees	",
     czWord: "	za, mimo, na druhé straně 		",
     czSentence: "	 ukázal na místo za stromy	",
   },
-  { engWord: "	bill  v.	", engSentence: "		", czWord: "	účtovat		", czSentence: "		" },
-  { engWord: "	bitter adj.	", engSentence: "		", czWord: "	hořký		", czSentence: "		" },
+  { engWord: "	bill  v.	",  czWord: "	účtovat		",  },
+  { engWord: "	bitter adj.	",  czWord: "	hořký		",  },
   {
     engWord: "	blame  v. n.	",
     engSentence: "	 don't blame me for your mistakes	",
     czWord: "	obviňovat		",
-    czSentence: "",
+    
   },
-  { engWord: "	blind adj.	", engSentence: "		", czWord: "	slepý		", czSentence: "		" },
+  { engWord: "	blind adj.	",  czWord: "	slepý		",  },
   {
     engWord: "	bond n.	",
-    engSentence: "		",
+    
     czWord: "	pouto, vázat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	border  v.	",
     engSentence: "	 a pool bordered by palm trees	",
     czWord: "	hraničit		",
-    czSentence: "",
+    
   },
-  { engWord: "	breast n.	", engSentence: "		", czWord: "	prsa		", czSentence: "		" },
+  { engWord: "	breast n.	",  czWord: "	prsa		",  },
   {
     engWord: "	brief adj.	",
     engSentence: "	 Brief letter	",
     czWord: "	krátký, stručný Stručný dopis		",
-    czSentence: "",
+    
   },
-  { engWord: "	broad adj.	", engSentence: "		", czWord: "	široký		", czSentence: "		" },
+  { engWord: "	broad adj.	",  czWord: "	široký		",  },
   {
     engWord: "	broadcast  v. n.	",
-    engSentence: "		",
+    
     czWord: "	vysílání		",
-    czSentence: "",
+    
   },
-  { engWord: "	budget n.	", engSentence: "		", czWord: "	rozpočet		", czSentence: "		" },
-  { engWord: "	bullet n.	", engSentence: "		", czWord: "	kulka		", czSentence: "		" },
-  { engWord: "	bunch n.	", engSentence: "		", czWord: "	parta		", czSentence: "		" },
-  { engWord: "	burn n.	", engSentence: "		", czWord: "	spálit		", czSentence: "		" },
-  { engWord: "	bush n.	", engSentence: "		", czWord: "	keř		", czSentence: "		" },
+  { engWord: "	budget n.	",  czWord: "	rozpočet		",  },
+  { engWord: "	bullet n.	",  czWord: "	kulka		",  },
+  { engWord: "	bunch n.	",  czWord: "	parta		",  },
+  { engWord: "	burn n.	",  czWord: "	spálit		",  },
+  { engWord: "	bush n.	",  czWord: "	keř		",  },
   {
     engWord: "	calculate  v.	",
-    engSentence: "		",
+    
     czWord: "	vypočítat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	cancel  v.	",
@@ -366,19 +366,19 @@ export default [
     engWord: "	capable adj.	",
     engSentence: "	 He´s capable to do anything.	",
     czWord: "	schopný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	capacity n.	",
-    engSentence: "		",
+    
     czWord: "	kapacita		",
-    czSentence: "",
+    
   },
   {
     engWord: "	capture  v. n.	",
-    engSentence: "		",
+    
     czWord: "	zachytit, zajetí, zajmout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	cast n.  v.	",
@@ -386,8 +386,8 @@ export default [
     czWord: "	obsazení, házet, vrhat  		",
     czSentence: "	 měsíc vrhal na chaloupku bledé světlo	",
   },
-  { engWord: "	catch n.	", engSentence: "		", czWord: "	chytit		", czSentence: "		" },
-  { engWord: "	cell n.	", engSentence: "		", czWord: "	buňka		", czSentence: "		" },
+  { engWord: "	catch n.	",  czWord: "	chytit		",  },
+  { engWord: "	cell n.	",  czWord: "	buňka		",  },
   {
     engWord: "	chain  v.	",
     engSentence: "	 she chained her bicycle to the railing	",
@@ -398,19 +398,19 @@ export default [
     engWord: "	chair  v.	",
     engSentence: "	 the debate was chaired by the Archbishop of York	",
     czWord: "	předsedat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	chairman n.	",
-    engSentence: "		",
+    
     czWord: "	předseda		",
-    czSentence: "",
+    
   },
   {
     engWord: "	challenge  v.	",
-    engSentence: "		",
+    
     czWord: "	výzva		",
-    czSentence: "",
+    
   },
   {
     engWord: "	chart  v.	",
@@ -426,35 +426,35 @@ export default [
   },
   {
     engWord: "	circumstance n.	",
-    engSentence: "		",
+    
     czWord: "	okolnost		",
-    czSentence: "",
+    
   },
-  { engWord: "	cite  v.	", engSentence: "		", czWord: "	citovat		", czSentence: "		" },
-  { engWord: "	citizen n.	", engSentence: "		", czWord: "	občan		", czSentence: "		" },
+  { engWord: "	cite  v.	",  czWord: "	citovat		",  },
+  { engWord: "	citizen n.	",  czWord: "	občan		",  },
   {
     engWord: "	civil adj.	",
-    engSentence: "		",
+    
     czWord: "	občanský		",
-    czSentence: "",
+    
   },
   {
     engWord: "	closely ad v.	",
     engSentence: "	 He missed his head closely	",
     czWord: "	těsně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	collapse  v. n.	",
     engSentence: "	 collapse after using drugs	",
     czWord: "	kolaps, zhroucení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	combination n.	",
-    engSentence: "		",
+    
     czWord: "	kombinace		",
-    czSentence: "",
+    
   },
   {
     engWord: "	comfort n. v.	",
@@ -464,9 +464,9 @@ export default [
   },
   {
     engWord: "	command n. v.	",
-    engSentence: "		",
+    
     czWord: "	příkaz, velet, přikázat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	commission n.  v.	",
@@ -479,44 +479,44 @@ export default [
     engWord: "	commitment n.	",
     engSentence: "	 commitment to take care of kids	",
     czWord: "	závazek		",
-    czSentence: "",
+    
   },
   {
     engWord: "	committee n.	",
-    engSentence: "		",
+    
     czWord: "	výbor, komise		",
-    czSentence: "",
+    
   },
   {
     engWord: "	commonly ad v.	",
-    engSentence: "		",
+    
     czWord: "	běžně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	complicated adj.	",
-    engSentence: "		",
+    
     czWord: "	složitý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	concept n.	",
     engSentence: "	 russia is a difficult concept	",
     czWord: "	pojem		",
-    czSentence: "",
+    
   },
   {
     engWord: "	concern n. v.	",
     engSentence: "	 be concerned	",
     czWord: "	znepokojení, starost mít starost, dělat si starosti		",
-    czSentence: "",
+    
   },
   {
     engWord: "	concerned adj.	",
     engSentence:
       "	 the villagers are concerned about zombiesgrandma is concerned	",
     czWord: "	znepokojený, ustaraný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	conduct  v. n.	",
@@ -529,31 +529,31 @@ export default [
     engWord: "	confidence n.	",
     engSentence: "	 confidence in government	",
     czWord: "	důvěra		",
-    czSentence: "",
+    
   },
   {
     engWord: "	conflict n. v.	",
     engSentence: "	 parents' and children's interests sometimes conflict	",
     czWord: "	konflikt, být v rozporu		",
-    czSentence: "",
+    
   },
   {
     engWord: "	confusing adj.	",
-    engSentence: "		",
+    
     czWord: "	matoucí		",
-    czSentence: "",
+    
   },
   {
     engWord: "	conscious adj.	",
     engSentence: "	 He is conscious what he's doing	",
     czWord: "	vědomý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	conservative adj.	",
     engSentence: "	, n.	",
     czWord: "	konzervativní, opatrný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	consideration n.	",
@@ -567,19 +567,19 @@ export default [
     engSentence:
       "	 To be better you should be more consistent You should stay consistent in your opinions	",
     czWord: "	důsledný, konzistentní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	constant adj.	",
     engSentence: "	 the pain is constant	",
     czWord: "	stálý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	constantly ad v.	",
     engSentence: "	 the world is constantly changing	",
     czWord: "	neustále		",
-    czSentence: "",
+    
   },
   {
     engWord: "	construct  v.	",
@@ -589,45 +589,45 @@ export default [
   },
   {
     engWord: "	construction n.	",
-    engSentence: "		",
+    
     czWord: "	konstrukce		",
-    czSentence: "",
+    
   },
   {
     engWord: "	contemporary adj.	",
     engSentence: "	the event was recorded by a contemporary historian	",
     czWord: "	současný 		",
-    czSentence: "",
+    
   },
   {
     engWord: "	contest n.  v.	",
-    engSentence: "		",
+    
     czWord: "	soutěž		",
-    czSentence: "",
+    
   },
   {
     engWord: "	contract n.  v.	",
     engSentence: "	 glass contracts as it cools	",
     czWord: "	smlouva, smršťovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	contribute  v.	",
     engSentence: "	 contribute to charity	",
     czWord: "	přispět		",
-    czSentence: "",
+    
   },
   {
     engWord: "	contribution n.	",
-    engSentence: "		",
+    
     czWord: "	příspěvek		",
-    czSentence: "",
+    
   },
   {
     engWord: "	convert  v.	",
-    engSentence: "		",
+    
     czWord: "	převést		",
-    czSentence: "",
+    
   },
   {
     engWord: "	convinced adj.	",
@@ -637,9 +637,9 @@ export default [
   },
   {
     engWord: "	corporate adj.	",
-    engSentence: "		",
+    
     czWord: "	podnikový		",
-    czSentence: "",
+    
   },
   {
     engWord: "	council n.	",
@@ -649,73 +649,73 @@ export default [
   },
   {
     engWord: "	county n.	",
-    engSentence: "		",
+    
     czWord: "	kraj, okres		",
-    czSentence: "",
+    
   },
   {
     engWord: "	courage n.	",
     engSentence: "	 Kookis has no courage.	",
     czWord: "	odvaha, kuráž		",
-    czSentence: "",
+    
   },
   {
     engWord: "	crash n.  v.	",
-    engSentence: "		",
+    
     czWord: "	havárie		",
-    czSentence: "",
+    
   },
   {
     engWord: "	creation n.	",
-    engSentence: "		",
+    
     czWord: "	tvorba, stvoření		",
-    czSentence: "",
+    
   },
   {
     engWord: "	creature n.	",
-    engSentence: "		",
+    
     czWord: "	stvoření		",
-    czSentence: "",
+    
   },
   {
     engWord: "	credit  v.	",
     engSentence:
       "	 the bank refused to extend their credit the screenplay is credited to one American and two Japanese writers	",
     czWord: "	úvěr, být připsán		",
-    czSentence: "",
+    
   },
   {
     engWord: "	crew n.	",
-    engSentence: "		",
+    
     czWord: "	posádka, parta		",
-    czSentence: "",
+    
   },
-  { engWord: "	crisis n.	", engSentence: "		", czWord: "	krize		", czSentence: "		" },
+  { engWord: "	crisis n.	",  czWord: "	krize		",  },
   {
     engWord: "	criterion n.	",
     engSentence: "	 violating safety criteria	",
     czWord: "	kritérium 		",
     czSentence: "	  porušení bezpečnostních kritérií	",
   },
-  { engWord: "	critic n.	", engSentence: "		", czWord: "	kritik		", czSentence: "		" },
+  { engWord: "	critic n.	",  czWord: "	kritik		",  },
   {
     engWord: "	critical adj.	",
-    engSentence: "		",
+    
     czWord: "	kritický		",
-    czSentence: "",
+    
   },
   {
     engWord: "	criticism n.	",
-    engSentence: "		",
+    
     czWord: "	kritika		",
-    czSentence: "",
+    
   },
-  { engWord: "	crop n.	", engSentence: "		", czWord: "	plodina		", czSentence: "		" },
+  { engWord: "	crop n.	",  czWord: "	plodina		",  },
   {
     engWord: "	crucial adj.	",
     engSentence: "	 English in programming is crucial	",
     czWord: "	rozhodující		",
-    czSentence: "",
+    
   },
   {
     engWord: "	cry n.	",
@@ -723,21 +723,21 @@ export default [
     czWord: "	pláč, křik, volání 		",
     czSentence: "	  výkřik zoufalství	",
   },
-  { engWord: "	cure  v. n.	", engSentence: "		", czWord: "	léčit		", czSentence: "		" },
-  { engWord: "	current n.	", engSentence: "		", czWord: "	proud		", czSentence: "		" },
+  { engWord: "	cure  v. n.	",  czWord: "	léčit		",  },
+  { engWord: "	current n.	",  czWord: "	proud		",  },
   {
     engWord: "	curve n.  v.	",
     engSentence: "	 the population curve	",
     czWord: "	křivka, křivit, ohýbat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	curved adj.	",
     engSentence: "	 curved mirror	",
     czWord: "	zakřivený		",
-    czSentence: "",
+    
   },
-  { engWord: "	debt n.	", engSentence: "		", czWord: "	dluh		", czSentence: "		" },
+  { engWord: "	debt n.	",  czWord: "	dluh		",  },
   {
     engWord: "	decent adj.	",
     engSentence: "	 Georgie is a decent manmake yourself decent	",
@@ -748,50 +748,50 @@ export default [
     engWord: "	declare  v.	",
     engSentence: "	 georgie declare nonsense	",
     czWord: "	prohlásit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	decline  v. n.	",
-    engSentence: "		",
+    
     czWord: "	pokles, odmítnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	decrease  v. n.	",
-    engSentence: "		",
+    
     czWord: "	pokles		",
-    czSentence: "",
+    
   },
   {
     engWord: "	deeply ad v.	",
-    engSentence: "		",
+    
     czWord: "	hluboce		",
-    czSentence: "",
+    
   },
   {
     engWord: "	defeat  v. n.	",
-    engSentence: "		",
+    
     czWord: "	porážka		",
-    czSentence: "",
+    
   },
-  { engWord: "	defend  v.	", engSentence: "		", czWord: "	bránit		", czSentence: "		" },
+  { engWord: "	defend  v.	",  czWord: "	bránit		",  },
   {
     engWord: "	delay  v. n.	",
-    engSentence: "		",
+    
     czWord: "	zpoždění, oddálit, odložit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	deliberate adj.	",
     engSentence: "	 a deliberate attempt to provoke conflict	",
     czWord: "	záměrný, úmyslný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	deliberately the fire was started deliberately	",
-    engSentence: "		",
+    
     czWord: "	záměrně, úmyslně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	delight  v. n.	",
@@ -801,234 +801,234 @@ export default [
   },
   {
     engWord: "	delighted adj.	",
-    engSentence: "		",
+    
     czWord: "	potěšený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	delivery n.	",
-    engSentence: "		",
+    
     czWord: "	dodávka		",
-    czSentence: "",
+    
   },
   {
     engWord: "	demand n.  v.	",
     engSentence: "	 Yes programmers are in high demand I demand more money	",
     czWord: "	poptávka, požadovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	demonstrate  v.	",
-    engSentence: "		",
+    
     czWord: "	demonstrovat, ukázat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	deny  v.	",
     engSentence:
       "	 they deny any responsibility for the tragedyAn atheist denies the existence of God.	",
     czWord: "	popřít		",
-    czSentence: "",
+    
   },
   {
     engWord: "	depressed adj.	",
-    engSentence: "		",
+    
     czWord: "	depresivní		",
-    czSentence: "",
+    
   },
-  { engWord: "	depth n.	", engSentence: "		", czWord: "	hloubka		", czSentence: "		" },
+  { engWord: "	depth n.	",  czWord: "	hloubka		",  },
   {
     engWord: "	desert  v.	",
-    engSentence: "		",
+    
     czWord: "	opustit, dezertovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	deserve  v.	",
-    engSentence: "		",
+    
     czWord: "	zasloužit si		",
-    czSentence: "",
+    
   },
   {
     engWord: "	desire n.  v.	",
     engSentence: "	 my desire is to be a programmer	",
     czWord: "	touha, přání		",
-    czSentence: "",
+    
   },
   {
     engWord: "	desperate adj.	",
-    engSentence: "		",
+    
     czWord: "	zoufalý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	detail  v.	",
     engSentence: "	 Can you detail me what happened?	",
     czWord: "	vylíčit, detail		",
-    czSentence: "",
+    
   },
   {
     engWord: "	detailed adj.	",
-    engSentence: "		",
+    
     czWord: "	podrobný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	detect  v.	",
-    engSentence: "		",
+    
     czWord: "	detekovat		",
-    czSentence: "",
+    
   },
-  { engWord: "	dig  v.	", engSentence: "		", czWord: "	kopat		", czSentence: "		" },
+  { engWord: "	dig  v.	",  czWord: "	kopat		",  },
   {
     engWord: "	disc n.	",
-    engSentence: "		",
+    
     czWord: "	kotouč, disk č.		",
-    czSentence: "",
+    
   },
   {
     engWord: "	discount  v.	",
-    engSentence: "		",
+    
     czWord: "	zlevnit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	dishonest adj.	",
     engSentence: "	 Guys like Adam are dishonest.	",
     czWord: "	nečestný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	dismiss  v.	",
-    engSentence: "		",
+    
     czWord: "	propustit, zavrhnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	display  v. n.	",
-    engSentence: "		",
+    
     czWord: "	zobrazení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	distribute  v.	",
-    engSentence: "		",
+    
     czWord: "	distribuovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	district n.	",
-    engSentence: "		",
+    
     czWord: "	okres, čtvrť		",
-    czSentence: "",
+    
   },
-  { engWord: "	divide n.	", engSentence: "		", czWord: "	rozdělit		", czSentence: "		" },
+  { engWord: "	divide n.	",  czWord: "	rozdělit		",  },
   {
     engWord: "	division n.	",
-    engSentence: "		",
+    
     czWord: "	oddělení, divize		",
-    czSentence: "",
+    
   },
   {
     engWord: "	domestic adj.	",
-    engSentence: "		",
+    
     czWord: "	domácí, vnitrostátní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	dominate  v.	",
     engSentence: "	 Stupidity dominatesdominate the country	",
     czWord: "	ovládat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	downwards ad v.	",
-    engSentence: "		",
+    
     czWord: "	dolů		",
-    czSentence: "",
+    
   },
-  { engWord: "	dozen n.	", engSentence: "		", czWord: "	tucet		", czSentence: "		" },
+  { engWord: "	dozen n.	",  czWord: "	tucet		",  },
   {
     engWord: "	draft n.  v.	",
     engSentence: "	 its my draft	",
     czWord: "	návrh, tah		",
-    czSentence: "",
+    
   },
-  { engWord: "	drag  v.	", engSentence: "		", czWord: "	táhnout		", czSentence: "		" },
-  { engWord: "	edit  v.	", engSentence: "		", czWord: "	upravit		", czSentence: "		" },
-  { engWord: "	edition n.	", engSentence: "		", czWord: "	vydání		", czSentence: "		" },
+  { engWord: "	drag  v.	",  czWord: "	táhnout		",  },
+  { engWord: "	edit  v.	",  czWord: "	upravit		",  },
+  { engWord: "	edition n.	",  czWord: "	vydání		",  },
   {
     engWord: "	efficient adj.	",
     engSentence: "	 Really efficient weapon	",
     czWord: "	účinný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	elderly adj.	",
-    engSentence: "		",
+    
     czWord: "	starší		",
-    czSentence: "",
+    
   },
-  { engWord: "	elect  v.	", engSentence: "		", czWord: "	zvolit		", czSentence: "		" },
+  { engWord: "	elect  v.	",  czWord: "	zvolit		",  },
   {
     engWord: "	elsewhere ad v.	",
     engSentence: "	 Man its disgusting, do it elsewhere	",
     czWord: "	jinde, někde jinde		",
-    czSentence: "",
+    
   },
   {
     engWord: "	emerge  v.	",
     engSentence: "	 black ravens emerged from the fog	",
     czWord: "	vynořit se, objevit se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	emotional adj.	",
-    engSentence: "		",
+    
     czWord: "	citový		",
-    czSentence: "",
+    
   },
   {
     engWord: "	emphasis n.	",
     engSentence: "	 they placed great emphasis on the individual's freedom	",
     czWord: "	důraz		",
-    czSentence: "",
+    
   },
   {
     engWord: "	emphasize  v.	",
-    engSentence: "		",
+    
     czWord: "	zdůraznit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	enable  v.	",
-    engSentence: "		",
+    
     czWord: "	povolit, umožnit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	encounter  v. n.	",
-    engSentence: "		",
+    
     czWord: "	setkat se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	engage  v.	",
     engSentence: "	 organizations engage in a variety of activities	",
     czWord: "	angažovat se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	enhance  v.	",
     engSentence: "	 I should enhance my skills	",
     czWord: "	zlepšit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	enquiry n.	",
     engSentence: "	 no enquiry for george	",
     czWord: "	dotaz		",
-    czSentence: "",
+    
   },
   {
     engWord: "	ensure  v.	",
@@ -1038,17 +1038,17 @@ export default [
   },
   {
     engWord: "	enthusiasm n.	",
-    engSentence: "		",
+    
     czWord: "	nadšení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	enthusiastic adj.	",
-    engSentence: "		",
+    
     czWord: "	nadšený		",
-    czSentence: "",
+    
   },
-  { engWord: "	entire adj.	", engSentence: "		", czWord: "	celý		", czSentence: "		" },
+  { engWord: "	entire adj.	",  czWord: "	celý		",  },
   {
     engWord: "	entirely ad v.	",
     engSentence: "	 we have an entirely different outlook	",
@@ -1059,20 +1059,20 @@ export default [
     engWord: "	equal n.	",
     engSentence: "	 we all treat each other as equals	",
     czWord: "	sobě rovní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	establish  v.	",
     engSentence:
       "	 the British established a rich trade with Portugal Establish connection	",
     czWord: "	založit, navázat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	estate n.	",
     engSentence: "	 I´d like to have my own estate	",
     czWord: "	panství		",
-    czSentence: "",
+    
   },
   {
     engWord: "	estimate  v. n.	",
@@ -1084,53 +1084,53 @@ export default [
     engWord: "	evaluate  v.	",
     engSentence: "	 How you evaluate the price of Bitcoin?	",
     czWord: "	hodnotit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	even adj.	",
-    engSentence: "		",
+    
     czWord: "	sudý, dokonce, ani		",
-    czSentence: "",
+    
   },
   {
     engWord: "	examination n.	",
     engSentence:
       "	 Doctor did examination and examined him A school examination	",
     czWord: "	vyšetření, zkouška		",
-    czSentence: "",
+    
   },
   {
     engWord: "	excuse n.  v.	",
     engSentence:
       "	 Radley the second name mr. Excusethat pathetic excuse for a man!	",
     czWord: "	výmluva, omluva		",
-    czSentence: "",
+    
   },
   {
     engWord: "	executive n. adj.	",
     engSentence: "	 an executive chairman	",
     czWord: "	jednatel, výkonný vedoucí		",
-    czSentence: "",
+    
   },
   {
     engWord: "	expectation n.	",
-    engSentence: "		",
+    
     czWord: "	očekávání		",
-    czSentence: "",
+    
   },
-  { engWord: "	expense n.	", engSentence: "		", czWord: "	výdaj		", czSentence: "		" },
+  { engWord: "	expense n.	",  czWord: "	výdaj		",  },
   {
     engWord: "	exploration n.	",
-    engSentence: "		",
+    
     czWord: "	průzkum		",
-    czSentence: "",
+    
   },
   {
     engWord: "	expose  v.	",
     engSentence:
       "	 You don't want to expose like that!Clothes exposed one breast	",
     czWord: "	vystavit, odhalit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	extent n.	",
@@ -1140,217 +1140,217 @@ export default [
   },
   {
     engWord: "	external adj.	",
-    engSentence: "		",
+    
     czWord: "	vnější		",
-    czSentence: "",
+    
   },
   {
     engWord: "	extraordinary adj.	",
-    engSentence: "		",
+    
     czWord: "	mimořádný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	facility n.	",
-    engSentence: "		",
+    
     czWord: "	zařízení		",
-    czSentence: "",
+    
   },
-  { engWord: "	failure n.	", engSentence: "		", czWord: "	selhání		", czSentence: "		" },
+  { engWord: "	failure n.	",  czWord: "	selhání		",  },
   {
     engWord: "	faith n.	",
-    engSentence: "		",
+    
     czWord: "	víra, důvěra		",
-    czSentence: "",
+    
   },
   {
     engWord: "	fault n.	",
     engSentence: "	 my worst fault is impatienceengine fault its not my fault	",
     czWord: "	chyba, porucha, vina		",
-    czSentence: "",
+    
   },
   {
     engWord: "	favour  v.	",
     engSentence: "	 give me a favor I've come to ask you a favor	",
     czWord: "	laskavost		",
-    czSentence: "",
+    
   },
-  { engWord: "	feather n.	", engSentence: "		", czWord: "	peří		", czSentence: "		" },
-  { engWord: "	fee n.	", engSentence: "		", czWord: "	poplatek		", czSentence: "		" },
+  { engWord: "	feather n.	",  czWord: "	peří		",  },
+  { engWord: "	fee n.	",  czWord: "	poplatek		",  },
   {
     engWord: "	feed n.	",
-    engSentence: "		",
+    
     czWord: "	krmení, krmivo		",
-    czSentence: "",
+    
   },
   {
     engWord: "	feedback n.	",
-    engSentence: "		",
+    
     czWord: "	zpětná vazba		",
-    czSentence: "",
+    
   },
   {
     engWord: "	feel n.	",
-    engSentence: "		",
+    
     czWord: "	pocit, dotek		",
-    czSentence: "",
+    
   },
   {
     engWord: "	fellow adj.	",
     engSentence: "	 Georgie is a good fellow	",
     czWord: "	chlapík, kolega		",
-    czSentence: "",
+    
   },
   {
     engWord: "	figure  v.	",
     engSentence: "	 he figured in a crime	",
     czWord: "	figurovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	file  v.	",
     engSentence: "	 the contract, when signed, is filed	",
     czWord: "	založit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	finance n. v.	",
-    engSentence: "		",
+    
     czWord: "	financovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	finding n.	",
     engSentence: "	 a local doctor reported the finding of numerous dead rats	",
     czWord: "	nález		",
-    czSentence: "",
+    
   },
-  { engWord: "	firm n.	", engSentence: "		", czWord: "	firma		", czSentence: "		" },
-  { engWord: "	fix n.	", engSentence: "		", czWord: "	oprava		", czSentence: "		" },
+  { engWord: "	firm n.	",  czWord: "	firma		",  },
+  { engWord: "	fix n.	",  czWord: "	oprava		",  },
   {
     engWord: "	flash n.  v.	",
     engSentence: "	 a lightning flash the lights started flashing	",
     czWord: "	blesk, záblesk, blikat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	flexible adj.	",
-    engSentence: "		",
+    
     czWord: "	pružný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	float  v.	",
-    engSentence: "		",
+    
     czWord: "	plout, vznášet se		",
-    czSentence: "",
+    
   },
-  { engWord: "	fold n.	", engSentence: "		", czWord: "	přeložit		", czSentence: "		" },
+  { engWord: "	fold n.	",  czWord: "	přeložit		",  },
   {
     engWord: "	folding adj.	",
     engSentence: "	 a folding chair	",
     czWord: "	skládací		",
-    czSentence: "",
+    
   },
   {
     engWord: "	following	",
-    engSentence: "		",
+    
     czWord: "	následující		",
-    czSentence: "",
+    
   },
   {
     engWord: "	forgive  v.	",
-    engSentence: "		",
+    
     czWord: "	odpustit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	former adj.	",
     engSentence: "	 former marines	",
     czWord: "	bývalý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	fortune n.	",
-    engSentence: "		",
+    
     czWord: "	štěstí, bohatství		",
-    czSentence: "",
+    
   },
-  { engWord: "	forward adj.	", engSentence: "		", czWord: "	vpřed		", czSentence: "		" },
+  { engWord: "	forward adj.	",  czWord: "	vpřed		",  },
   {
     engWord: "	found  v.	",
     engSentence: "	 the monastery was founded in 1665	",
     czWord: "	založit, postavit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	free  v.	",
-    engSentence: "		",
+    
     czWord: "	volný, uvolnit, osvobodit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	frequency n.	",
-    engSentence: "		",
+    
     czWord: "	frekvence		",
-    czSentence: "",
+    
   },
   {
     engWord: "	fuel  v.	",
-    engSentence: "		",
+    
     czWord: "	natankovat, palivo		",
-    czSentence: "",
+    
   },
-  { engWord: "	fully ad v.	", engSentence: "		", czWord: "	plně		", czSentence: "		" },
+  { engWord: "	fully ad v.	",  czWord: "	plně		",  },
   {
     engWord: "	function  v.	",
     engSentence:
       "	 her liver is functioning normally He is functioning as a welder here	",
     czWord: "	fungovat, pracovat, působit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	fund n.	",
     engSentence: "	,  v.	",
     czWord: "	fond, financovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	fundamental adj.	",
     engSentence: "	 he protection of fundamental human rights	",
     czWord: "	základní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	funding n.	",
-    engSentence: "		",
+    
     czWord: "	financování		",
-    czSentence: "",
+    
   },
   {
     engWord: "	furthermore ad v.	",
     engSentence:
       "	 Georgie speaks too much, furthermore, he don't know when to stop	",
     czWord: "	dále, mimoto		",
-    czSentence: "",
+    
   },
   {
     engWord: "	gain  v. n.	",
     engSentence: "	 gain more muscles	",
     czWord: "	zisk, získat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	generate  v.	",
-    engSentence: "		",
+    
     czWord: "	generovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	govern  v.	",
-    engSentence: "		",
+    
     czWord: "	vládnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	grab  v.	",
@@ -1358,146 +1358,146 @@ export default [
     czWord: "	urvat, uchopit 		",
     czSentence: "	 popadla ho za límec košile	",
   },
-  { engWord: "	grade  v.	", engSentence: "		", czWord: "	stupeň		", czSentence: "		" },
+  { engWord: "	grade  v.	",  czWord: "	stupeň		",  },
   {
     engWord: "	gradually ad v.	",
     engSentence: "	 You have to learn language gradually	",
     czWord: "	postupně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	grand adj.	",
-    engSentence: "		",
+    
     czWord: "	velký, velkolepý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	grant  v. n.	",
     engSentence:
       "	 permission granted a letter granting them permission to smoke	",
     czWord: "	Udělit, poskytnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	guarantee  v. n.	",
-    engSentence: "		",
+    
     czWord: "	zaručit, ručit, záruka		",
-    czSentence: "",
+    
   },
   {
     engWord: "	handle  v. n.	",
-    engSentence: "		",
+    
     czWord: "	rukojeť, držadlo, zacházet, manipulovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	harm n. v.	",
     engSentence: "	 harm someone's property or to harm someone	",
     czWord: "	poškodit, ublížit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	harmful adj.	",
     engSentence: "	 sugars that can be harmful to the teeth	",
     czWord: "	škodlivý		",
-    czSentence: "",
+    
   },
-  { engWord: "	hearing n.	", engSentence: "		", czWord: "	slyšení		", czSentence: "		" },
-  { engWord: "	heaven n.	", engSentence: "		", czWord: "	nebe		", czSentence: "		" },
-  { engWord: "	heel n.	", engSentence: "		", czWord: "	pata		", czSentence: "		" },
+  { engWord: "	hearing n.	",  czWord: "	slyšení		",  },
+  { engWord: "	heaven n.	",  czWord: "	nebe		",  },
+  { engWord: "	heel n.	",  czWord: "	pata		",  },
   {
     engWord: "	hesitate  v.	",
     engSentence: "	 Join me, don´t hesitate.	",
     czWord: "	váhat		",
-    czSentence: "",
+    
   },
-  { engWord: "	hire n.	", engSentence: "		", czWord: "	najmout		", czSentence: "		" },
+  { engWord: "	hire n.	",  czWord: "	najmout		",  },
   {
     engWord: "	hold n.	",
-    engSentence: "		",
+    
     czWord: "	držení, držet		",
-    czSentence: "",
+    
   },
-  { engWord: "	hollow adj.	", engSentence: "		", czWord: "	dutý		", czSentence: "		" },
-  { engWord: "	holy adj.	", engSentence: "		", czWord: "	svatý		", czSentence: "		" },
+  { engWord: "	hollow adj.	",  czWord: "	dutý		",  },
+  { engWord: "	holy adj.	",  czWord: "	svatý		",  },
   {
     engWord: "	honour n. v.	",
     engSentence: "	 Honor Your Father and Mother	",
     czWord: "	čest		",
-    czSentence: "",
+    
   },
   {
     engWord: "	host  v.	",
     engSentence: "	 virus have found his host	",
     czWord: "	hostitel		",
-    czSentence: "",
+    
   },
-  { engWord: "	house  v.	", engSentence: "		", czWord: "	dům		", czSentence: "		" },
+  { engWord: "	house  v.	",  czWord: "	dům		",  },
   {
     engWord: "	household n.	",
-    engSentence: "		",
+    
     czWord: "	domácnost		",
-    czSentence: "",
+    
   },
-  { engWord: "	housing n.	", engSentence: "		", czWord: "	bydlení		", czSentence: "		" },
+  { engWord: "	housing n.	",  czWord: "	bydlení		",  },
   {
     engWord: "	humorous adj.	",
-    engSentence: "		",
+    
     czWord: "	humorný		",
-    czSentence: "",
+    
   },
-  { engWord: "	hunt n.	", engSentence: "		", czWord: "	lov		", czSentence: "		" },
+  { engWord: "	hunt n.	",  czWord: "	lov		",  },
   {
     engWord: "	hurt n.	",
-    engSentence: "		",
+    
     czWord: "	bolest, zranění		",
-    czSentence: "",
+    
   },
   {
     engWord: "	illustrate  v.	",
-    engSentence: "		",
+    
     czWord: "	ilustrovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	imagination n.	",
-    engSentence: "		",
+    
     czWord: "	představivost		",
-    czSentence: "",
+    
   },
   {
     engWord: "	impatient adj.	",
-    engSentence: "		",
+    
     czWord: "	netrpělivý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	imply  v.	",
     engSentence: "	 Are you implying (that) I'm fat?	",
     czWord: "	naznačovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	impose  v.	",
     engSentence: "	 Dont impose me your thoughts	",
     czWord: "	vnucovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	impress  v.	",
     engSentence: "	 Im impressed	",
     czWord: "	zapůsobit, ohromit Jsem ohromen		",
-    czSentence: "",
+    
   },
   {
     engWord: "	impressed adj.	",
     engSentence:
       "	 I was very impressed with the results He gave me an impressed look	",
     czWord: "	ohromený, dojatý		",
-    czSentence: "",
+    
   },
-  { engWord: "	inch n.	", engSentence: "		", czWord: "	palec		", czSentence: "		" },
-  { engWord: "	income n.	", engSentence: "		", czWord: "	příjem		", czSentence: "		" },
+  { engWord: "	inch n.	",  czWord: "	palec		",  },
+  { engWord: "	income n.	",  czWord: "	příjem		",  },
   {
     engWord: "	increasingly ad v.	",
     engSentence: "	 increasingly, attention is paid to health	",
@@ -1506,21 +1506,21 @@ export default [
   },
   {
     engWord: "	industrial adj.	",
-    engSentence: "		",
+    
     czWord: "	průmyslový		",
-    czSentence: "",
+    
   },
   {
     engWord: "	initial adj.	",
     engSentence: "	 Initial impression	",
     czWord: "	počáteční prvotní dojem		",
-    czSentence: "",
+    
   },
   {
     engWord: "	initially ad v.	",
     engSentence: "	 Širda looked as a good friend initially.	",
     czWord: "	zpočátku		",
-    czSentence: "",
+    
   },
   {
     engWord: "	initiative n.	",
@@ -1528,38 +1528,38 @@ export default [
     czWord: "	iniciativa 		",
     czSentence: "	  použijte svou iniciativu, představivost a zdravý rozum	",
   },
-  { engWord: "	inner adj.	", engSentence: "		", czWord: "	vnitřní		", czSentence: "		" },
+  { engWord: "	inner adj.	",  czWord: "	vnitřní		",  },
   {
     engWord: "	insight n.	",
     engSentence:
       "	 Insights into the life and work of Sir Charles Sherrington Insight into the human evolution. Insight of our planet.	",
     czWord: "	vhled, pochopení, porozumění 		",
-    czSentence: "",
+    
   },
   {
     engWord: "	insist  v.	",
     engSentence: "	 Širda insist he did nothing wrong	",
     czWord: "	trvat na		",
-    czSentence: "",
+    
   },
   {
     engWord: "	inspire  v.	",
-    engSentence: "		",
+    
     czWord: "	inspirovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	instance n.	",
     engSentence: "	 A serious instance of corruption.	",
     czWord: "	instance, příklad		",
-    czSentence: "",
+    
   },
-  { engWord: "	institute n.	", engSentence: "		", czWord: "	ústav		", czSentence: "		" },
+  { engWord: "	institute n.	",  czWord: "	ústav		",  },
   {
     engWord: "	insurance n.	",
-    engSentence: "		",
+    
     czWord: "	pojištění		",
-    czSentence: "",
+    
   },
   {
     engWord: "	intended adj.	",
@@ -1577,160 +1577,160 @@ export default [
     engWord: "	interpret  v.	",
     engSentence: "	 the evidence is difficult to interpret	",
     czWord: "	interpretovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	interrupt  v.	",
-    engSentence: "		",
+    
     czWord: "	přerušit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	investigation n.	",
-    engSentence: "		",
+    
     czWord: "	vyšetřování		",
-    czSentence: "",
+    
   },
   {
     engWord: "	investment n.	",
-    engSentence: "		",
+    
     czWord: "	investice		",
-    czSentence: "",
+    
   },
-  { engWord: "	issue  v.	", engSentence: "		", czWord: "	problém		", czSentence: "		" },
-  { engWord: "	joy n.	", engSentence: "		", czWord: "	radost		", czSentence: "		" },
+  { engWord: "	issue  v.	",  czWord: "	problém		",  },
+  { engWord: "	joy n.	",  czWord: "	radost		",  },
   {
     engWord: "	judgement n.	",
-    engSentence: "		",
+    
     czWord: "	rozsudek, rozhodnutí		",
-    czSentence: "",
+    
   },
-  { engWord: "	junior adj.	", engSentence: "		", czWord: "	mladší		", czSentence: "		" },
+  { engWord: "	junior adj.	",  czWord: "	mladší		",  },
   {
     engWord: "	justice n.	",
-    engSentence: "		",
+    
     czWord: "	spravedlnost		",
-    czSentence: "",
+    
   },
   {
     engWord: "	justify  v.	",
-    engSentence: "		",
+    
     czWord: "	ospravedlnit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	labour n.	",
     engSentence: "	 they labored from dawn to dusk	",
     czWord: "	práce		",
-    czSentence: "",
+    
   },
   {
     engWord: "	landscape n.	",
-    engSentence: "		",
+    
     czWord: "	krajina		",
-    czSentence: "",
+    
   },
   {
     engWord: "	largely ad v.	",
     engSentence: "	 their efforts were largely unsuccessful	",
     czWord: "	z velké části, převážně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	latest n.	",
-    engSentence: "		",
+    
     czWord: "	nejnovější		",
-    czSentence: "",
+    
   },
   {
     engWord: "	launch  v. n.	",
     engSentence: "	 New Metro game has been launched	",
     czWord: "	spustit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	leadership n.	",
-    engSentence: "		",
+    
     czWord: "	vedení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	lean  v.	",
     engSentence: "	 he leaned back in his chair	",
     czWord: "	opřít se, hubený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	leave n.	",
     engSentence: "	 Joe was home on leave	",
     czWord: "	dovolená, nechat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	level  v.	",
     engSentence: "	 they leveled ground for disabled	",
     czWord: "	přizpůsobit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	limited adj.	",
-    engSentence: "		",
+    
     czWord: "	omezený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	line  v.	",
-    engSentence: "		",
+    
     czWord: "	řadit, lemovat		",
-    czSentence: "",
+    
   },
-  { engWord: "	lively adj.	", engSentence: "		", czWord: "	živý		", czSentence: "		" },
+  { engWord: "	lively adj.	",  czWord: "	živý		",  },
   {
     engWord: "	load n.  v.	",
     engSentence: "	 they must carry a load they load up their equipment	",
     czWord: "	zatížení, náklad, naložit 		",
     czSentence: "	  musí nést náklad nakládají své vybavení	",
   },
-  { engWord: "	loan n.	", engSentence: "		", czWord: "	půjčka č.		", czSentence: "		" },
+  { engWord: "	loan n.	",  czWord: "	půjčka č.		",  },
   {
     engWord: "	long-term adj ad v.	",
     engSentence: "	 long-term memory	",
     czWord: "	dlouhodobý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	loose adj.	",
     engSentence: "	 a loose interpretation	",
     czWord: "	volný volný výklad		",
-    czSentence: "",
+    
   },
-  { engWord: "	low n.	", engSentence: "		", czWord: "	nízko		", czSentence: "		" },
+  { engWord: "	low n.	",  czWord: "	nízko		",  },
   {
     engWord: "	lower  v.	",
     engSentence:
       "	 He watched the coffin being lowered into the ground The temperature has lowered gradually this month.	",
     czWord: "	snížit se		",
-    czSentence: "",
+    
   },
-  { engWord: "	lung n.	", engSentence: "		", czWord: "	plíce		", czSentence: "		" },
+  { engWord: "	lung n.	",  czWord: "	plíce		",  },
   {
     engWord: "	maintain  v.	",
-    engSentence: "		",
+    
     czWord: "	udržovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	majority n.	",
-    engSentence: "		",
+    
     czWord: "	většina		",
-    czSentence: "",
+    
   },
-  { engWord: "	make n.	", engSentence: "		", czWord: "	udělat		", czSentence: "		" },
+  { engWord: "	make n.	",  czWord: "	udělat		",  },
   {
     engWord: "	map  v.	",
     engSentence: "	 map something the country have still not been mapped.	",
     czWord: "	mapovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	mass n. adj.	",
@@ -1748,13 +1748,13 @@ export default [
     engWord: "	matching adj.	",
     engSentence: "	 pants and matching socks	",
     czWord: "	vhodný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	material adj.	",
-    engSentence: "		",
+    
     czWord: "	hmotný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	means n.	",
@@ -1764,88 +1764,88 @@ export default [
   },
   {
     engWord: "	measurement n.	",
-    engSentence: "		",
+    
     czWord: "	měření		",
-    czSentence: "",
+    
   },
-  { engWord: "	medium n.	", engSentence: "		", czWord: "	střední		", czSentence: "		" },
-  { engWord: "	melt  v.	", engSentence: "		", czWord: "	tát		", czSentence: "		" },
+  { engWord: "	medium n.	",  czWord: "	střední		",  },
+  { engWord: "	melt  v.	",  czWord: "	tát		",  },
   {
     engWord: "	military adj. , n.	",
-    engSentence: "		",
+    
     czWord: "	vojenský		",
-    czSentence: "",
+    
   },
-  { engWord: "	mineral n.	", engSentence: "		", czWord: "	nerost		", czSentence: "		" },
+  { engWord: "	mineral n.	",  czWord: "	nerost		",  },
   {
     engWord: "	minor adj.	",
-    engSentence: "		",
+    
     czWord: "	méně důležitý, vedlejší		",
-    czSentence: "",
+    
   },
   {
     engWord: "	minority n.	",
-    engSentence: "		",
+    
     czWord: "	menšina		",
-    czSentence: "",
+    
   },
-  { engWord: "	mission n.	", engSentence: "		", czWord: "	mise		", czSentence: "		" },
+  { engWord: "	mission n.	",  czWord: "	mise		",  },
   {
     engWord: "	mistake  v.	",
-    engSentence: "		",
+    
     czWord: "	zmýlit se		",
-    czSentence: "",
+    
   },
-  { engWord: "	mixed adj.	", engSentence: "		", czWord: "	smíšený		", czSentence: "		" },
-  { engWord: "	modify  v.	", engSentence: "		", czWord: "	upravit		", czSentence: "		" },
+  { engWord: "	mixed adj.	",  czWord: "	smíšený		",  },
+  { engWord: "	modify  v.	",  czWord: "	upravit		",  },
   {
     engWord: "	monitor n.  v.	",
-    engSentence: "		",
+    
     czWord: "	monitorovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	moral adj. n.	",
-    engSentence: "		",
+    
     czWord: "	mravní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	mount  v.	",
     engSentence: "	 he mount a picture to the wall	",
     czWord: "	připevnit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	multiple adj.	",
-    engSentence: "		",
+    
     czWord: "	vícenásobný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	multiply  v.	",
-    engSentence: "		",
+    
     czWord: "	násobit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	mysterious adj.	",
-    engSentence: "		",
+    
     czWord: "	tajemný		",
-    czSentence: "",
+    
   },
-  { engWord: "	narrow  v.	", engSentence: "		", czWord: "	úzký		", czSentence: "		" },
+  { engWord: "	narrow  v.	",  czWord: "	úzký		",  },
   {
     engWord: "	national n.	",
-    engSentence: "		",
+    
     czWord: "	národní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	neat adj.	",
     engSentence: "	 Your house is always so neat - how do you manage it?	",
     czWord: "	úhledný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	nerve n.	",
@@ -1859,31 +1859,31 @@ export default [
     engWord: "	nevertheless ad v.	",
     engSentence: "	 Georgie is crazy nevertheless we like him	",
     czWord: "	přesto, nicméně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	notion n.	",
     engSentence: "	 I had no notion of what her words meant	",
     czWord: "	pojem, představa		",
-    czSentence: "",
+    
   },
   {
     engWord: "	numerous adj.	",
-    engSentence: "		",
+    
     czWord: "	četný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	obey  v.	",
     engSentence: "	 I always obey my father	",
     czWord: "	poslouchat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	object  v.	",
     engSentence: "	 enty objected but nobody's listened to him	",
     czWord: "	namítat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	objective n. adj.	",
@@ -1901,68 +1901,68 @@ export default [
     engWord: "	observation n.	",
     engSentence: "	 observation of naked chicks	",
     czWord: "	pozorování		",
-    czSentence: "",
+    
   },
   {
     engWord: "	observe  v.	",
-    engSentence: "		",
+    
     czWord: "	pozorovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	obtain  v.	",
     engSentence: "	 this achievement is difficult to obtain	",
     czWord: "	získat, dosáhnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	occasionally ad v.	",
     engSentence: "	 Georgie call me occasionally	",
     czWord: "	příležitostně, občas		",
-    czSentence: "",
+    
   },
   {
     engWord: "	offence n.	",
     engSentence: "	offense against public order, verbal offense, no offence	",
     czWord: "	přestupek, útok, urážka 		",
-    czSentence: "",
+    
   },
   {
     engWord: "	offend  v.	",
     engSentence: "	 Don't offend others	",
     czWord: "	urazit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	offensive adj.	",
-    engSentence: "		",
+    
     czWord: "	útočný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	official n.	",
-    engSentence: "		",
+    
     czWord: "	úředník		",
-    czSentence: "",
+    
   },
   {
     engWord: "	opening n.	",
-    engSentence: "		",
+    
     czWord: "	otevření		",
-    czSentence: "",
+    
   },
   {
     engWord: "	operate  v.	",
     engSentence: "	 a shortage of workers to operate new machines	",
     czWord: "	fungovat, pracovat		",
-    czSentence: "",
+    
   },
-  { engWord: "	opponent n.	", engSentence: "		", czWord: "	soupeř		", czSentence: "		" },
+  { engWord: "	opponent n.	",  czWord: "	soupeř		",  },
   {
     engWord: "	oppose  v.	",
-    engSentence: "		",
+    
     czWord: "	oponovat, čelit, vzdorovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	opposed adj.	",
@@ -1974,24 +1974,24 @@ export default [
   },
   {
     engWord: "	opposition n.	",
-    engSentence: "		",
+    
     czWord: "	opozice		",
-    czSentence: "",
+    
   },
-  { engWord: "	origin n.	", engSentence: "		", czWord: "	původ		", czSentence: "		" },
+  { engWord: "	origin n.	",  czWord: "	původ		",  },
   {
     engWord: "	otherwise ad v.	",
     engSentence: "	 Stop it, otherwise I´ll hit you	",
     czWord: "	jinak		",
-    czSentence: "",
+    
   },
   {
     engWord: "	outcome n.	",
     engSentence: "	 you drink and this is the outcome	",
     czWord: "	výsledek		",
-    czSentence: "",
+    
   },
-  { engWord: "	outer adj.	", engSentence: "		", czWord: "	vnější		", czSentence: "		" },
+  { engWord: "	outer adj.	",  czWord: "	vnější		",  },
   {
     engWord: "	outline n. v.	",
     engSentence:
@@ -2004,37 +2004,37 @@ export default [
     engSentence:
       "	 overall effect of disinformations is catastrophic Im the best overall	",
     czWord: "	celkový		",
-    czSentence: "",
+    
   },
   {
     engWord: "	owe  v.	",
     engSentence: "	 I owe you 25 cents	",
     czWord: "	dlužit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	pace n.  v.	",
     engSentence: "	 I steal with quiet pace	",
     czWord: "	tempo, krok, kráčet		",
-    czSentence: "",
+    
   },
   {
     engWord: "	package  v.	",
-    engSentence: "		",
+    
     czWord: "	balíček		",
-    czSentence: "",
+    
   },
   {
     engWord: "	parliament n.	",
-    engSentence: "		",
+    
     czWord: "	parlament		",
-    czSentence: "",
+    
   },
   {
     engWord: "	participant n.	",
-    engSentence: "		",
+    
     czWord: "	účastník		",
-    czSentence: "",
+    
   },
   {
     engWord: "	partly ad v.	",
@@ -2042,40 +2042,40 @@ export default [
     czWord: "	částečně  		",
     czSentence: "	 máš pravdu jen částečně	",
   },
-  { engWord: "	passage n.	", engSentence: "		", czWord: "	průchod		", czSentence: "		" },
+  { engWord: "	passage n.	",  czWord: "	průchod		",  },
   {
     engWord: "	patient adj.	",
     engSentence: "	 be patient, your time will come	",
     czWord: "	trpělivý		",
-    czSentence: "",
+    
   },
-  { engWord: "	pension	", engSentence: "		", czWord: "	důchod		", czSentence: "		" },
+  { engWord: "	pension	",  czWord: "	důchod		",  },
   {
     engWord: "	permanent adj.	",
     engSentence: "	 Permanent ban	",
     czWord: "	stálý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	permit  v. n.	",
     engSentence: "	 he is only in Britain on a work permit	",
     czWord: "	povolení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	perspective n.	",
-    engSentence: "		",
+    
     czWord: "	perspektiva		",
-    czSentence: "",
+    
   },
-  { engWord: "	phase n.	", engSentence: "		", czWord: "	fáze		", czSentence: "		" },
+  { engWord: "	phase n.	",  czWord: "	fáze		",  },
   {
     engWord: "	phenomenon n.	",
-    engSentence: "		",
+    
     czWord: "	jev, fenomén		",
-    czSentence: "",
+    
   },
-  { engWord: "	pick n.	", engSentence: "		", czWord: "	vybrat		", czSentence: "		" },
+  { engWord: "	pick n.	",  czWord: "	vybrat		",  },
   {
     engWord: "	picture  v.	",
     engSentence: "	 he is pictured with party guests	",
@@ -2086,79 +2086,79 @@ export default [
     engWord: "	pile n.  v.	",
     engSentence: "	 pile of shitmother in law piled mess	",
     czWord: "	hromada, hromadit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	pitch n.	",
     engSentence: "	 a football pitch. pitch of the voice.	",
     czWord: "	hřiště, výška		",
-    czSentence: "",
+    
   },
   {
     engWord: "	plain adj.	",
     engSentence: "	 good plain food	",
     czWord: "	prostý dobré obyčejné jídlo		",
-    czSentence: "",
+    
   },
   {
     engWord: "	plot  v.	",
-    engSentence: "		",
+    
     czWord: "	zápletka, spiknutí		",
-    czSentence: "",
+    
   },
   {
     engWord: "	pointed adj.	",
     engSentence: "	 pointed arrow	",
     czWord: "	špičatý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	position  v.	",
     engSentence: "	 he pulled out a chair and positioned it between them	",
     czWord: "	pozice, umístit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	possess  v.	",
     engSentence: "	 I do not possess a television set	",
     czWord: "	vlastnit, posednout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	power  v.	",
     engSentence: "	 he car is powered by a fuel-injected 3.0-liter engine	",
     czWord: "	pohánět		",
-    czSentence: "",
+    
   },
   {
     engWord: "	praise n.  v.	",
     engSentence: "	 Praise the lord	",
     czWord: "	chválit, velebit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	preparation n.	",
-    engSentence: "		",
+    
     czWord: "	příprava		",
-    czSentence: "",
+    
   },
   {
     engWord: "	presence n.	",
-    engSentence: "		",
+    
     czWord: "	přítomnost		",
-    czSentence: "",
+    
   },
   {
     engWord: "	preserve  v.	",
     engSentence: "	 The best-preserved corpse in history.	",
     czWord: "	zachovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	prime adj.	",
     engSentence: "	 prime minister	",
     czWord: "	hlavní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	principle n.	",
@@ -2168,9 +2168,9 @@ export default [
   },
   {
     engWord: "	privacy n.	",
-    engSentence: "		",
+    
     czWord: "	soukromí		",
-    czSentence: "",
+    
   },
   {
     engWord: "	procedure n.	",
@@ -2183,44 +2183,44 @@ export default [
     engWord: "	process  v.	",
     engSentence: "	 the various stages in processing the wool	",
     czWord: "	zpracování		",
-    czSentence: "",
+    
   },
   {
     engWord: "	produce n.	",
-    engSentence: "		",
+    
     czWord: "	produkce, vyrábět		",
-    czSentence: "",
+    
   },
   {
     engWord: "	progress  v.	",
-    engSentence: "		",
+    
     czWord: "	postupovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	project  v.	",
     engSentence: "	 project a project	",
     czWord: "	projektovat, projekt		",
-    czSentence: "",
+    
   },
   {
     engWord: "	proof n.	",
     engSentence: "	 you will be asked to give proof of your identity	",
     czWord: "	důkaz		",
-    czSentence: "",
+    
   },
   {
     engWord: "	proposal n.	",
     engSentence: "	 My proposal is to handcuff georgie	",
     czWord: "	návrh č.		",
-    czSentence: "",
+    
   },
   {
     engWord: "	propose  v.	",
     engSentence:
       "	 Georgie is proposing how to rule the world i propose to focus more on english	",
     czWord: "	navrhnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	prospect n.	",
@@ -2230,25 +2230,25 @@ export default [
     czSentence:
       "	 prospect Mira nebyla vyhlídka na usmíření společnost také hledá zlato	",
   },
-  { engWord: "	pupil n.	", engSentence: "		", czWord: "	žák		", czSentence: "		" },
+  { engWord: "	pupil n.	",  czWord: "	žák		",  },
   {
     engWord: "	purchase n.  v.	",
     engSentence: "	 I purchased headphones	",
     czWord: "	koupě, nákup		",
-    czSentence: "",
+    
   },
-  { engWord: "	pure adj.	", engSentence: "		", czWord: "	čistý		", czSentence: "		" },
+  { engWord: "	pure adj.	",  czWord: "	čistý		",  },
   {
     engWord: "	pursue  v.	",
     engSentence: "	 the officer pursued the van	",
     czWord: "	pronásledovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	range  v.	",
-    engSentence: "		",
+    
     czWord: "	rozsah, řadit se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	rank n. v.	",
@@ -2256,7 +2256,7 @@ export default [
     czWord: "	hodnost, řadit se  		",
     czSentence: "	 je na čtvrtém místě světového žebříčku	",
   },
-  { engWord: "	rapid adj.	", engSentence: "		", czWord: "	rychlý		", czSentence: "		" },
+  { engWord: "	rapid adj.	",  czWord: "	rychlý		",  },
   {
     engWord: "	rapidly ad v.	",
     engSentence: "	 the problem is rapidly worsening	",
@@ -2267,38 +2267,38 @@ export default [
     engWord: "	rate  v.	",
     engSentence: "	 the crime rate rose by 26 percent exchange rate	",
     czWord: "	sazba, míra		",
-    czSentence: "",
+    
   },
-  { engWord: "	raw adj.	", engSentence: "		", czWord: "	syrový		", czSentence: "		" },
+  { engWord: "	raw adj.	",  czWord: "	syrový		",  },
   {
     engWord: "	reach n.	",
     engSentence: "	 we reached the border	",
     czWord: "	dosah, dosáhnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	reasonable adj.	",
     engSentence: "	 be reasonable	",
     czWord: "	rozumný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	recall  v.	",
     engSentence: "	 You should recalled Zeman.	",
     czWord: "	odvolat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	recover  v.	",
-    engSentence: "		",
+    
     czWord: "	zotavit se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	reduction n.	",
-    engSentence: "		",
+    
     czWord: "	snížení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	regard  v. n.	",
@@ -2309,51 +2309,51 @@ export default [
   },
   {
     engWord: "	regional adj.	",
-    engSentence: "		",
+    
     czWord: "	krajský		",
-    czSentence: "",
+    
   },
   {
     engWord: "	register  v. n.	",
-    engSentence: "		",
+    
     czWord: "	registr, evidence		",
-    czSentence: "",
+    
   },
   {
     engWord: "	regret  v. n.	",
     engSentence: "	 You wont regret	",
     czWord: "	litovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	regulation n.	",
-    engSentence: "		",
+    
     czWord: "	nařízení č.		",
-    czSentence: "",
+    
   },
   {
     engWord: "	relatively ad v.	",
-    engSentence: "		",
+    
     czWord: "	relativně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	relevant adj.	",
     engSentence: "	 the candidate's experience is relevant to the job	",
     czWord: "	příslušný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	relief n.	",
     engSentence: "	 relief on the toilet	",
     czWord: "	úleva		",
-    czSentence: "",
+    
   },
   {
     engWord: "	rely  v.	",
     engSentence: "	 Can I rely at you?	",
     czWord: "	spoléhat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	remark n.  v.	",
@@ -2363,51 +2363,51 @@ export default [
   },
   {
     engWord: "	representative n. adj.	",
-    engSentence: "		",
+    
     czWord: "	zástupce, představitel, reprezentativní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	reputation n.	",
-    engSentence: "		",
+    
     czWord: "	pověst		",
-    czSentence: "",
+    
   },
   {
     engWord: "	requirement n.	",
-    engSentence: "		",
+    
     czWord: "	požadavek		",
-    czSentence: "",
+    
   },
   {
     engWord: "	reserve n.  v.	",
     engSentence: "	 reserve some money	",
     czWord: "	rezervovat, odložit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	resident n. adj.	",
     engSentence: "	 Im resident in Trebeach	",
     czWord: "	obyvatel, bydlící		",
-    czSentence: "",
+    
   },
   {
     engWord: "	resist  v.	",
     engSentence: "	 antibodies help us to resist infection	",
     czWord: "	odolat odporovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	resolve  v.	",
-    engSentence: "		",
+    
     czWord: "	vyřešit, rozhodnout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	resort n.	",
-    engSentence: "		",
+    
     czWord: "	letovisko		",
-    czSentence: "",
+    
   },
   {
     engWord: "	retain  v.	",
@@ -2422,33 +2422,33 @@ export default [
     engSentence:
       "	 the clouds were breaking up to reveal a clear blue skyreveal a criminal	",
     czWord: "	odhalit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	revolution n.	",
-    engSentence: "		",
+    
     czWord: "	revoluce		",
-    czSentence: "",
+    
   },
   {
     engWord: "	reward n. v.	",
-    engSentence: "		",
+    
     czWord: "	odměna		",
-    czSentence: "",
+    
   },
-  { engWord: "	rid  v.	", engSentence: "		", czWord: "	zbavit se		", czSentence: "		" },
-  { engWord: "	root n.	", engSentence: "		", czWord: "	kořen		", czSentence: "		" },
+  { engWord: "	rid  v.	",  czWord: "	zbavit se		",  },
+  { engWord: "	root n.	",  czWord: "	kořen		",  },
   {
     engWord: "	round n.	",
-    engSentence: "		",
+    
     czWord: "	kolo, zaokrouhlit, kulatý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	routine adj.	",
-    engSentence: "		",
+    
     czWord: "	rutinní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	rub  v.	",
@@ -2458,100 +2458,100 @@ export default [
   },
   {
     engWord: "	rubber n.  , adj.	",
-    engSentence: "		",
+    
     czWord: "	guma		",
-    czSentence: "",
+    
   },
   {
     engWord: "	rural adj.	",
-    engSentence: "		",
+    
     czWord: "	venkovský		",
-    czSentence: "",
+    
   },
   {
     engWord: "	rush  v. n.	",
-    engSentence: "		",
+    
     czWord: "	spěchat		",
-    czSentence: "",
+    
   },
-  { engWord: "	sample  v.	", engSentence: "		", czWord: "	vzorek		", czSentence: "		" },
+  { engWord: "	sample  v.	",  czWord: "	vzorek		",  },
   {
     engWord: "	satisfied adj.	",
-    engSentence: "		",
+    
     czWord: "	spokojený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	satisfy  v.	",
     engSentence: "	 Im satisfied	",
     czWord: "	uspokojit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	saving n.	",
     engSentence: "	 a fuel-saving vehicle	",
     czWord: "	úspora		",
-    czSentence: "",
+    
   },
   {
     engWord: "	scale n.	",
-    engSentence: "		",
+    
     czWord: "	měřítko, stupnice		",
-    czSentence: "",
+    
   },
   {
     engWord: "	schedule  v.	",
-    engSentence: "		",
+    
     czWord: "	rozvrh		",
-    czSentence: "",
+    
   },
   {
     engWord: "	scheme n.	",
-    engSentence: "		",
+    
     czWord: "	schéma č.		",
-    czSentence: "",
+    
   },
   {
     engWord: "	scream  v. n.	",
-    engSentence: "		",
+    
     czWord: "	křičet		",
-    czSentence: "",
+    
   },
   {
     engWord: "	screen  v.	",
     engSentence: "	 screen her face	",
     czWord: "	chránit, clonit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	seat  v.	",
     engSentence: "	 he seated her next to her husband	",
     czWord: "	usadit		",
-    czSentence: "",
+    
   },
-  { engWord: "	sector n.	", engSentence: "		", czWord: "	sektor		", czSentence: "		" },
+  { engWord: "	sector n.	",  czWord: "	sektor		",  },
   {
     engWord: "	secure  v. adj.	",
     engSentence: "	 secure a perimeter	",
     czWord: "	zajistit  		",
     czSentence: "	 Zajistit obvod/okruh	",
   },
-  { engWord: "	seek  v.	", engSentence: "		", czWord: "	hledat		", czSentence: "		" },
-  { engWord: "	select  v.	", engSentence: "		", czWord: "	vybrat		", czSentence: "		" },
-  { engWord: "	selection n.	", engSentence: "		", czWord: "	výběr		", czSentence: "		" },
-  { engWord: "	senior adj.	", engSentence: "		", czWord: "	starší		", czSentence: "		" },
-  { engWord: "	sense  v.	", engSentence: "		", czWord: "	smysl		", czSentence: "		" },
+  { engWord: "	seek  v.	",  czWord: "	hledat		",  },
+  { engWord: "	select  v.	",  czWord: "	vybrat		",  },
+  { engWord: "	selection n.	",  czWord: "	výběr		",  },
+  { engWord: "	senior adj.	",  czWord: "	starší		",  },
+  { engWord: "	sense  v.	",  czWord: "	smysl		",  },
   {
     engWord: "	sensitive adj.	",
-    engSentence: "		",
+    
     czWord: "	citlivý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	sentence  v.	",
     engSentence: "	 he was sentenced to death	",
     czWord: "	odsoudit, věta		",
-    czSentence: "",
+    
   },
   {
     engWord: "	sequence n.	",
@@ -2561,68 +2561,68 @@ export default [
   },
   {
     engWord: "	session n.	",
-    engSentence: "		",
+    
     czWord: "	sezení, zasedání, schůze		",
-    czSentence: "",
+    
   },
   {
     engWord: "	settle  v.	",
-    engSentence: "		",
+    
     czWord: "	usadit se		",
-    czSentence: "",
+    
   },
   {
     engWord: "	severe adj.	",
     engSentence: "	 a severe test of stamina a severe sentence	",
     czWord: "	těžký, přísný		",
-    czSentence: "",
+    
   },
-  { engWord: "	shade n.	", engSentence: "		", czWord: "	odstín		", czSentence: "		" },
-  { engWord: "	shadow n.	", engSentence: "		", czWord: "	stín		", czSentence: "		" },
+  { engWord: "	shade n.	",  czWord: "	odstín		",  },
+  { engWord: "	shadow n.	",  czWord: "	stín		",  },
   {
     engWord: "	shallow adj.	",
     engSentence: "	 shallow grave	",
     czWord: "	mělký		",
-    czSentence: "",
+    
   },
-  { engWord: "	shame n.	", engSentence: "		", czWord: "	hanba		", czSentence: "		" },
-  { engWord: "	shape  v.	", engSentence: "		", czWord: "	tvarovat		", czSentence: "		" },
+  { engWord: "	shame n.	",  czWord: "	hanba		",  },
+  { engWord: "	shape  v.	",  czWord: "	tvarovat		",  },
   {
     engWord: "	shelter n.  v.	",
     engSentence: "	 Its is raining we need to find a shelter	",
     czWord: "	přístřeší, úkryt		",
-    czSentence: "",
+    
   },
-  { engWord: "	shift  v.	", engSentence: "		", czWord: "	posunout		", czSentence: "		" },
+  { engWord: "	shift  v.	",  czWord: "	posunout		",  },
   {
     engWord: "	ship  v.	",
     engSentence: "	 the wounded soldiers were shipped home	",
     czWord: "	dopravit, loď		",
-    czSentence: "",
+    
   },
   {
     engWord: "	shocked adj.	",
-    engSentence: "		",
+    
     czWord: "	šokovaný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	shooting n.	",
-    engSentence: "		",
+    
     czWord: "	střelba		",
-    czSentence: "",
+    
   },
   {
     engWord: "	shot n.	",
-    engSentence: "		",
+    
     czWord: "	střela, výstřel		",
-    czSentence: "",
+    
   },
   {
     engWord: "	significant adj.	",
     engSentence: "	 a significant increase in sales	",
     czWord: "	významný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	significantly ad v.	",
@@ -2630,28 +2630,28 @@ export default [
     czWord: "	výrazně  		",
     czSentence: "	 významně se odmlčel	",
   },
-  { engWord: "	silence n.	", engSentence: "		", czWord: "	ticho		", czSentence: "		" },
-  { engWord: "	silk n.	", engSentence: "		", czWord: "	hedvábí		", czSentence: "		" },
+  { engWord: "	silence n.	",  czWord: "	ticho		",  },
+  { engWord: "	silk n.	",  czWord: "	hedvábí		",  },
   {
     engWord: "	sincere adj.	",
     engSentence:
       "	 she'd sounded sincere enough He's so sincere that you know exactly where you stand with him.	",
     czWord: "	upřímný		",
-    czSentence: "",
+    
   },
-  { engWord: "	slave n.	", engSentence: "		", czWord: "	otrok		", czSentence: "		" },
+  { engWord: "	slave n.	",  czWord: "	otrok		",  },
   {
     engWord: "	slide  v. n.	",
-    engSentence: "		",
+    
     czWord: "	skluzavka, klouzat, snímek		",
-    czSentence: "",
+    
   },
-  { engWord: "	slight adj.	", engSentence: "		", czWord: "	mírný		", czSentence: "		" },
+  { engWord: "	slight adj.	",  czWord: "	mírný		",  },
   {
     engWord: "	slip  v.	",
     engSentence: "	 I slipped on the ice we slipped out by a back door	",
     czWord: "	uklouznout, proklouznout		",
-    czSentence: "",
+    
   },
   {
     engWord: "	slope n.  v.	",
@@ -2664,143 +2664,143 @@ export default [
     engWord: "	somewhat ad v.	",
     engSentence: "	 He´s somewhat stupid	",
     czWord: "	poněkud		",
-    czSentence: "",
+    
   },
-  { engWord: "	soul n.	", engSentence: "		", czWord: "	duše		", czSentence: "		" },
+  { engWord: "	soul n.	",  czWord: "	duše		",  },
   {
     engWord: "	specialist n. adj.	",
-    engSentence: "		",
+    
     czWord: "	odborný, specialista		",
-    czSentence: "",
+    
   },
-  { engWord: "	species n.	", engSentence: "		", czWord: "	druh		", czSentence: "		" },
+  { engWord: "	species n.	",  czWord: "	druh		",  },
   {
     engWord: "	speed  v.	",
     engSentence: "	 Speed it up!	",
     czWord: "	zrychlit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	spiritual adj.	",
-    engSentence: "		",
+    
     czWord: "	duchovní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	split  v. n.	",
-    engSentence: "		",
+    
     czWord: "	Rozdělit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	spot  v.	",
     engSentence: "	 enemy spotted	",
     czWord: "	spatřit		",
-    czSentence: "",
+    
   },
-  { engWord: "	spread n.	", engSentence: "		", czWord: "	šířit		", czSentence: "		" },
+  { engWord: "	spread n.	",  czWord: "	šířit		",  },
   {
     engWord: "	stable adj.	",
-    engSentence: "		",
+    
     czWord: "	stabilní		",
-    czSentence: "",
+    
   },
   {
     engWord: "	stage  v.	",
     engSentence: "	 the show is being staged at the Goodspeed Opera House	",
     czWord: "	inscenovat		",
-    czSentence: "",
+    
   },
-  { engWord: "	stand n.	", engSentence: "		", czWord: "	stát		", czSentence: "		" },
-  { engWord: "	stare  v.	", engSentence: "		", czWord: "	zírat		", czSentence: "		" },
-  { engWord: "	status n.	", engSentence: "		", czWord: "	stav		", czSentence: "		" },
+  { engWord: "	stand n.	",  czWord: "	stát		",  },
+  { engWord: "	stare  v.	",  czWord: "	zírat		",  },
+  { engWord: "	status n.	",  czWord: "	stav		",  },
   {
     engWord: "	steady adj.	",
     engSentence: "	 steady customers	",
     czWord: "	stálý		",
-    czSentence: "",
+    
   },
-  { engWord: "	steel n.	", engSentence: "		", czWord: "	ocel		", czSentence: "		" },
-  { engWord: "	steep adj.	", engSentence: "		", czWord: "	strmý		", czSentence: "		" },
-  { engWord: "	step  v.	", engSentence: "		", czWord: "	kráčet		", czSentence: "		" },
+  { engWord: "	steel n.	",  czWord: "	ocel		",  },
+  { engWord: "	steep adj.	",  czWord: "	strmý		",  },
+  { engWord: "	step  v.	",  czWord: "	kráčet		",  },
   {
     engWord: "	sticky adj.	",
-    engSentence: "		",
+    
     czWord: "	lepkavý		",
-    czSentence: "",
+    
   },
-  { engWord: "	stiff adj.	", engSentence: "		", czWord: "	tuhý		", czSentence: "		" },
+  { engWord: "	stiff adj.	",  czWord: "	tuhý		",  },
   {
     engWord: "	stock n.	",
     engSentence: "	v computer is on stock	",
     czWord: "	sklad, skladem		",
-    czSentence: "",
+    
   },
   {
     engWord: "	stream n.	",
-    engSentence: "		",
+    
     czWord: "	proud, tok, potok		",
-    czSentence: "",
+    
   },
   {
     engWord: "	stretch  v. n.	",
-    engSentence: "		",
+    
     czWord: "	protáhnout se, natáhnout, úsek, roztažení		",
-    czSentence: "",
+    
   },
-  { engWord: "	strict adj.	", engSentence: "		", czWord: "	přísný		", czSentence: "		" },
+  { engWord: "	strict adj.	",  czWord: "	přísný		",  },
   {
     engWord: "	strike  v. n.	",
     engSentence:
       "	 he raised his hand, as if to strike me an earthquake struck the island dockers voted for an all-out strike counter strike	",
     czWord: "	udeřit, zasáhnout, stávka, útok		",
-    czSentence: "",
+    
   },
   {
     engWord: "	structure  v.	",
     engSentence: "	 the game is structured so that there are five ways to win	",
     czWord: "	struktura		",
-    czSentence: "",
+    
   },
   {
     engWord: "	struggle  v. n.	",
-    engSentence: "		",
+    
     czWord: "	boj, bojovat		",
-    czSentence: "",
+    
   },
-  { engWord: "	stuff  v.	", engSentence: "		", czWord: "	věci		", czSentence: "		" },
+  { engWord: "	stuff  v.	",  czWord: "	věci		",  },
   {
     engWord: "	subject adj.	",
-    engSentence: "		",
+    
     czWord: "	poddaný, zotročený		",
-    czSentence: "",
+    
   },
   {
     engWord: "	submit  v.	",
     engSentence: "	 Submit a form The report has been submitted to our boss	",
     czWord: "	předložit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	sum n.  v.	",
     engSentence: "	 the sum of two prime numbers	",
     czWord: "	suma, součet, shrnout, sečíst		",
-    czSentence: "",
+    
   },
-  { engWord: "	surgery n.	", engSentence: "		", czWord: "	operace		", czSentence: "		" },
+  { engWord: "	surgery n.	",  czWord: "	operace		",  },
   {
     engWord: "	surround  v.	",
     engSentence: "	 surround sound	",
     czWord: "	obklopit, obklíčit, obehnat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	surrounding adj.	",
-    engSentence: "		",
+    
     czWord: "	okolní		",
-    czSentence: "",
+    
   },
-  { engWord: "	survey  v.	", engSentence: "		", czWord: "	průzkum		", czSentence: "		" },
+  { engWord: "	survey  v.	",  czWord: "	průzkum		",  },
   {
     engWord: "	suspect  v. n.	",
     engSentence: "	 If you suspect a gas leak, do not turn on an electric light	",
@@ -2808,49 +2808,49 @@ export default [
     czSentence:
       "	 Pokud máte podezření na únik plynu, nezapínejte elektrické světlo	",
   },
-  { engWord: "	swear  v.	", engSentence: "		", czWord: "	přísahat		", czSentence: "		" },
+  { engWord: "	swear  v.	",  czWord: "	přísahat		",  },
   {
     engWord: "	sweep  v.	",
     engSentence: "	 Mother in law dont even sweep.	",
     czWord: "	zametat		",
-    czSentence: "",
+    
   },
-  { engWord: "	switch n.	", engSentence: "		", czWord: "	vypínač		", czSentence: "		" },
-  { engWord: "	tale n.	", engSentence: "		", czWord: "	pohádka		", czSentence: "		" },
-  { engWord: "	tank n.	", engSentence: "		", czWord: "	nádrž		", czSentence: "		" },
-  { engWord: "	target  v.	", engSentence: "		", czWord: "	cíl		", czSentence: "		" },
+  { engWord: "	switch n.	",  czWord: "	vypínač		",  },
+  { engWord: "	tale n.	",  czWord: "	pohádka		",  },
+  { engWord: "	tank n.	",  czWord: "	nádrž		",  },
+  { engWord: "	target  v.	",  czWord: "	cíl		",  },
   {
     engWord: "	tear THEIR WALLS TEAR	",
-    engSentence: "		",
+    
     czWord: "	trhat, roztržení		",
-    czSentence: "",
+    
   },
   {
     engWord: "	temporary adj.	",
-    engSentence: "		",
+    
     czWord: "	dočasný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	term  v.	",
     engSentence:
       "	 he has been termed Georgie Peorgie he has been termed the father of modern theology	",
     czWord: "	termín, označit, pojmenovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	therapy n.	",
-    engSentence: "		",
+    
     czWord: "	terapie, léčba		",
-    czSentence: "",
+    
   },
-  { engWord: "	threat n.	", engSentence: "		", czWord: "	ohrožení		", czSentence: "		" },
+  { engWord: "	threat n.	",  czWord: "	ohrožení		",  },
   {
     engWord: "	threaten  v.	",
     engSentence:
       "	 Any danger that is sufﬁciently serious as to threaten the whole organism must be liquidated.	",
     czWord: "	vyhrožovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	thus ad v.	",
@@ -2860,36 +2860,36 @@ export default [
     czSentence:
       "	 Přijal její nabídku a stal se tak šerifem okresu Ouray v Coloradu. Tak stáli a čekali na to, co vypadalo jako čtení závěti.	",
   },
-  { engWord: "	time  v.	", engSentence: "		", czWord: "	načasovat		", czSentence: "		" },
+  { engWord: "	time  v.	",  czWord: "	načasovat		",  },
   {
     engWord: "	title  v.	",
     engSentence: "	 You can title me crazy georgie	",
     czWord: "	titul		",
-    czSentence: "",
+    
   },
   {
     engWord: "	tough adj.	",
     engSentence: "	 though guy	",
     czWord: "	tvrdý		",
-    czSentence: "",
+    
   },
   {
     engWord: "	track  v.	",
     engSentence: "	 Secondary radars that track the aircraft in flight	",
     czWord: "	sledovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	transfer  v. n.	",
-    engSentence: "		",
+    
     czWord: "	převod, přemístění		",
-    czSentence: "",
+    
   },
   {
     engWord: "	transform  v.	",
-    engSentence: "		",
+    
     czWord: "	přeměnit, přetvořit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	transition n.	",
@@ -2900,128 +2900,128 @@ export default [
   },
   {
     engWord: "	trial n.	",
-    engSentence: "		",
+    
     czWord: "	soud, pokus		",
-    czSentence: "",
+    
   },
   {
     engWord: "	trip  v.	",
     engSentence: "	 he tripped over his cat	",
     czWord: "	klopýtnout, výlet		",
-    czSentence: "",
+    
   },
   {
     engWord: "	trouble  v.	",
     engSentence: "	 he was not troubled by doubts don't trouble me	",
     czWord: "	Trápit, obtěžovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	truly ad v.	",
     engSentence: "	 a truly free press	",
     czWord: "	skutečně		",
-    czSentence: "",
+    
   },
   {
     engWord: "	trust n. ,  v.	",
-    engSentence: "		",
+    
     czWord: "	důvěřovat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	tune n.	",
-    engSentence: "		",
+    
     czWord: "	naladit, melodie		",
-    czSentence: "",
+    
   },
   {
     engWord: "	ultimately ad v.	",
     engSentence: "	 ultimately Adam has only himself to blame	",
     czWord: "	nakonec		",
-    czSentence: "",
+    
   },
   {
     engWord: "	unconscious adj.	",
     engSentence: "	 the boy was beaten unconscious	",
     czWord: "	nevědomý, v bezvědomí		",
-    czSentence: "",
+    
   },
   {
     engWord: "	unexpected adj.	",
-    engSentence: "		",
+    
     czWord: "	neočekávaný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	unique adj.	",
-    engSentence: "		",
+    
     czWord: "	jedinečný		",
-    czSentence: "",
+    
   },
   {
     engWord: "	unknown adj.	",
-    engSentence: "		",
+    
     czWord: "	neznámý		",
-    czSentence: "",
+    
   },
-  { engWord: "	upper adj.	", engSentence: "		", czWord: "	horní		", czSentence: "		" },
+  { engWord: "	upper adj.	",  czWord: "	horní		",  },
   {
     engWord: "	upwards ad v.	",
-    engSentence: "		",
+    
     czWord: "	nahoru		",
-    czSentence: "",
+    
   },
   {
     engWord: "	urban adj.	",
     engSentence: "	 the urban population	",
     czWord: "	městský		",
-    czSentence: "",
+    
   },
   {
     engWord: "	urge  v.	",
     engSentence: "	 Adam has been urging him to lend him some money	",
     czWord: "	naléhat, nabádat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	value  v.	",
     engSentence: "	 his estate was valued at $45,000	",
     czWord: "	ocenit		",
-    czSentence: "",
+    
   },
   {
     engWord: "	vary  v.	",
     engSentence: "	 Programming languages vary flats are varying in the price	",
     czWord: "	lišit se, kolísat		",
-    czSentence: "",
+    
   },
-  { engWord: "	vast adj.	", engSentence: "		", czWord: "	rozlehlý		", czSentence: "		" },
+  { engWord: "	vast adj.	",  czWord: "	rozlehlý		",  },
   {
     engWord: "	venue n.	",
     engSentence: "	 the river could soon be the venue for a UFC event	",
     czWord: "	místo, místo konání		",
-    czSentence: "",
+    
   },
-  { engWord: "	very adj.	", engSentence: "		", czWord: "	velmi		", czSentence: "		" },
+  { engWord: "	very adj.	",  czWord: "	velmi		",  },
   {
     engWord: "	via prep. via Skype	",
-    engSentence: "		",
+    
     czWord: "	přes		",
-    czSentence: "",
+    
   },
-  { engWord: "	violence n.	", engSentence: "		", czWord: "	násilí		", czSentence: "		" },
+  { engWord: "	violence n.	",  czWord: "	násilí		",  },
   {
     engWord: "	vision n.	",
     engSentence: "	 night vision	",
     czWord: "	vidění		",
-    czSentence: "",
+    
   },
-  { engWord: "	vital adj.	", engSentence: "		", czWord: "	vitální		", czSentence: "		" },
+  { engWord: "	vital adj.	",  czWord: "	vitální		",  },
   {
     engWord: "	volume n.	",
     engSentence: "	 a volume of air	",
     czWord: "	objem		",
-    czSentence: "",
+    
   },
   {
     engWord: "	wage n.	",
@@ -3035,85 +3035,85 @@ export default [
     engWord: "	way ad v.	",
     engSentence: "	 it is way off	",
     czWord: "	způsob je to daleko		",
-    czSentence: "",
+    
   },
   {
     engWord: "	weakness n.	",
-    engSentence: "		",
+    
     czWord: "	slabost		",
-    czSentence: "",
+    
   },
   {
     engWord: "	wealth n.	",
     engSentence: "	 ancestral wealth	",
     czWord: "	bohatství		",
-    czSentence: "",
+    
   },
   {
     engWord: "	wealthy adj.	",
-    engSentence: "		",
+    
     czWord: "	bohatý		",
-    czSentence: "",
+    
   },
   {
     engWord:
       "	whereas conj. she take care of kids whereas he was learning english	",
-    engSentence: "		",
+    
     czWord: "	zatímco, kdežto		",
-    czSentence: "",
+    
   },
   {
     engWord: "	wherever conj. I go wherever I want.	",
-    engSentence: "		",
+    
     czWord: "	kdekoliv		",
-    czSentence: "",
+    
   },
   {
     engWord: "	whisper  v. n.	",
-    engSentence: "		",
+    
     czWord: "	šeptat		",
-    czSentence: "",
+    
   },
   {
     engWord: "	whom pron.	",
     engSentence: "	 whom did he marry	",
     czWord: "	koho		",
-    czSentence: "",
+    
   },
   {
     engWord: "	widely ad v.	",
-    engSentence: "		",
+    
     czWord: "	široce		",
-    czSentence: "",
+    
   },
   {
     engWord: "	wildlife n.	",
     engSentence: "	 wolves are wildlife	",
     czWord: "	divoká zvěř		",
-    czSentence: "",
+    
   },
   {
     engWord: "	willing adj.	",
     engSentence: "	 Willy from The Simpsons is willing guy	",
     czWord: "	ochotný		",
-    czSentence: "",
+    
   },
-  { engWord: "	wind	", engSentence: "		", czWord: "	vítr		", czSentence: "		" },
-  { engWord: "	wire n.	", engSentence: "		", czWord: "	drát		", czSentence: "		" },
-  { engWord: "	wise adj.	", engSentence: "		", czWord: "	moudrý		", czSentence: "		" },
+  { engWord: "	wind	",  czWord: "	vítr		",  },
+  { engWord: "	wire n.	",  czWord: "	drát		",  },
+  { engWord: "	wise adj.	",  czWord: "	moudrý		",  },
   {
     engWord: "	witness n.  v.	",
-    engSentence: "		",
+    
     czWord: "	svědek, být svědkem, svědčit		",
-    czSentence: "",
+    
   },
-  { engWord: "	worse n.	", engSentence: "		", czWord: "	horší		", czSentence: "		" },
-  { engWord: "	worst n.	", engSentence: "		", czWord: "	nejhorší		", czSentence: "		" },
+  { engWord: "	worse n.	",  czWord: "	horší		",  },
+  { engWord: "	worst n.	",  czWord: "	nejhorší		",  },
   {
     engWord: "	worth n.	",
     engSentence: "	 Worth of bitcoin is...	",
     czWord: "	hodnota		",
-    czSentence: "",
+    
   },
   {
     engWord: "	wound n. v.	",
@@ -3123,8 +3123,8 @@ export default [
   },
   {
     engWord: "	wrap  v.	",
-    engSentence: "		",
+    
     czWord: "	zabalit, obal		",
-    czSentence: "",
+    
   },
 ];

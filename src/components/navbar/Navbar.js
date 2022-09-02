@@ -26,6 +26,7 @@ const Navbar = () => {
                   <Link to="/english2">Irregular verbs2</Link>
                   <Link to="/irregularSearch">Irregular List</Link>
                   <Link to="/oxford-B1">Oxford B1</Link>
+                  <Link to="/oxford-B2">Oxford B2</Link>
 
                 </ul>
               </details>
