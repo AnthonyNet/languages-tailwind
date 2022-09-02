@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import CardButton from '../card/CardButton';
+import CardHint from "../card/CardHint";
 import Data from "../data/json/OxfordB1";
 
 const OxfordB1 = () => {
@@ -37,22 +39,18 @@ const OxfordB1 = () => {
           </ul>
         </div>
 
-        <ul className="flex justify-around text-center">
-          <button
-            onClick={randomWord}
-            type="button"
-            className="font-bold w-2/3 mt-8 py-4 bg-blue-600  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Next word
-          </button>
+        <ul className="flex justify-around text-center mt-8">
 
-          <button
-            onClick={() => setSwitchLanguage(!switchLanguage)}
-            type="button"
-            className="mt-8 py-4 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            {switchLanguage ? "CZ ➜ ENG" : "ENG ➜ CZ"}
-          </button>
+        <CardButton
+          onClick={randomWord}
+          text={"Next word"}
+         />
+
+         <CardButton
+        onClick={() => setSwitchLanguage(!switchLanguage)}
+         text={switchLanguage ? "CZ ➜ ENG" : "ENG ➜ CZ"}
+          />
+          
         </ul>
       </div>
     </section>
