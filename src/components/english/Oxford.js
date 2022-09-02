@@ -18,22 +18,25 @@ const OxfordB1 = ({ dataJSON }) => {
   return (
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
       <div className="w-full sm:w-[30rem]  py-8 border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white text-center">
+      {/*IF czWord exists */}
+      {data[rand].czWord?(
         <div className=" border-b border-gray-300 font-bold">
-          <ul className="flex flex-col justify-around text-center mb-6">
+          <ul>
             {switchLanguage ? (
-              <li>{data[rand].engWord}</li>
+              <li>{data[rand].wordTranslated}</li>
               
             ) : (
               <li>{data[rand].czWord}</li>
             )}
           </ul>
         </div>
+      ):null}
 
-        {data[rand].engSentence? (
+        {data[rand].sentenceTranslated? (
           <div className=" border-b border-gray-300 font-bold">
           <ul className="flex flex-col justify-around text-center m-6">
             {switchLanguage ? (
-              <li>{data[rand].engSentence}</li>
+              <li>{data[rand].sentenceTranslated}</li>
               
             ) : (
               <li>{data[rand].czSentence}</li>
@@ -49,11 +52,11 @@ const OxfordB1 = ({ dataJSON }) => {
             ) : (
               <li className="flex flex-col" onClick={() => setTransparent(!transparent)}>
                 <div className="relative"><CgClose className="absolute right-2 top-1" /></div>
-                <strong>{switchLanguage ? data[rand].czWord : data[rand].engWord}</strong>
+                <strong>{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
                 
              
                 <div>
-                {switchLanguage ? data[rand].czSentence : data[rand].engSentence}
+                {switchLanguage ? data[rand].czSentence : data[rand].sentenceTranslated}
                 </div>
               </li>
             )}

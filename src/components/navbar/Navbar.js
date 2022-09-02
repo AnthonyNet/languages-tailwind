@@ -27,6 +27,7 @@ const Navbar = () => {
                   <Link to="/irregularSearch">Irregular List</Link>
                   <Link to="/oxford-B1">Oxford B1</Link>
                   <Link to="/oxford-B2">Oxford B2</Link>
+                  <Link to="/oxford-C1">Oxford C1</Link>
 
                 </ul>
               </details>
@@ -35,8 +36,8 @@ const Navbar = () => {
                 <summary className="uppercase logo"><strong>Deutsch</strong></summary>
                 <ul className="flex flex-col border-solid border-t-4 border-indigo-600">
                   <Link to="/german">Uregelmäßige Verben</Link>
-                  <Link to="/">EmptyFile 2</Link>
-                  <Link to="/">EmptyFile 3</Link>
+                  <Link to="/goethe">Goethe</Link>
+                  
                 </ul>
               </details>
         </ul>
@@ -79,6 +80,8 @@ const Navbar = () => {
                   <Link to="/english2">Irregular verbs2</Link>
                   <Link to="/irregularSearch">Irregular List</Link>
                   <Link to="/oxford-B1">Oxford B1</Link>
+                  <Link to="/oxford-B2">Oxford B2</Link>
+                  <Link to="/oxford-C1">Oxford C1</Link>
                 </ul>
               </details>
 
@@ -86,8 +89,8 @@ const Navbar = () => {
                 <summary className="uppercase border-gray-300 border-b logo">Deutsch</summary>
                 <ul className="flex flex-col">
                   <Link to="/german">Uregelmäßige Verben</Link>
-                  <Link to="/">EmptyFile 2</Link>
-                  <Link to="/">EmptyFile 3</Link>
+                  <Link to="/goethe">Goethe</Link>
+                  
                 </ul>
               </details>
             </ul>

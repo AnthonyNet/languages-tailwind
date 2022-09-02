@@ -8,6 +8,8 @@ import English2 from "./pages/English2";
 import IrregularSearch from "./pages/SearchIrregularEng";
 import OxfordB1 from './pages/OxfordB1';
 import OxfordB2 from './pages/OxfordB2';
+import OxfordC1 from './pages/OxfordC1';
+import Goethe from './pages/Goethe';
 import German from "./pages/German";
 import Error from "./pages/Error";
 
@@ -26,6 +28,9 @@ function App() {
           <Route path="irregularSearch" element={<IrregularSearch />} />
           <Route path="oxford-B1" element={<OxfordB1 />} />
           <Route path="oxford-B2" element={<OxfordB2 />} />
+          <Route path="oxford-C1" element={<OxfordC1 />} />
+
+          <Route path="goethe" element={<Goethe />} />
           <Route path="german" element={<German />} />
           <Route path="*" element={<Error />} />
         </Routes>
