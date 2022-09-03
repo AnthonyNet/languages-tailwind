@@ -18,52 +18,47 @@ const OxfordB1 = ({ dataJSON }) => {
 
   return (
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
-      <div className="w-full sm:w-[30rem]  py-8 border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white text-center">
+      <div className="w-full sm:w-[30rem]  pb-8 border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white text-center">
       {/*IF czWord exists */}
+      <ul className="flex flex-col justify-around text-center ">
       {
-        <div className=" border-b border-gray-300 font-bold">
-          <ul>
+        <li className="font-bold border-b border-gray-300 p-6">
+          
             {switchLanguage ? (
-              <li>{data[rand].wordTranslated}</li>
+              <article>{data[rand].wordTranslated}</article>
               
             ) : (
-              <li>{data[rand].czWord}</li>
+              <article>{data[rand].czWord}</article>
             )}
-          </ul>
-        </div>
+         
+        </li>
       }
 
 
       {data[rand].sentenceTranslated? (
-          <div className={switchLanguage?"border-b border-gray-300 font-bold":"hidden"}>
-          <ul className="flex flex-col justify-around text-center m-6">
-            {switchLanguage ? (
-              <li>{data[rand].sentenceTranslated}</li>
-              
-            ) : (
-              <li>{data[rand].czSentence}</li>
-            )}
-          </ul>
-        </div>
+          
+          
+            switchLanguage &&( <li className="border-b border-gray-300 py-4">{data[rand].sentenceTranslated}</li>)
+          
         ):null}
 
-        <div className="py-3 px-6 border-b border-gray-300">
-          <ul className="m-2">
+        
+       
             {transparent ? (
-              <li onClick={() => setTransparent(!transparent)}>show answer</li>
+              <li  className="py-6  border-b border-gray-300" 
+              onClick={() => setTransparent(!transparent)}>show answer</li>
             ) : (
-              <li className="flex flex-col" onClick={() => setTransparent(!transparent)}>
-                <div className="relative"><CgClose className="absolute right-0 top-1 " /></div>
-                <strong>{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
+              <li className="flex flex-row justify-center items-center mt-6" onClick={() => setTransparent(!transparent)}>
                 
+                <strong className="w-[95%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
+                <div><CgClose  /></div>
              
                 <div>
-                {switchLanguage ? data[rand].czSentence : data[rand].sentenceTranslated}
+                {!switchLanguage && data[rand].sentenceTranslated}
                 </div>
               </li>
             )}
-          </ul>
-        </div>
+         
 
         <ul className="flex justify-around text-center mt-8">
           <CardButton onClick={randomWord} text={"Next word"} />
@@ -73,6 +68,7 @@ const OxfordB1 = ({ dataJSON }) => {
             text={switchLanguage ? "CZ ➜ ENG" : "ENG ➜ CZ"}
           />
         </ul>
+       </ul>
       </div>
     </section>
   );

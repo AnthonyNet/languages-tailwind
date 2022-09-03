@@ -35,7 +35,7 @@ const Navbar = () => {
               <details className="cursor-pointer">
                 <summary className="uppercase logo"><strong>Deutsch</strong></summary>
                 <ul className="flex flex-col border-solid border-t-4 border-indigo-600">
-                  <Link to="/german">Uregelmäßige Verben</Link>
+                  <Link to="/german">Unregelmäßige Verben</Link>
                   <Link to="/goethe">Goethe</Link>
                   
                 </ul>
@@ -88,7 +88,7 @@ const Navbar = () => {
               <details className="cursor-pointer">
                 <summary className="uppercase border-gray-300 border-b logo">Deutsch</summary>
                 <ul className="flex flex-col">
-                  <Link to="/german">Uregelmäßige Verben</Link>
+                  <Link to="/german">Unregelmäßige Verben</Link>
                   <Link to="/goethe">Goethe</Link>
                   
                 </ul>
