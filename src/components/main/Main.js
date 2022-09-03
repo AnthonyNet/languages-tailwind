@@ -13,6 +13,7 @@ const styles= {
   article: "preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000",
   articleDiv: "border-2 w-full h-full",
   cardback: "mainCardBack my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400",
+  cardBackDiv: "text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ",
 }
 
 //The whole components is imported  into pages/Home
@@ -58,7 +59,7 @@ const Main = () => {
             className={styles.cardBack}
             style={darkMode ? stylesSwitch.dark.card : stylesSwitch.light.basic}
           >
-            <div className="text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ">
+            <div className={styles.cardBackDiv}>
               <h1 className="my-4 text-3xl font-semibold self-center">
                 {myData && myData.chartName}
               </h1>
