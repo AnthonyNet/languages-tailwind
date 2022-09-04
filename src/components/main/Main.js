@@ -60,9 +60,9 @@ const Main = () => {
             style={darkMode ? stylesSwitch.dark.card : stylesSwitch.light.basic}
           >
             <div className={styles.cardBackDiv}>
-              <h1 className="my-4 text-3xl font-semibold self-center">
+              <h2 className="my-4 text-3xl font-semibold self-center">
                 {myData && myData.chartName}
-              </h1>
+              </h2>
               {myData && <Table data={myData} />}
               <button className="bg-teal-500 px-6 py-2 mt-[8rem] mb-8 font-semibold text-white rounded-full delay-500 duration-1000 scale-0 group-hover:scale-125">
                 Last update:
