@@ -61,7 +61,7 @@ const Main = () => {
             style={darkMode ? stylesSwitch.dark.card : stylesSwitch.light.basic}
           >
             <div className={styles.cardBackDiv}>
-              <h2 className="my-4 text-3xl font-semibold self-center">
+              <h2 className={styles.h2CardBack}>
                 {myData && myData.chartName}
               </h2>
               {myData && <Table data={myData} />}
