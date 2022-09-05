@@ -48,7 +48,7 @@ const OxfordB1 = ({ dataJSON }) => {
               <li className="flex flex-row flex-wrap justify-center items-center mt-6" onClick={() => setTransparent(!transparent)}>
                 
                 <strong className="w-[95%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
-                <div><CgClose  /></div>
+                <div className="oxfordClose"><CgClose  /></div>
              
                 <div>
                 {!switchLanguage && data[rand].sentenceTranslated}

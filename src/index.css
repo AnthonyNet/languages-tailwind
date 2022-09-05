@@ -56,11 +56,7 @@ details[open] summary ~ * {
   100%  {opacity: 1; transform: translateX(0)}
 }
 
-@media screen and (max-width: 450px){
-  .navClose{
-    margin-left: -100px;
-  }
-}
+
 
 @media screen and (max-height: 600px){
   .testSection{
@@ -72,7 +68,17 @@ details[open] summary ~ * {
   .testSection{
     height: 200vh;
   }
- 
+}
+
+@media screen and (max-width: 450px){
+  .navClose{
+    margin-left: -100px;
+  }
+}
+@media screen and (max-width: 350px){
+ .oxfordClose{
+  width: 5%;
+ }
 }
 
 
