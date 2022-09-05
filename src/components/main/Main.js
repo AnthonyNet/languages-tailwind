@@ -14,6 +14,7 @@ const styles= {
   articleDiv: "border-2 w-full h-full",
   cardback: "mainCardBack my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400",
   cardBackDiv: "text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ",
+  h2CardBack: "my-4 text-3xl font-semibold self-center",
 }
 
 //The whole components is imported  into pages/Home
