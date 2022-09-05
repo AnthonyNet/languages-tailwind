@@ -36,10 +36,7 @@ const OxfordB1 = ({ dataJSON }) => {
 
 
       {data[rand].sentenceTranslated? (
-          
-          
             switchLanguage &&( <li className="border-b border-gray-300 py-4">{data[rand].sentenceTranslated}</li>)
-          
         ):null}
 
         
@@ -48,7 +45,7 @@ const OxfordB1 = ({ dataJSON }) => {
               <li  className="py-6  border-b border-gray-300" 
               onClick={() => setTransparent(!transparent)}>show answer</li>
             ) : (
-              <li className="flex flex-row justify-center items-center mt-6" onClick={() => setTransparent(!transparent)}>
+              <li className="flex flex-row flex-wrap justify-center items-center mt-6" onClick={() => setTransparent(!transparent)}>
                 
                 <strong className="w-[95%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
                 <div><CgClose  /></div>
