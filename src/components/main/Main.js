@@ -15,6 +15,7 @@ const styles= {
   cardback: "mainCardBack my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400",
   cardBackDiv: "text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ",
   h2CardBack: "my-4 text-3xl font-semibold self-center",
+  cardBackButton: "bg-teal-500 px-6 py-2 mt-[8rem] mb-8 font-semibold text-white rounded-full delay-500 duration-1000 scale-0 group-hover:scale-125",
 }
 
 //The whole components is imported  into pages/Home
@@ -65,7 +66,7 @@ const Main = () => {
                 {myData && myData.chartName}
               </h2>
               {myData && <Table data={myData} />}
-              <button className="bg-teal-500 px-6 py-2 mt-[8rem] mb-8 font-semibold text-white rounded-full delay-500 duration-1000 scale-0 group-hover:scale-125">
+              <button className={styles.cardBackButton}>
                 Last update:
               </button>
               <h1 className="text-sm font-semibold ">
