@@ -16,6 +16,7 @@ const styles= {
   cardBackDiv: "text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ",
   h2CardBack: "my-4 text-3xl font-semibold self-center",
   cardBackButton: "bg-teal-500 px-6 py-2 mt-[8rem] mb-8 font-semibold text-white rounded-full delay-500 duration-1000 scale-0 group-hover:scale-125",
+  cardBackH3: "text-sm font-semibold ",
 }
 
 //The whole components is imported  into pages/Home
@@ -69,7 +70,7 @@ const Main = () => {
               <button className={styles.cardBackButton}>
                 Last update:
               </button>
-              <h3 className="text-sm font-semibold ">
+              <h3 className={styles.cardBackH3}>
                 {myData && myData.time.updated}
               </h3>
             </div>
