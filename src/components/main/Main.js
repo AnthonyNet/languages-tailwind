@@ -69,9 +69,9 @@ const Main = () => {
               <button className={styles.cardBackButton}>
                 Last update:
               </button>
-              <h1 className="text-sm font-semibold ">
+              <h3 className="text-sm font-semibold ">
                 {myData && myData.time.updated}
-              </h1>
+              </h3>
             </div>
           </div>
         </article>
