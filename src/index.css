@@ -30,13 +30,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
-.logo{
-  font-family: 'Gloria Hallelujah', cursive;
+@layer utilities {
+  .cardListItems{
+    border-bottom: 1px solid #645d5d;
+    padding: 2rem;
+  }
+  .logo{
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+  
+  strong{
+    color:#709dff;
+  }
 }
 
-strong{
-  color:#709dff;
-}
+
 
 
 .scoreDiv span{

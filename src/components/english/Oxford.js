@@ -22,7 +22,7 @@ const OxfordB1 = ({ dataJSON }) => {
       {/*IF czWord exists */}
       <ul className="flex flex-col justify-around text-center ">
       {
-        <li className="font-bold border-b border-gray-300 p-6">
+        <li className="font-bold cardListItems p-6">
           
             {switchLanguage ? (
               <article>{data[rand].wordTranslated}</article>
@@ -36,19 +36,19 @@ const OxfordB1 = ({ dataJSON }) => {
 
 
       {data[rand].sentenceTranslated? (
-            switchLanguage &&( <li className="border-b border-gray-300 py-4">{data[rand].sentenceTranslated}</li>)
+            switchLanguage &&( <li className="cardListItems">{data[rand].sentenceTranslated}</li>)
         ):null}
 
         
        
             {transparent ? (
-              <li  className="py-6  border-b border-gray-300" 
+              <li  className="cardListItems" 
               onClick={() => setTransparent(!transparent)}>show answer</li>
             ) : (
-              <li className="flex flex-row flex-wrap justify-center items-center mt-6" onClick={() => setTransparent(!transparent)}>
+              <li className="flex flex-row flex-wrap justify-center items-center cardListItems" onClick={() => setTransparent(!transparent)}>
                 
-                <strong className="w-[95%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
-                <div className="oxfordClose"><CgClose  /></div>
+                <strong className="w-[95%] sm:w-[92%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
+                <div className="oxfordClose sm:mr-2"><CgClose  /></div>
              
                 <div>
                 {!switchLanguage && data[rand].sentenceTranslated}
