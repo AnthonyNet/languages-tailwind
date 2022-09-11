@@ -12,7 +12,7 @@ const Table = ({data}) => {
       </thead>
       <tbody>
         <tr>
-          <td>{data.bpi.EUR.code}{data.bpi.EUR.symbol}</td>
+          <td>{data.bpi.EUR.code}</td>
           <td>{data.bpi.EUR.rate}</td>
          
           

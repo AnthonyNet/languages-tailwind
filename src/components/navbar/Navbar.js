@@ -54,7 +54,7 @@ const Navbar = () => {
           className={
             nav
               ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-10  ease-in duration-500"
+              : "fixed top-10 left-[-100%] ease-in duration-500"
           }
         >
           <div className="flex justify-between items-center">
@@ -69,7 +69,7 @@ const Navbar = () => {
             <p>Evolution means everyday learning</p>
           </div>
           <nav>
-            <ul className="flex flex-col text-2xl">
+            <ul className="flex flex-col text-2xl z-20">
               <Link className="py-4 uppercase" to="/">
                 Home
               </Link>
