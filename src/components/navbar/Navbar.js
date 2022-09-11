@@ -28,6 +28,7 @@ const Navbar = () => {
                   <Link to="/oxford-B1">Oxford B1</Link>
                   <Link to="/oxford-B2">Oxford B2</Link>
                   <Link to="/oxford-C1">Oxford C1</Link>
+                  <Link to="/phrasal-1">Phrasal verbs</Link>
 
                 </ul>
               </details>
@@ -82,6 +83,7 @@ const Navbar = () => {
                   <Link to="/oxford-B1">Oxford B1</Link>
                   <Link to="/oxford-B2">Oxford B2</Link>
                   <Link to="/oxford-C1">Oxford C1</Link>
+                  <Link to="/phrasal-1">Phrasal verbs</Link>
                 </ul>
               </details>
 

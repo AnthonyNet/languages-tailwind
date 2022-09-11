@@ -36,7 +36,7 @@ const OxfordB1 = ({ dataJSON }) => {
 
 
       {data[rand].sentenceTranslated? (
-            switchLanguage &&( <li className="cardListItems">{data[rand].sentenceTranslated}</li>)
+            switchLanguage &&( <li className="cardListItems p-6">{data[rand].sentenceTranslated}</li>)
         ):null}
 
         
@@ -45,17 +45,16 @@ const OxfordB1 = ({ dataJSON }) => {
               <li  className="cardListItems" 
               onClick={() => setTransparent(!transparent)}>show answer</li>
             ) : (
+              
               <li className="flex flex-row flex-wrap justify-center items-center cardListItems" onClick={() => setTransparent(!transparent)}>
                 
                 <strong className="w-[95%] sm:w-[92%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
                 <div className="oxfordClose sm:mr-2"><CgClose  /></div>
-             
-                <div>
-                {!switchLanguage && data[rand].sentenceTranslated}
-                </div>
+                {!switchLanguage&&<div className="border-t border-indigo-600">{data[rand].sentenceTranslated}</div>} 
               </li>
+              
             )}
-         
+
 
         <ul className="flex justify-around text-center mt-8">
           <CardButton onClick={randomWord} text={"Next word"} />
