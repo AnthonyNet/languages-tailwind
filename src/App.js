@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import English from "./pages/English";
+import English from "./pages/Irregular_Eng";
 
 import IrregularSearch from "./pages/SearchIrregularEng";
 import OxfordB1 from './pages/OxfordB1';
@@ -11,7 +11,7 @@ import OxfordB2 from './pages/OxfordB2';
 import OxfordC1 from './pages/OxfordC1';
 import Phrasal1 from './pages/Phrasal_1';
 import Goethe from './pages/Goethe';
-import German from "./pages/German";
+import German from "./pages/Irregular_Ger";
 import Error from "./pages/Error";
 
 

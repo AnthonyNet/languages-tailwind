@@ -13,8 +13,6 @@ const Main = () => {
     .then((resp) =>{setMyData(resp)})
   }, [])
 
- 
-myData&&console.log(myData)
 
 
   return (

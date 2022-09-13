@@ -1,5 +1,5 @@
 import React from 'react'
-import Irregular from '../english/Irregular2'
+import Irregular from '../irregular_Verbs/Irregular'
 
 
 const Card = ({data, handleChange, placeholder}) => {
