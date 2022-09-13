@@ -23,7 +23,6 @@ const Navbar = () => {
                 <summary className="uppercase logo"><strong>English</strong></summary>
                 <ul className="flex flex-col border-solid border-t-4 border-indigo-600 ">
                   <Link to="/english">Irregular verbs</Link>
-                  <Link to="/english2">Irregular verbs2</Link>
                   <Link to="/irregularSearch">Irregular List</Link>
                   <Link to="/oxford-B1">Oxford B1</Link>
                   <Link to="/oxford-B2">Oxford B2</Link>
@@ -78,7 +77,6 @@ const Navbar = () => {
                 <summary className="uppercase border-gray-300 border-b logo"><strong>English</strong></summary>
                 <ul className="flex flex-col">
                   <Link to="/english">Irregular verbs</Link>
-                  <Link to="/english2">Irregular verbs2</Link>
                   <Link to="/irregularSearch">Irregular List</Link>
                   <Link to="/oxford-B1">Oxford B1</Link>
                   <Link to="/oxford-B2">Oxford B2</Link>

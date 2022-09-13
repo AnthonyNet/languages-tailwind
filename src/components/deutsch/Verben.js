@@ -1,67 +1,71 @@
-import {useState, useEffect} from "react";
-import { BsFillStarFill } from "react-icons/bs";
+import React, { useEffect, useState } from "react";
 
-import Card from '../card/Card';
+import Card from "../card/Card";
 import CardButton from '../card/CardButton';
-import CardHint from '../card/CardHint';
-import Score from '../card/Score'
+import CardHint from "../card/CardHint";
 
-import Data from './VerbenData';
+
+
+// import functions
 import getLocalStorage from "../Functions";
+import Score from "../card/Score";
 
-import React from 'react'
+const IrregularVerbs = ({dataJSON}) => {
+  const [totalScore, setTotalScore] = useState(getLocalStorage());
+  const [score, setScore] = useState(0);
+  const [stars, setStars] = useState(0);
+  const [hint, setHint] = useState(false);
+  const [rand, setRand] = useState(0);
 
-const Verben = () => {
-    const [totalScore, setTotalScore] = useState(getLocalStorage());
-    const [score, setScore] = useState(0);
-    const [hint, setHint] = useState(false);
-    const [rand, setRand] = useState(0);
-    const [stars, setStars] = useState(0);
+  useEffect(() => {
+    localStorage.setItem("totalScore", JSON.stringify(totalScore));
+}, [totalScore]);
 
-    useEffect(() => {
-        localStorage.setItem("totalScore", JSON.stringify(totalScore));
-    }, [totalScore]);
-  
-    const handleChange = (e) => {
-      const value = e.target.value;
-      const data = e.target.attributes.data.value;
-      const inputElement = e.target;
-      if (value === "") {
-        inputElement.style.color = "gray";
-      } else if (data === value) {
-        e.target.parentElement.style.backgroundColor = "MediumSeaGreen";
-        e.target.readOnly = true;
-        setTotalScore((count) => +count + 1);
-        setScore((count) => count + 1);
-        setStars((count) => count + 1);
-      } else if (data.startsWith(value)) {
-        inputElement.style.color = "green";
-        inputElement.style.fontWeight = "bold";
-      } else {
-        inputElement.style.color = "red";
-        inputElement.style.fontWeight = "bold";
-      }
-    };
-  
-    {/* Gives a random number -> word from a list
-        Change input styles to default
-  */}
-    function randomWord(e) {
-      setRand(Math.floor(Math.random() * Data.length));
-      const quizInput = e.target.previousSibling.childNodes;
-  
-      quizInput.forEach((input) => {
-        input.style.backgroundColor = "transparent";
-        input.firstChild.style.color = "gray";
-        input.firstChild.style.fontWeight = "normal";
-        input.firstChild.readOnly = false;
-        input.firstChild.value = "";
-      });
-      setScore(0);
-      setStars(0);
-      setHint(false);
+  {
+    /*check inputs values and change font, border or background */
+  }
+  const handleChange = (e) => {
+    const value = e.target.value;
+    const data = e.target.attributes.data.value;
+
+    const inputElement = e.target;
+    if (value === "") {
+      inputElement.style.color = "gray";
+    } else if (data === value) {
+      inputElement.parentElement.style.backgroundColor = "MediumSeaGreen";
+
+      inputElement.readOnly = true;
+      setTotalScore((count) => +count + 1);
+      setScore((count) => count + 1);
+      setStars((count) => count + 1);
+    } else if (data.startsWith(value)) {
+      inputElement.style.color = "green";
+      inputElement.style.fontWeight = "bold";
+    } else {
+      inputElement.style.color = "red";
+      inputElement.style.fontWeight = "bold";
     }
+  };
 
+  {
+    /* Gives a random number -> word from a list
+      Change input styles to default
+*/
+  }
+  function randomWord(e) {
+    setRand(Math.floor(Math.random() * dataJSON.length));
+    const quizInput = e.target.previousSibling.childNodes;
+
+    quizInput.forEach((input) => {
+      input.style.backgroundColor = "transparent";
+      input.firstChild.style.color = "gray";
+      input.firstChild.style.fontWeight = "normal";
+      input.firstChild.readOnly = false;
+      input.firstChild.value = "";
+    });
+    setStars(0);
+    setHint(false);
+  }
 
   return (
     <section className="flex justify-center items-center w-full h-[91vh]">
@@ -78,37 +82,37 @@ const Verben = () => {
 
         <div className="px-6">
           <h5 className="text-gray-900 text-xl font-medium mb-2 border-b border-gray-300">
-            {Data[rand].cz}
+            {dataJSON[rand].cz}
           </h5>
           <ul className="flex flex-col justify-around text-center mb-2">
             <Card
-              data={Data[rand].base}
+              data={dataJSON[rand].base}
               handleChange={handleChange}
               placeholder="Infinitive"
             ></Card>
             <Card
-              data={Data[rand].pastSimple}
+              data={dataJSON[rand].pastSimple}
               handleChange={handleChange}
               placeholder="PastSimple"
             ></Card>
 
-            {Data[rand].pastSimple2 ? (
+            {dataJSON[rand].pastSimple2 ? (
               <Card
-                data={Data[rand].pastSimple2}
+                data={dataJSON[rand].pastSimple2}
                 handleChange={handleChange}
                 placeholder="PastSimple2"
               ></Card>
             ) : null}
 
             <Card
-              data={Data[rand].pastParticiple}
+              data={dataJSON[rand].pastParticiple}
               handleChange={handleChange}
               placeholder="PastParticiple"
             ></Card>
 
-            {Data[rand].pastParticiple2 ? (
+            {dataJSON[rand].pastParticiple2 ? (
               <Card
-                data={Data[rand].pastParticiple2}
+                data={dataJSON[rand].pastParticiple2}
                 handleChange={handleChange}
                 placeholder="PastParticiple2"
               ></Card>
@@ -131,18 +135,17 @@ const Verben = () => {
           {/* if hint is true show answers */}
           {hint ? (
          <CardHint 
-          base = {Data[rand].base}
-          pastSimple = {Data[rand].pastSimple}
-          pastSimple2={Data[rand].pastSimple2}
-          pastParticiple={Data[rand].pastParticiple}
-          pastParticiple2={Data[rand].pastSimple2}
+          base = {dataJSON[rand].base}
+          pastSimple = {dataJSON[rand].pastSimple}
+          pastSimple2={dataJSON[rand].pastSimple2}
+          pastParticiple={dataJSON[rand].pastParticiple}
+          pastParticiple2={dataJSON[rand].pastParticiple2}
          />
           ) : null}
         </div>
       </div>
     </section>
+  );
+};
 
-  )
-}
-
-export default Verben
+export default IrregularVerbs;

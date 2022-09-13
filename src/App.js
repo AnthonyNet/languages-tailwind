@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import English from "./pages/English";
-import English2 from "./pages/English2";
+
 import IrregularSearch from "./pages/SearchIrregularEng";
 import OxfordB1 from './pages/OxfordB1';
 import OxfordB2 from './pages/OxfordB2';
@@ -25,7 +25,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route index element={<Home />} />
           <Route path="english" element={<English />} />
-          <Route path="english2" element={<English2 />} />
           <Route path="irregularSearch" element={<IrregularSearch />} />
           <Route path="oxford-B1" element={<OxfordB1 />} />
           <Route path="oxford-B2" element={<OxfordB2 />} />

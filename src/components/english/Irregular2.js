@@ -139,7 +139,7 @@ const IrregularVerbs = () => {
           pastSimple = {Data[rand].pastSimple}
           pastSimple2={Data[rand].pastSimple2}
           pastParticiple={Data[rand].pastParticiple}
-          pastParticiple2={Data[rand].pastSimple2}
+          pastParticiple2={Data[rand].pastParticiple2}
          />
           ) : null}
         </div>

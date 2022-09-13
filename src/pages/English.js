@@ -2,13 +2,14 @@ import React from "react";
 import Navbar from '../components/navbar/Navbar'
 
 import Irregular from '../components/english/Irregular'
+import dataJSON from '../components/data/json/IrregularVerbs'
 
 const English = () => {
 
   return (
     <>
     <Navbar />
-    <Irregular />
+    <Irregular dataJSON={dataJSON}/>
     </>
   );
 };
