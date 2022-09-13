@@ -16,7 +16,7 @@ const Verben = () => {
     const [score, setScore] = useState(0);
     const [hint, setHint] = useState(false);
     const [rand, setRand] = useState(0);
-    const [stars, setStars] = useState();
+    const [stars, setStars] = useState(0);
 
     useEffect(() => {
         localStorage.setItem("totalScore", JSON.stringify(totalScore));
@@ -33,6 +33,7 @@ const Verben = () => {
         e.target.readOnly = true;
         setTotalScore((count) => +count + 1);
         setScore((count) => count + 1);
+        setStars((count) => count + 1);
       } else if (data.startsWith(value)) {
         inputElement.style.color = "green";
         inputElement.style.fontWeight = "bold";
@@ -57,6 +58,7 @@ const Verben = () => {
         input.firstChild.value = "";
       });
       setScore(0);
+      setStars(0);
       setHint(false);
     }
 

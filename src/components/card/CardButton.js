@@ -1,5 +1,5 @@
 import React from 'react'
-import Irregular from '../english/Irregular2'
+
 const CardButton = ({onClick, text}) => {
   return (
    

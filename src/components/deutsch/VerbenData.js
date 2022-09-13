@@ -1,1091 +1,1090 @@
 export default [
-   
-    {
-       "cz":"péct",
-       "infinitive":"backen",
-       "pastTense":"backte",
-       "pastTense2":"buk",
-       "presentPerfect":"gebacken"
-    },
-    {
-       "cz":"přikázat",
-       "infinitive":"befehlen",
-       "pastTense":"befahl",
-       "presentPerfect2":"befohlen"
-    },
-    {
-       "cz":"začít",
-       "infinitive":"beginnen",
-       "pastTense":"begann",
-       "presentPerfect":"begonnen"
-    },
-    {
-       "cz":"kousat",
-       "infinitive":"beißen",
-       "pastTense":"biss",
-       "presentPerfect":"gebissen"
-    },
-    {
-       "cz":"zachránit",
-       "cz2": "vyprostit",
-       "infinitive":"bergen",
-       "pastTense":"barg",
-       "presentPerfect":"geborgen"
-    },
-    {
-       "cz":"prasknout",
-       "infinitive":"bersten",
-       "pastTense":"barst",
-       "presentPerfect":"geborsten"
-    },
-    {
-       "cz":"podvést",
-       "infinitive":"betrügen",
-       "pastTense":"betrog",
-       "presentPerfect":"betrogen"
-    },
-    {
-       "cz":"hnout",
-       "infinitive":"bewegen",
-       "pastTense":"bewog",
-       "presentPerfect":"bewogen"
-    },
-    {
-       "cz":"ohnout",
-       "infinitive":"biegen",
-       "pastTense":"bog",
-       "presentPerfect":"gebogen"
-    },
-    {
-       "cz":"nabídnout",
-       "infinitive":"bieten",
-       "pastTense":"bot",
-       "presentPerfect":"geboten"
-    },
-    {
-       "cz":"vázat",
-       "infinitive":"binden",
-       "pastTense":"band",
-       "presentPerfect":"gebunden"
-    },
-    {
-       "cz":"prosit",
-       "infinitive":"bitten",
-       "pastTense":"bat",
-       "presentPerfect":"gebeten"
-    },
-    {
-       "cz":"foukat",
-       "infinitive":"blasen",
-       "pastTense":"blies",
-       "presentPerfect":"geblasen"
-    },
-    {
-       "cz":"zůstat",
-       "infinitive":"bleiben",
-       "pastTense":"blieb",
-       "presentPerfect":"bleiben"
-    },
-    {
-       "cz":"péct",
-       "infinitive":"braten",
-       "pastTense":"briet",
-       "presentPerfect":"gebraten"
-    },
-    {
-       "cz":"lámat",
-       "infinitive":"brechen",
-       "pastTense":"brach",
-       "presentPerfect":"gebrochen"
-    },
-    {
-       "cz":"hořet",
-       "infinitive":"brennen",
-       "pastTense":"brannte",
-       "presentPerfect":"gebrannt"
-    },
-    {
-       "cz":"přinést",
-       "infinitive":"bringen",
-       "pastTense":"brachte",
-       "presentPerfect":"gebracht"
-    },
-    {
-       "cz":"myslet",
-       "infinitive":"denken",
-       "pastTense":"dachte",
-       "presentPerfect":"gedacht"
-    },
-    {
-       "cz":"najmout",
-       "infinitive":"dingen",
-       "pastTense":"dang",
-       "presentPerfect":"gedungen"
-    },
-    {
-       "cz":"mlátit",
-       "infinitive":"dreschen",
-       "pastTense":"drosch",
-       "presentPerfect":"gedroschen"
-    },
-    {
-       "cz":"pronikat",
-       "infinitive":"dringen",
-       "pastTense":"drang",
-       "presentPerfect":"gedrungen"
-    },
-    {
-       "cz":"přijmout",
-       "cz2": "uvítat",
-       "infinitive":"empfangen",
-       "pastTense":"empfing",
-       "presentPerfect":"empfangen"
-    },
-    {
-       "cz":"přijmout",
-       "infinitive":"empfehlen",
-       "pastTense":"empfahl",
-       "presentPerfect":"empfohlen"
-    },
-    {
-       "cz":"cítit",
-       "infinitive":"empfinden",
-       "pastTense":"empfand",
-       "presentPerfect":"empfunden"
-    },
-    {
-       "cz":"vyblednout",
-       "infinitive":"erbleichen",
-       "pastTense":"erbleichte",
-       "pastTense2":"erblich",
-       "presentPerfect":"erbleichte",
-       "presentPerfect2":"erblichen"
-    },
-    {
-       "cz":"zhasnout",
-       "cz2": "zaniknout",
-       "infinitive":"erlöschen",
-       "pastTense":"erlosch",
-       "presentPerfect":"erloschen"
-    },
-    {
-       "cz":"polekat se",
-       "cz2":"vyděsit se",
-       "infinitive":"erschrecken",
-       "pastTense":"erschrak",
-       "presentPerfect":"erschrocken"
-    },
-    {
-       "cz":"uvážit",
-       "cz2": "zvážit",
-       "infinitive":"erwägen",
-       "pastTense":"erwog",
-       "presentPerfect":"erwogen"
-    },
-    {
-       "cz":"jíst",
-       "infinitive":"essen",
-       "pastTense":"aß",
-       "presentPerfect":"gegessen"
-    },
-    {
-       "cz":"jet",
-       "infinitive":"fahren",
-       "pastTense":"fuhr",
-       "presentPerfect":"gefahren"
-    },
-    {
-       "cz":"padat",
-       "infinitive":"fallen",
-       "pastTense":"fiel",
-       "presentPerfect":"gefallen"
-    },
-    {
-       "cz":"chytit",
-       "infinitive":"fangen",
-       "pastTense":"fing",
-       "presentPerfect":"gefangen"
-    },
-    {
-       "cz":"šermovat",
-       "infinitive":"fechten",
-       "pastTense":"focht",
-       "presentPerfect":"gefochten"
-    },
-    {
-       "cz":"najít",
-       "infinitive":"finden",
-       "pastTense":"fand",
-       "presentPerfect":"gefunden"
-    },
-    {
-       "cz":"uplést",
-       "infinitive":"flechten",
-       "pastTense":"flocht",
-       "presentPerfect":"geflochten"
-    },
-    {
-       "cz":"letět",
-       "infinitive":"fliegen",
-       "pastTense":"flog",
-       "presentPerfect":"geflogen"
-    },
-    {
-       "cz":"uprchnout",
-       "infinitive":"fliehen",
-       "pastTense":"floh",
-       "presentPerfect":"geflohen"
-    },
-    {
-       "cz":"téct",
-       "cz2": "plynout",
-       "infinitive":"fließen",
-       "pastTense":"floss",
-       "presentPerfect":"geflossen"
-    },
-    {
-       "cz":"žrát",
-       "infinitive":"fressen",
-       "pastTense":"fraß",
-       "presentPerfect":"gefressen"
-    },
-    {
-       "cz":"mrznout",
-       "infinitive":"frieren",
-       "pastTense":"fror",
-       "presentPerfect":"gefroren"
-    },
-    {
-       "cz":"kvasit",
-       "infinitive":"gären",
-       "pastTense":"gor",
-       "presentPerfect":"gegoren"
-    },
-    {
-       "cz":"",
-       "infinitive":"gebären",
-       "pastTense":"gebar",
-       "presentPerfect":"geboren"
-    },
-    {
-       "cz":"rodit",
-       "cz2": "porodit",
-       "infinitive":"geben",
-       "pastTense":"gab",
-       "presentPerfect":"gegeben"
-    },
-    {
-       "cz":"dařit se",
-       "infinitive":"gedeihen",
-       "pastTense":"gedieh",
-       "presentPerfect":"gediehen"
-    },
-    {
-       "cz":"jít",
-       "infinitive":"gehen",
-       "pastTense":"ging",
-       "presentPerfect":"gegangen"
-    },
-    {
-       "cz":"podařit se",
-       "infinitive":"gelingen",
-       "pastTense":"gelang",
-       "presentPerfect":"gelungen"
-    },
-    {
-       "cz":"platit",
-       "infinitive":"gelten",
-       "pastTense":"galt",
-       "presentPerfect":"gegolten"
-    },
-    {
-       "cz":"zotavit",
-       "cz2":"uzdravit",
-       "infinitive":"genesen",
-       "pastTense":"genas",
-       "presentPerfect":"genesen"
-    },
-    {
-       "cz":"užívat si",
-       "infinitive":"genießen",
-       "pastTense":"genoss",
-       "presentPerfect":"genossen"
-    },
-    {
-       "cz":"stát se",
-       "infinitive":"geschehen",
-       "pastTense":"geschah",
-       "presentPerfect":"geschehen"
-    },
-    {
-       "cz":"vyhrát",
-       "infinitive":"gewinnen",
-       "pastTense":"gewann",
-       "presentPerfect":"gewonnen"
-    },
-    {
-       "cz":"zalévat",
-       "cz2": "lít",
-       "infinitive":"gießen",
-       "pastTense":"goss",
-       "presentPerfect":"gegossen"
-    },
-    {
-       "cz":"podobat se",
-       "infinitive":"gleichen",
-       "pastTense":"glich",
-       "presentPerfect":"geglichen"
-    },
-    {
-       "cz":"klouzat",
-       "infinitive":"gleiten",
-       "pastTense":"glitt",
-       "presentPerfect":"geglitten"
-    },
-    {
-       "cz":"doutnat",
-       "cz2": "žhnout",
-       "infinitive":"glimmen",
-       "pastTense":"glomm",
-       "presentPerfect":"geglommen"
-    },
-    {
-       "cz":"kopat",
-       "cz2": "těžit",
-       "infinitive":"graben",
-       "pastTense":"grub",
-       "presentPerfect":"gegraben"
-    },
-    {
-       "cz":"chytit",
-       "cz2": "lapit",
-       "infinitive":"greifen",
-       "pastTense":"griff",
-       "presentPerfect":"gegriffen"
-    },
-    {
-       "cz":"stát",
-       "infinitive":"halten",
-       "pastTense":"hielt",
-       "presentPerfect":"gehalten"
-    },
-    {
-       "cz":"viset",
-       "infinitive":"hängen",
-       "pastTense":"hing",
-       "presentPerfect":"gehangen"
-    },
-    {
-       "cz":"prát se",
-       "infinitive":"hauen",
-       "pastTense":"haute ",
-       "pastTense2":"hieb",
-       "presentPerfect":"gehauen"
-    },
-    {
-       "cz":"zvednout",
-       "infinitive":"heben",
-       "pastTense":"hob",
-       "presentPerfect":"gehoben"
-    },
-    {
-       "cz":"jmenovat se",
-       "infinitive":"heißen",
-       "pastTense":"hieß",
-       "presentPerfect":"geheißen"
-    },
-    {
-       "cz":"pomoci",
-       "infinitive":"helfen",
-       "pastTense":"half",
-       "presentPerfect":"hat geholfen"
-    },
-    {
-       "cz":"znát",
-       "infinitive":"kennen",
-       "pastTense":"kannte",
-       "presentPerfect":"gekannt"
-    },
-    {
-       "cz":"lézt",
-       "infinitive":"klimmen",
-       "pastTense":"klomm",
-       "presentPerfect":"geklommen"
-    },
-    {
-       "cz":"znít",
-       "cz2": "zvonit",
-       "infinitive":"klingen",
-       "pastTense":"klang",
-       "presentPerfect":"geklungen"
-    },
-    {
-       "cz":"štípnout",
-       "cz2": "škrtit",
-       "infinitive":"kneifen",
-       "pastTense":"kniff",
-       "presentPerfect":"gekniffen"
-    },
-    {
-       "cz":"přijít",
-       "infinitive":"kommen",
-       "pastTense":"kam",
-       "presentPerfect":"gekommen"
-    },
-    {
-       "cz":"plazit se",
-       "infinitive":"kriechen",
-       "pastTense":"kroch",
-       "presentPerfect":"gekrochen"
-    },
-    {
-       "cz":"naložit",
-       "infinitive":"laden",
-       "pastTense":"lud",
-       "presentPerfect":"geladen"
-    },
-    {
-       "cz":"nechat",
-       "infinitive":"lassen",
-       "pastTense":"ließ",
-       "presentPerfect":"gelassen"
-    },
-    {
-       "cz":"běžet",
-       "infinitive":"laufen",
-       "pastTense":"lief",
-       "presentPerfect":"gelaufen"
-    },
-    {
-       "cz":"trpět",
-       "infinitive":"leiden",
-       "pastTense":"litt",
-       "presentPerfect":"gelitten"
-    },
-    {
-       "cz":"půjčit",
-       "infinitive":"leihen",
-       "pastTense":"lieh",
-       "presentPerfect":"geliehen"
-    },
-    {
-       "cz":"číst",
-       "infinitive":"lesen",
-       "pastTense":"las",
-       "presentPerfect":"gelesen"
-    },
-    {
-       "cz":"ležet",
-       "infinitive":"liegen",
-       "pastTense":"lag",
-       "presentPerfect":"gelegen"
-    },
-    {
-       "cz":"lhát",
-       "infinitive":"lügen",
-       "pastTense":"log",
-       "presentPerfect":"gelogen"
-    },
-    {
-       "cz":"mlít",
-       "infinitive":"mahlen",
-       "pastTense":"mahlte",
-       "presentPerfect":"gemahlen"
-    },
-    {
-       "cz":"vyhýbat se",
-       "infinitive":"meiden",
-       "pastTense":"mied",
-       "presentPerfect":"gemieden"
-    },
-    {
-       "cz":"dojit",
-       "infinitive":"melken",
-       "pastTense":"melkte",
-       "pastTense2":"molk",
-       "presentPerfect":"gemelkt",
-       "presentPerfect2":"gemolken"
-    },
-    {
-       "cz":"měřit",
-       "infinitive":"messen",
-       "pastTense":"maß",
-       "presentPerfect":"gemessen"
-    },
-    {
-       "cz":"nepodařit se",
-       "infinitive":"misslingen",
-       "pastTense":"misslang",
-       "presentPerfect":"misslungen"
-    },
-    {
-       "cz":"vzít",
-       "infinitive":"nehmen",
-       "pastTense":"nahm",
-       "presentPerfect":"genommen"
-    },
-    {
-       "cz":"nazývat se",
-       "infinitive":"nennen",
-       "pastTense":"nannte",
-       "presentPerfect":"genannt"
-    },
-    {
-       "cz":"pískat",
-       "infinitive":"pfeifen",
-       "pastTense":"pfiff",
-       "presentPerfect":"gepfiffen"
-    },
-    {
-       "cz":"chválit",
-       "infinitive":"preisen",
-       "pastTense":"pries",
-       "presentPerfect":"gepriesen"
-    },
-    {
-       "cz":"proudit",
-       "infinitive":"quellen",
-       "pastTense":"quoll",
-       "presentPerfect":"gequollen"
-    },
-    {
-       "cz":"hádat",
-       "cz2": "radit",
-       "infinitive":"raten",
-       "pastTense":"riet",
-       "presentPerfect":"geraten"
-    },
-    {
-       "cz":"utřít",
-       "infinitive":"reiben",
-       "pastTense":"rieb",
-       "presentPerfect":"gerieben"
-    },
-    {
-       "cz":"cestovat",
-       "infinitive":"reißen",
-       "pastTense":"riss",
-       "presentPerfect":"gerissen"
-    },
-    {
-       "cz":"jet na koni",
-       "infinitive":"reiten",
-       "pastTense":"ritt",
-       "presentPerfect":"geritten"
-    },
-    {
-       "cz":"běžet",
-       "infinitive":"rennen",
-       "pastTense":"rannte",
-       "presentPerfect":"gerannt"
-    },
-    {
-       "cz":"vonět",
-       "cz2": "čichat",
-       "infinitive":"riechen",
-       "pastTense":"roch",
-       "presentPerfect":"gerochen"
-    },
-    {
-       "cz":"zápasit",
-       "cz2": "usilovat",
-       "infinitive":"ringen",
-       "pastTense":"rang",
-       "presentPerfect":"gerungen"
-    },
-    {
-       "cz":"sypat se",
-       "cz2": "téci",
-       "infinitive":"rinnen",
-       "pastTense":"rann",
-       "presentPerfect":"geronnen"
-    },
-    {
-       "cz":"volat",
-       "infinitive":"rufen",
-       "pastTense":"rief",
-       "presentPerfect":"gerufen"
-    },
-    {
-       "cz":"solit",
-       "infinitive":"salzen",
-       "pastTense":"salzte",
-       "presentPerfect":"gesalzen",
-       "presentPerfect2":"gesaltzt"
-    },
-    {
-       "cz":"chlastat",
-       "infinitive":"saufen",
-       "pastTense":"soff",
-       "presentPerfect":"gesoffen"
-    },
-    {
-       "cz":"vysát",
-       "infinitive":"saugen",
-       "pastTense":"saugte",
-       "pastTense2":"sog",
-       "presentPerfect":"gesaugt",
-       "presentPerfect2":"gesogt"
-    },
-    {
-       "cz":"zvládnout",
-       "cz2": "stvořit",
-       "infinitive":"schaffen",
-       "pastTense":"schuf",
-       "presentPerfect":"geschaffen"
-    },
-    {
-       "cz":"rozvést",
-       "cz2":"oddělit",
-       "infinitive":"scheiden",
-       "pastTense":"schied",
-       "presentPerfect":"geschieden"
-    },
-    {
-       "cz":"rozvést",
-       "infinitive":"scheinen",
-       "pastTense":"schien",
-       "presentPerfect":"geschienen"
-    },
-    {
-       "cz":"srát",
-       "infinitive":"scheißen",
-       "pastTense":"schiss",
-       "presentPerfect":"geschissen"
-    },
-    {
-       "cz":"nadávat",
-       "infinitive":"schelten",
-       "pastTense":"schalt",
-       "presentPerfect":"gescholten"
-    },
-    {
-       "cz":"stříhat",
-       "infinitive":"scheren",
-       "pastTense":"schor",
-       "presentPerfect":"geschoren"
-    },
-    {
-       "cz":"sunout",
-       "cz2": "tlačit",
-       "infinitive":"schieben",
-       "pastTense":"schob",
-       "presentPerfect":"geschoben"
-    },
-    {
-       "cz":"střílet",
-       "infinitive":"schießen",
-       "pastTense":"schoss",
-       "presentPerfect":"geschossen"
-    },
-    {
-       "cz":"spát",
-       "infinitive":"schlafen",
-       "pastTense":"schlief",
-       "presentPerfect":"geschlafen"
-    },
-    {
-       "cz":"bít",
-       "cz2": "tlouci",
-       "infinitive":"schlagen",
-       "pastTense":"schlug",
-       "presentPerfect":"geschlagen"
-    },
-    {
-       "cz":"plížit se",
-       "infinitive":"schleichen",
-       "pastTense":"schlich",
-       "presentPerfect":"geschlichen"
-    },
-    {
-       "cz":"brousit",
-       "cz2": "cepovat",
-       "infinitive":"schleifen",
-       "pastTense":"schliff",
-       "presentPerfect":"geschliffen"
-    },
-    {
-       "cz":"zavřít",
-       "infinitive":"schließen",
-       "pastTense":"schloss",
-       "presentPerfect":"geschlossen"
-    },
-    {
-       "cz":"ovázat",
-       "cz2": "obejmout",
-       "infinitive":"schlingen",
-       "pastTense":"schlang",
-       "presentPerfect":"geschlungen"
-    },
-    {
-       "cz":"mrštit",
-       "cz2": "praštit", 
-       "infinitive":"schmeißen",
-       "pastTense":"schmiss",
-       "presentPerfect":"geschmissen"
-    },
-    {
-       "cz":"mrštit",
-       "infinitive":"schmelzen",
-       "pastTense":"schmolz",
-       "presentPerfect":"geschmolzen"
-    },
-    {
-       "cz":"krájet",
-       "infinitive":"schneiden",
-       "pastTense":"schnitt",
-       "presentPerfect":"geschnitten"
-    },
-    {
-       "cz":"psát",
-       "infinitive":"schreiben",
-       "pastTense":"schrieb",
-       "presentPerfect":"geschrieben"
-    },
-    {
-       "cz":"řvát",
-       "infinitive":"schreien",
-       "pastTense":"schrie",
-       "presentPerfect":"geschrie(e)n"
-    },
-    {
-       "cz":"kráčet",
-       "infinitive":"schreiten",
-       "pastTense":"schritt",
-       "presentPerfect":"geschritten"
-    },
-    {
-       "cz":"mlčet",
-       "infinitive":"schweigen",
-       "pastTense":"schwieg",
-       "presentPerfect":"geschwiegen"
-    },
-    {
-       "cz":"otéct",
-       "infinitive":"schwellen",
-       "pastTense":"schwoll",
-       "presentPerfect":"geschwollen"
-    },
-    {
-       "cz":"plavat",
-       "infinitive":"schwimmen",
-       "pastTense":"schwamm",
-       "presentPerfect":"geschwommen"
-    },
-    {
-       "cz":"houpat se",
-       "infinitive":"schwingen",
-       "pastTense":"schwang",
-       "presentPerfect":"geschwungen"
-    },
-    {
-       "cz":"přísahat",
-       "infinitive":"schwören",
-       "pastTense":"schwor",
-       "presentPerfect":"geschworen"
-    },
-    {
-       "cz":"vidět",
-       "infinitive":"sehen",
-       "pastTense":"sah",
-       "presentPerfect":"gesehen"
-    },
-    {
-       "cz":"poslat",
-       "infinitive":"senden",
-       "pastTense":"sandte",
-       "presentPerfect":"gesandt"
-    },
-    {
-       "cz":"zpívat",
-       "infinitive":"singen",
-       "pastTense":"sang",
-       "presentPerfect":"gesungen"
-    },
-    {
-       "cz":"klesat",
-       "cz2": "potápět",
-       "infinitive":"sinken",
-       "pastTense":"sank",
-       "presentPerfect":"gesunken"
-    },
-    {
-       "cz":"dumat",
-       "infinitive":"sinnen",
-       "pastTense":"sann",
-       "presentPerfect":"gesonnen"
-    },
-    {
-       "cz":"sedět",
-       "infinitive":"sitzen",
-       "pastTense":"saß",
-       "presentPerfect":"gesessen"
-    },
-    {
-       "cz":"",
-       "infinitive":"spalten",
-       "pastTense":"spaltete",
-       "presentPerfect":"gespalten"
-    },
-    {
-       "cz":"",
-       "infinitive":"speien",
-       "pastTense":"spie",
-       "presentPerfect":"gespie(e)n"
-    },
-    {
-       "cz":"štípat",
-       "cz2": "štěpit",
-       "infinitive":"spinnen",
-       "pastTense":"spann",
-       "presentPerfect":"gesponnen"
-    },
-    {
-       "cz":"mluvit",
-       "infinitive":"sprechen",
-       "pastTense":"sprach",
-       "presentPerfect":"gesprochen"
-    },
-    {
-       "cz":"klíčit",
-       "cz2": "rašit",
-       "infinitive":"sprießen",
-       "pastTense":"spross",
-       "presentPerfect":"gesprossen"
-    },
-    {
-       "cz":"skákat",
-       "infinitive":"springen",
-       "pastTense":"sprang",
-       "presentPerfect":"gesprungen"
-    },
-    {
-       "cz":"štípat",
-       "cz2": "píchat",
-       "infinitive":"stechen",
-       "pastTense":"stach",
-       "presentPerfect":"gestochen"
-    },
-    {
-       "cz":"stát",
-       "infinitive":"stehen",
-       "pastTense":"stand",
-       "presentPerfect":"gestanden"
-    },
-    {
-       "cz":"krást",
-       "infinitive":"stehlen",
-       "pastTense":"stahl",
-       "presentPerfect":"gestohlen"
-    },
-    {
-       "cz":"stoupat",
-       "infinitive":"steigen",
-       "pastTense":"stieg",
-       "presentPerfect":"gestiegen"
-    },
-    {
-       "cz":"zemřít",
-       "infinitive":"sterben",
-       "pastTense":"starb",
-       "presentPerfect":"gestorben"
-    },
-    {
-       "cz":"vířit",
-       "cz2": "rozprchnout",
-       "infinitive":"stieben",
-       "pastTense":"stob",
-       "presentPerfect":"gestoben"
-    },
-    {
-       "cz":"smrdět",
-       "infinitive":"stinken",
-       "pastTense":"stank",
-       "presentPerfect":"gestunken"
-    },
-    {
-       "cz":"narazit",
-       "cz2": "narazit",
-       "infinitive":"stoßen",
-       "pastTense":"stieß",
-       "presentPerfect":"gestoßen"
-    },
-    {
-       "cz":"pohladit",
-       "cz2": "rozetřít",
-       "infinitive":"streichen",
-       "pastTense":"strich",
-       "presentPerfect":"gestrichen"
-    },
-    {
-       "cz":"hádat se",
-       "infinitive":"streiten",
-       "pastTense":"stritt",
-       "presentPerfect":"gestritten"
-    },
-    {
-       "cz":"nosit",
-       "infinitive":"tragen",
-       "pastTense":"trug",
-       "presentPerfect":"getragen"
-    },
-    {
-       "cz":"trefit",
-       "cz2": "zasáhnout",
-       "infinitive":"treffen",
-       "pastTense":"traf",
-       "presentPerfect":"getroffen"
-    },
-    {
-       "cz":"hnát",
-       "infinitive":"treiben",
-       "pastTense":"trieb",
-       "presentPerfect":"getrieben"
-    },
-    {
-       "cz":"vstoupit",
-       "infinitive":"treten",
-       "pastTense":"trat",
-       "presentPerfect":"getreten"
-    },
-    {
-       "cz":"pít",
-       "infinitive":"trinken",
-       "pastTense":"trank",
-       "presentPerfect":"getrunken"
-    },
-    {
-       "cz":"klamat",
-       "infinitive":"trügen",
-       "pastTense":"trug",
-       ",pr{esentPerfect":"getrogen"
-    },
-    {
-       "cz":"dělat",
-       "infinitive":"tun",
-       "pastTense":"tat",
-       "presentPerfect":"getan"
-    },
-    {
-       "cz":"vyblednout",
-       "infinitive":"verbleichen",
-       "pastTense":"verblich",
-       "presentPerfect":"verblichen"
-    },
-    {
-       "cz":"zkazit se",
-       "infinitive":"verderben",
-       "pastTense":"verdarb",
-       "presentPerfect":"verdorben"
-    },
-    {
-       "cz":"mrzet",
-       "infinitive":"verdrießen",
-       "pastTense":"verdross",
-       "presentPerfect":"verdrossen"
-    },
-    {
-       "cz":"zapomenout",
-       "infinitive":"vergessen",
-       "pastTense":"vergaß",
-       "presentPerfect":"vergessen"
-    },
-    {
-       "cz":"ztratit",
-       "infinitive":"verlieren",
-       "pastTense":"verlor",
-       "presentPerfect":"verloren"
-    },
-    {
-       "cz":"zmizet",
-       "infinitive":"verschwinden",
-       "pastTense":"verschwand",
-       "presentPerfect":"verschwunden"
-    },
-    {
-       "cz":"prominout",
-       "infinitive":"verzeihen",
-       "pastTense":"verzieh",
-       "presentPerfect":"verziehen"
-    },
-    {
-       "cz":"růst",
-       "infinitive":"wachsen",
-       "pastTense":"wuchs",
-       "presentPerfect":"gewachsen"
-    },
-    {
-       "cz":"mýt",
-       "infinitive":"waschen",
-       "pastTense":"wusch",
-       "presentPerfect":"gewaschen"
-    },
-    {
-       "cz":"ustoupit",
-       "cz2": "namočit",
-       "infinitive":"weichen",
-       "pastTense":"wich",
-       "presentPerfect":"gewichen"
-    },
-    {
-       "cz":"ukázat",
-       "infinitive":"weisen",
-       "pastTense":"wies",
-       "presentPerfect":"gewiesen"
-    },
-    {
-       "cz":"otočit",
-       "infinitive":"wenden",
-       "pastTense":"wandte",
-       "presentPerfect":"gewandt"
-    },
-    {
-       "cz":"propagovat",
-       "infinitive":"werben",
-       "pastTense":"warb",
-       "presentPerfect":"geworben"
-    },
-    {
-       "cz":"hodit",
-       "infinitive":"werfen",
-       "pastTense":"warf",
-       "presentPerfect":"geworfen"
-    },
-    {
-       "cz":"vážit",
-       "infinitive":"wiegen",
-       "pastTense":"wog",
-       "presentPerfect":"gewogen"
-    },
-    {
-       "cz":"vinout",
-       "cz2": "navíjet",
-       "infinitive":"winden",
-       "pastTense":"wand",
-       "presentPerfect":"gewunden"
-    },
-    {
-       "cz":"vědět",
-       "infinitive":"wissen",
-       "pastTense":"wusste",
-       "presentPerfect":"gewusst"
-    },
-    {
-       "cz":"ždímat",
-       "infinitive":"wringen",
-       "pastTense":"wrang",
-       "presentPerfect":"gewrungen"
-    },
-    {
-       "cz":"táhnout",
-       "infinitive":"ziehen",
-       "pastTense":"zog",
-       "presentPerfect":"gezogen"
-    },
-    {
-       "cz":"nutit",
-       "infinitive":"zwingen",
-       "pastTense":"zwang",
-       "presentPerfect":"gezwungen"
-    }
-]
+  {
+    cz: "péct",
+    base: "backen",
+    pastSimple: "backte",
+    pastSimple2: "buk",
+    pastParticiple: "gebacken",
+  },
+  {
+    cz: "přikázat",
+    base: "befehlen",
+    pastSimple: "befahl",
+    pastParticiple2: "befohlen",
+  },
+  {
+    cz: "začít",
+    base: "beginnen",
+    pastSimple: "begann",
+    pastParticiple: "begonnen",
+  },
+  {
+    cz: "kousat",
+    base: "beißen",
+    pastSimple: "biss",
+    pastParticiple: "gebissen",
+  },
+  {
+    cz: "zachránit",
+    cz2: "vyprostit",
+    base: "bergen",
+    pastSimple: "barg",
+    pastParticiple: "geborgen",
+  },
+  {
+    cz: "prasknout",
+    base: "bersten",
+    pastSimple: "barst",
+    pastParticiple: "geborsten",
+  },
+  {
+    cz: "podvést",
+    base: "betrügen",
+    pastSimple: "betrog",
+    pastParticiple: "betrogen",
+  },
+  {
+    cz: "hnout",
+    base: "bewegen",
+    pastSimple: "bewog",
+    pastParticiple: "bewogen",
+  },
+  {
+    cz: "ohnout",
+    base: "biegen",
+    pastSimple: "bog",
+    pastParticiple: "gebogen",
+  },
+  {
+    cz: "nabídnout",
+    base: "bieten",
+    pastSimple: "bot",
+    pastParticiple: "geboten",
+  },
+  {
+    cz: "vázat",
+    base: "binden",
+    pastSimple: "band",
+    pastParticiple: "gebunden",
+  },
+  {
+    cz: "prosit",
+    base: "bitten",
+    pastSimple: "bat",
+    pastParticiple: "gebeten",
+  },
+  {
+    cz: "foukat",
+    base: "blasen",
+    pastSimple: "blies",
+    pastParticiple: "geblasen",
+  },
+  {
+    cz: "zůstat",
+    base: "bleiben",
+    pastSimple: "blieb",
+    pastParticiple: "bleiben",
+  },
+  {
+    cz: "péct",
+    base: "braten",
+    pastSimple: "briet",
+    pastParticiple: "gebraten",
+  },
+  {
+    cz: "lámat",
+    base: "brechen",
+    pastSimple: "brach",
+    pastParticiple: "gebrochen",
+  },
+  {
+    cz: "hořet",
+    base: "brennen",
+    pastSimple: "brannte",
+    pastParticiple: "gebrannt",
+  },
+  {
+    cz: "přinést",
+    base: "bringen",
+    pastSimple: "brachte",
+    pastParticiple: "gebracht",
+  },
+  {
+    cz: "myslet",
+    base: "denken",
+    pastSimple: "dachte",
+    pastParticiple: "gedacht",
+  },
+  {
+    cz: "najmout",
+    base: "dingen",
+    pastSimple: "dang",
+    pastParticiple: "gedungen",
+  },
+  {
+    cz: "mlátit",
+    base: "dreschen",
+    pastSimple: "drosch",
+    pastParticiple: "gedroschen",
+  },
+  {
+    cz: "pronikat",
+    base: "dringen",
+    pastSimple: "drang",
+    pastParticiple: "gedrungen",
+  },
+  {
+    cz: "přijmout",
+    cz2: "uvítat",
+    base: "empfangen",
+    pastSimple: "empfing",
+    pastParticiple: "empfangen",
+  },
+  {
+    cz: "přijmout",
+    base: "empfehlen",
+    pastSimple: "empfahl",
+    pastParticiple: "empfohlen",
+  },
+  {
+    cz: "cítit",
+    base: "empfinden",
+    pastSimple: "empfand",
+    pastParticiple: "empfunden",
+  },
+  {
+    cz: "vyblednout",
+    base: "erbleichen",
+    pastSimple: "erbleichte",
+    pastSimple2: "erblich",
+    pastParticiple: "erbleichte",
+    pastParticiple2: "erblichen",
+  },
+  {
+    cz: "zhasnout",
+    cz2: "zaniknout",
+    base: "erlöschen",
+    pastSimple: "erlosch",
+    pastParticiple: "erloschen",
+  },
+  {
+    cz: "polekat se",
+    cz2: "vyděsit se",
+    base: "erschrecken",
+    pastSimple: "erschrak",
+    pastParticiple: "erschrocken",
+  },
+  {
+    cz: "uvážit",
+    cz2: "zvážit",
+    base: "erwägen",
+    pastSimple: "erwog",
+    pastParticiple: "erwogen",
+  },
+  {
+    cz: "jíst",
+    base: "essen",
+    pastSimple: "aß",
+    pastParticiple: "gegessen",
+  },
+  {
+    cz: "jet",
+    base: "fahren",
+    pastSimple: "fuhr",
+    pastParticiple: "gefahren",
+  },
+  {
+    cz: "padat",
+    base: "fallen",
+    pastSimple: "fiel",
+    pastParticiple: "gefallen",
+  },
+  {
+    cz: "chytit",
+    base: "fangen",
+    pastSimple: "fing",
+    pastParticiple: "gefangen",
+  },
+  {
+    cz: "šermovat",
+    base: "fechten",
+    pastSimple: "focht",
+    pastParticiple: "gefochten",
+  },
+  {
+    cz: "najít",
+    base: "finden",
+    pastSimple: "fand",
+    pastParticiple: "gefunden",
+  },
+  {
+    cz: "uplést",
+    base: "flechten",
+    pastSimple: "flocht",
+    pastParticiple: "geflochten",
+  },
+  {
+    cz: "letět",
+    base: "fliegen",
+    pastSimple: "flog",
+    pastParticiple: "geflogen",
+  },
+  {
+    cz: "uprchnout",
+    base: "fliehen",
+    pastSimple: "floh",
+    pastParticiple: "geflohen",
+  },
+  {
+    cz: "téct",
+    cz2: "plynout",
+    base: "fließen",
+    pastSimple: "floss",
+    pastParticiple: "geflossen",
+  },
+  {
+    cz: "žrát",
+    base: "fressen",
+    pastSimple: "fraß",
+    pastParticiple: "gefressen",
+  },
+  {
+    cz: "mrznout",
+    base: "frieren",
+    pastSimple: "fror",
+    pastParticiple: "gefroren",
+  },
+  {
+    cz: "kvasit",
+    base: "gären",
+    pastSimple: "gor",
+    pastParticiple: "gegoren",
+  },
+  {
+    cz: "",
+    base: "gebären",
+    pastSimple: "gebar",
+    pastParticiple: "geboren",
+  },
+  {
+    cz: "rodit",
+    cz2: "porodit",
+    base: "geben",
+    pastSimple: "gab",
+    pastParticiple: "gegeben",
+  },
+  {
+    cz: "dařit se",
+    base: "gedeihen",
+    pastSimple: "gedieh",
+    pastParticiple: "gediehen",
+  },
+  {
+    cz: "jít",
+    base: "gehen",
+    pastSimple: "ging",
+    pastParticiple: "gegangen",
+  },
+  {
+    cz: "podařit se",
+    base: "gelingen",
+    pastSimple: "gelang",
+    pastParticiple: "gelungen",
+  },
+  {
+    cz: "platit",
+    base: "gelten",
+    pastSimple: "galt",
+    pastParticiple: "gegolten",
+  },
+  {
+    cz: "zotavit",
+    cz2: "uzdravit",
+    base: "genesen",
+    pastSimple: "genas",
+    pastParticiple: "genesen",
+  },
+  {
+    cz: "užívat si",
+    base: "genießen",
+    pastSimple: "genoss",
+    pastParticiple: "genossen",
+  },
+  {
+    cz: "stát se",
+    base: "geschehen",
+    pastSimple: "geschah",
+    pastParticiple: "geschehen",
+  },
+  {
+    cz: "vyhrát",
+    base: "gewinnen",
+    pastSimple: "gewann",
+    pastParticiple: "gewonnen",
+  },
+  {
+    cz: "zalévat",
+    cz2: "lít",
+    base: "gießen",
+    pastSimple: "goss",
+    pastParticiple: "gegossen",
+  },
+  {
+    cz: "podobat se",
+    base: "gleichen",
+    pastSimple: "glich",
+    pastParticiple: "geglichen",
+  },
+  {
+    cz: "klouzat",
+    base: "gleiten",
+    pastSimple: "glitt",
+    pastParticiple: "geglitten",
+  },
+  {
+    cz: "doutnat",
+    cz2: "žhnout",
+    base: "glimmen",
+    pastSimple: "glomm",
+    pastParticiple: "geglommen",
+  },
+  {
+    cz: "kopat",
+    cz2: "těžit",
+    base: "graben",
+    pastSimple: "grub",
+    pastParticiple: "gegraben",
+  },
+  {
+    cz: "chytit",
+    cz2: "lapit",
+    base: "greifen",
+    pastSimple: "griff",
+    pastParticiple: "gegriffen",
+  },
+  {
+    cz: "stát",
+    base: "halten",
+    pastSimple: "hielt",
+    pastParticiple: "gehalten",
+  },
+  {
+    cz: "viset",
+    base: "hängen",
+    pastSimple: "hing",
+    pastParticiple: "gehangen",
+  },
+  {
+    cz: "prát se",
+    base: "hauen",
+    pastSimple: "haute ",
+    pastSimple2: "hieb",
+    pastParticiple: "gehauen",
+  },
+  {
+    cz: "zvednout",
+    base: "heben",
+    pastSimple: "hob",
+    pastParticiple: "gehoben",
+  },
+  {
+    cz: "jmenovat se",
+    base: "heißen",
+    pastSimple: "hieß",
+    pastParticiple: "geheißen",
+  },
+  {
+    cz: "pomoci",
+    base: "helfen",
+    pastSimple: "half",
+    pastParticiple: "hat geholfen",
+  },
+  {
+    cz: "znát",
+    base: "kennen",
+    pastSimple: "kannte",
+    pastParticiple: "gekannt",
+  },
+  {
+    cz: "lézt",
+    base: "klimmen",
+    pastSimple: "klomm",
+    pastParticiple: "geklommen",
+  },
+  {
+    cz: "znít",
+    cz2: "zvonit",
+    base: "klingen",
+    pastSimple: "klang",
+    pastParticiple: "geklungen",
+  },
+  {
+    cz: "štípnout",
+    cz2: "škrtit",
+    base: "kneifen",
+    pastSimple: "kniff",
+    pastParticiple: "gekniffen",
+  },
+  {
+    cz: "přijít",
+    base: "kommen",
+    pastSimple: "kam",
+    pastParticiple: "gekommen",
+  },
+  {
+    cz: "plazit se",
+    base: "kriechen",
+    pastSimple: "kroch",
+    pastParticiple: "gekrochen",
+  },
+  {
+    cz: "naložit",
+    base: "laden",
+    pastSimple: "lud",
+    pastParticiple: "geladen",
+  },
+  {
+    cz: "nechat",
+    base: "lassen",
+    pastSimple: "ließ",
+    pastParticiple: "gelassen",
+  },
+  {
+    cz: "běžet",
+    base: "laufen",
+    pastSimple: "lief",
+    pastParticiple: "gelaufen",
+  },
+  {
+    cz: "trpět",
+    base: "leiden",
+    pastSimple: "litt",
+    pastParticiple: "gelitten",
+  },
+  {
+    cz: "půjčit",
+    base: "leihen",
+    pastSimple: "lieh",
+    pastParticiple: "geliehen",
+  },
+  {
+    cz: "číst",
+    base: "lesen",
+    pastSimple: "las",
+    pastParticiple: "gelesen",
+  },
+  {
+    cz: "ležet",
+    base: "liegen",
+    pastSimple: "lag",
+    pastParticiple: "gelegen",
+  },
+  {
+    cz: "lhát",
+    base: "lügen",
+    pastSimple: "log",
+    pastParticiple: "gelogen",
+  },
+  {
+    cz: "mlít",
+    base: "mahlen",
+    pastSimple: "mahlte",
+    pastParticiple: "gemahlen",
+  },
+  {
+    cz: "vyhýbat se",
+    base: "meiden",
+    pastSimple: "mied",
+    pastParticiple: "gemieden",
+  },
+  {
+    cz: "dojit",
+    base: "melken",
+    pastSimple: "melkte",
+    pastSimple2: "molk",
+    pastParticiple: "gemelkt",
+    pastParticiple2: "gemolken",
+  },
+  {
+    cz: "měřit",
+    base: "messen",
+    pastSimple: "maß",
+    pastParticiple: "gemessen",
+  },
+  {
+    cz: "nepodařit se",
+    base: "misslingen",
+    pastSimple: "misslang",
+    pastParticiple: "misslungen",
+  },
+  {
+    cz: "vzít",
+    base: "nehmen",
+    pastSimple: "nahm",
+    pastParticiple: "genommen",
+  },
+  {
+    cz: "nazývat se",
+    base: "nennen",
+    pastSimple: "nannte",
+    pastParticiple: "genannt",
+  },
+  {
+    cz: "pískat",
+    base: "pfeifen",
+    pastSimple: "pfiff",
+    pastParticiple: "gepfiffen",
+  },
+  {
+    cz: "chválit",
+    base: "preisen",
+    pastSimple: "pries",
+    pastParticiple: "gepriesen",
+  },
+  {
+    cz: "proudit",
+    base: "quellen",
+    pastSimple: "quoll",
+    pastParticiple: "gequollen",
+  },
+  {
+    cz: "hádat",
+    cz2: "radit",
+    base: "raten",
+    pastSimple: "riet",
+    pastParticiple: "geraten",
+  },
+  {
+    cz: "utřít",
+    base: "reiben",
+    pastSimple: "rieb",
+    pastParticiple: "gerieben",
+  },
+  {
+    cz: "cestovat",
+    base: "reißen",
+    pastSimple: "riss",
+    pastParticiple: "gerissen",
+  },
+  {
+    cz: "jet na koni",
+    base: "reiten",
+    pastSimple: "ritt",
+    pastParticiple: "geritten",
+  },
+  {
+    cz: "běžet",
+    base: "rennen",
+    pastSimple: "rannte",
+    pastParticiple: "gerannt",
+  },
+  {
+    cz: "vonět",
+    cz2: "čichat",
+    base: "riechen",
+    pastSimple: "roch",
+    pastParticiple: "gerochen",
+  },
+  {
+    cz: "zápasit",
+    cz2: "usilovat",
+    base: "ringen",
+    pastSimple: "rang",
+    pastParticiple: "gerungen",
+  },
+  {
+    cz: "sypat se",
+    cz2: "téci",
+    base: "rinnen",
+    pastSimple: "rann",
+    pastParticiple: "geronnen",
+  },
+  {
+    cz: "volat",
+    base: "rufen",
+    pastSimple: "rief",
+    pastParticiple: "gerufen",
+  },
+  {
+    cz: "solit",
+    base: "salzen",
+    pastSimple: "salzte",
+    pastParticiple: "gesalzen",
+    pastParticiple2: "gesaltzt",
+  },
+  {
+    cz: "chlastat",
+    base: "saufen",
+    pastSimple: "soff",
+    pastParticiple: "gesoffen",
+  },
+  {
+    cz: "vysát",
+    base: "saugen",
+    pastSimple: "saugte",
+    pastSimple2: "sog",
+    pastParticiple: "gesaugt",
+    pastParticiple2: "gesogt",
+  },
+  {
+    cz: "zvládnout",
+    cz2: "stvořit",
+    base: "schaffen",
+    pastSimple: "schuf",
+    pastParticiple: "geschaffen",
+  },
+  {
+    cz: "rozvést",
+    cz2: "oddělit",
+    base: "scheiden",
+    pastSimple: "schied",
+    pastParticiple: "geschieden",
+  },
+  {
+    cz: "rozvést",
+    base: "scheinen",
+    pastSimple: "schien",
+    pastParticiple: "geschienen",
+  },
+  {
+    cz: "srát",
+    base: "scheißen",
+    pastSimple: "schiss",
+    pastParticiple: "geschissen",
+  },
+  {
+    cz: "nadávat",
+    base: "schelten",
+    pastSimple: "schalt",
+    pastParticiple: "gescholten",
+  },
+  {
+    cz: "stříhat",
+    base: "scheren",
+    pastSimple: "schor",
+    pastParticiple: "geschoren",
+  },
+  {
+    cz: "sunout",
+    cz2: "tlačit",
+    base: "schieben",
+    pastSimple: "schob",
+    pastParticiple: "geschoben",
+  },
+  {
+    cz: "střílet",
+    base: "schießen",
+    pastSimple: "schoss",
+    pastParticiple: "geschossen",
+  },
+  {
+    cz: "spát",
+    base: "schlafen",
+    pastSimple: "schlief",
+    pastParticiple: "geschlafen",
+  },
+  {
+    cz: "bít",
+    cz2: "tlouci",
+    base: "schlagen",
+    pastSimple: "schlug",
+    pastParticiple: "geschlagen",
+  },
+  {
+    cz: "plížit se",
+    base: "schleichen",
+    pastSimple: "schlich",
+    pastParticiple: "geschlichen",
+  },
+  {
+    cz: "brousit",
+    cz2: "cepovat",
+    base: "schleifen",
+    pastSimple: "schliff",
+    pastParticiple: "geschliffen",
+  },
+  {
+    cz: "zavřít",
+    base: "schließen",
+    pastSimple: "schloss",
+    pastParticiple: "geschlossen",
+  },
+  {
+    cz: "ovázat",
+    cz2: "obejmout",
+    base: "schlingen",
+    pastSimple: "schlang",
+    pastParticiple: "geschlungen",
+  },
+  {
+    cz: "mrštit",
+    cz2: "praštit",
+    base: "schmeißen",
+    pastSimple: "schmiss",
+    pastParticiple: "geschmissen",
+  },
+  {
+    cz: "mrštit",
+    base: "schmelzen",
+    pastSimple: "schmolz",
+    pastParticiple: "geschmolzen",
+  },
+  {
+    cz: "krájet",
+    base: "schneiden",
+    pastSimple: "schnitt",
+    pastParticiple: "geschnitten",
+  },
+  {
+    cz: "psát",
+    base: "schreiben",
+    pastSimple: "schrieb",
+    pastParticiple: "geschrieben",
+  },
+  {
+    cz: "řvát",
+    base: "schreien",
+    pastSimple: "schrie",
+    pastParticiple: "geschrie(e)n",
+  },
+  {
+    cz: "kráčet",
+    base: "schreiten",
+    pastSimple: "schritt",
+    pastParticiple: "geschritten",
+  },
+  {
+    cz: "mlčet",
+    base: "schweigen",
+    pastSimple: "schwieg",
+    pastParticiple: "geschwiegen",
+  },
+  {
+    cz: "otéct",
+    base: "schwellen",
+    pastSimple: "schwoll",
+    pastParticiple: "geschwollen",
+  },
+  {
+    cz: "plavat",
+    base: "schwimmen",
+    pastSimple: "schwamm",
+    pastParticiple: "geschwommen",
+  },
+  {
+    cz: "houpat se",
+    base: "schwingen",
+    pastSimple: "schwang",
+    pastParticiple: "geschwungen",
+  },
+  {
+    cz: "přísahat",
+    base: "schwören",
+    pastSimple: "schwor",
+    pastParticiple: "geschworen",
+  },
+  {
+    cz: "vidět",
+    base: "sehen",
+    pastSimple: "sah",
+    pastParticiple: "gesehen",
+  },
+  {
+    cz: "poslat",
+    base: "senden",
+    pastSimple: "sandte",
+    pastParticiple: "gesandt",
+  },
+  {
+    cz: "zpívat",
+    base: "singen",
+    pastSimple: "sang",
+    pastParticiple: "gesungen",
+  },
+  {
+    cz: "klesat",
+    cz2: "potápět",
+    base: "sinken",
+    pastSimple: "sank",
+    pastParticiple: "gesunken",
+  },
+  {
+    cz: "dumat",
+    base: "sinnen",
+    pastSimple: "sann",
+    pastParticiple: "gesonnen",
+  },
+  {
+    cz: "sedět",
+    base: "sitzen",
+    pastSimple: "saß",
+    pastParticiple: "gesessen",
+  },
+  {
+    cz: "",
+    base: "spalten",
+    pastSimple: "spaltete",
+    pastParticiple: "gespalten",
+  },
+  {
+    cz: "",
+    base: "speien",
+    pastSimple: "spie",
+    pastParticiple: "gespie(e)n",
+  },
+  {
+    cz: "štípat",
+    cz2: "štěpit",
+    base: "spinnen",
+    pastSimple: "spann",
+    pastParticiple: "gesponnen",
+  },
+  {
+    cz: "mluvit",
+    base: "sprechen",
+    pastSimple: "sprach",
+    pastParticiple: "gesprochen",
+  },
+  {
+    cz: "klíčit",
+    cz2: "rašit",
+    base: "sprießen",
+    pastSimple: "spross",
+    pastParticiple: "gesprossen",
+  },
+  {
+    cz: "skákat",
+    base: "springen",
+    pastSimple: "sprang",
+    pastParticiple: "gesprungen",
+  },
+  {
+    cz: "štípat",
+    cz2: "píchat",
+    base: "stechen",
+    pastSimple: "stach",
+    pastParticiple: "gestochen",
+  },
+  {
+    cz: "stát",
+    base: "stehen",
+    pastSimple: "stand",
+    pastParticiple: "gestanden",
+  },
+  {
+    cz: "krást",
+    base: "stehlen",
+    pastSimple: "stahl",
+    pastParticiple: "gestohlen",
+  },
+  {
+    cz: "stoupat",
+    base: "steigen",
+    pastSimple: "stieg",
+    pastParticiple: "gestiegen",
+  },
+  {
+    cz: "zemřít",
+    base: "sterben",
+    pastSimple: "starb",
+    pastParticiple: "gestorben",
+  },
+  {
+    cz: "vířit",
+    cz2: "rozprchnout",
+    base: "stieben",
+    pastSimple: "stob",
+    pastParticiple: "gestoben",
+  },
+  {
+    cz: "smrdět",
+    base: "stinken",
+    pastSimple: "stank",
+    pastParticiple: "gestunken",
+  },
+  {
+    cz: "narazit",
+    cz2: "narazit",
+    base: "stoßen",
+    pastSimple: "stieß",
+    pastParticiple: "gestoßen",
+  },
+  {
+    cz: "pohladit",
+    cz2: "rozetřít",
+    base: "streichen",
+    pastSimple: "strich",
+    pastParticiple: "gestrichen",
+  },
+  {
+    cz: "hádat se",
+    base: "streiten",
+    pastSimple: "stritt",
+    pastParticiple: "gestritten",
+  },
+  {
+    cz: "nosit",
+    base: "tragen",
+    pastSimple: "trug",
+    pastParticiple: "getragen",
+  },
+  {
+    cz: "trefit",
+    cz2: "zasáhnout",
+    base: "treffen",
+    pastSimple: "traf",
+    pastParticiple: "getroffen",
+  },
+  {
+    cz: "hnát",
+    base: "treiben",
+    pastSimple: "trieb",
+    pastParticiple: "getrieben",
+  },
+  {
+    cz: "vstoupit",
+    base: "treten",
+    pastSimple: "trat",
+    pastParticiple: "getreten",
+  },
+  {
+    cz: "pít",
+    base: "trinken",
+    pastSimple: "trank",
+    pastParticiple: "getrunken",
+  },
+  {
+    cz: "klamat",
+    base: "trügen",
+    pastSimple: "trug",
+    ",pr{esentPerfect": "getrogen",
+  },
+  {
+    cz: "dělat",
+    base: "tun",
+    pastSimple: "tat",
+    pastParticiple: "getan",
+  },
+  {
+    cz: "vyblednout",
+    base: "verbleichen",
+    pastSimple: "verblich",
+    pastParticiple: "verblichen",
+  },
+  {
+    cz: "zkazit se",
+    base: "verderben",
+    pastSimple: "verdarb",
+    pastParticiple: "verdorben",
+  },
+  {
+    cz: "mrzet",
+    base: "verdrießen",
+    pastSimple: "verdross",
+    pastParticiple: "verdrossen",
+  },
+  {
+    cz: "zapomenout",
+    base: "vergessen",
+    pastSimple: "vergaß",
+    pastParticiple: "vergessen",
+  },
+  {
+    cz: "ztratit",
+    base: "verlieren",
+    pastSimple: "verlor",
+    pastParticiple: "verloren",
+  },
+  {
+    cz: "zmizet",
+    base: "verschwinden",
+    pastSimple: "verschwand",
+    pastParticiple: "verschwunden",
+  },
+  {
+    cz: "prominout",
+    base: "verzeihen",
+    pastSimple: "verzieh",
+    pastParticiple: "verziehen",
+  },
+  {
+    cz: "růst",
+    base: "wachsen",
+    pastSimple: "wuchs",
+    pastParticiple: "gewachsen",
+  },
+  {
+    cz: "mýt",
+    base: "waschen",
+    pastSimple: "wusch",
+    pastParticiple: "gewaschen",
+  },
+  {
+    cz: "ustoupit",
+    cz2: "namočit",
+    base: "weichen",
+    pastSimple: "wich",
+    pastParticiple: "gewichen",
+  },
+  {
+    cz: "ukázat",
+    base: "weisen",
+    pastSimple: "wies",
+    pastParticiple: "gewiesen",
+  },
+  {
+    cz: "otočit",
+    base: "wenden",
+    pastSimple: "wandte",
+    pastParticiple: "gewandt",
+  },
+  {
+    cz: "propagovat",
+    base: "werben",
+    pastSimple: "warb",
+    pastParticiple: "geworben",
+  },
+  {
+    cz: "hodit",
+    base: "werfen",
+    pastSimple: "warf",
+    pastParticiple: "geworfen",
+  },
+  {
+    cz: "vážit",
+    base: "wiegen",
+    pastSimple: "wog",
+    pastParticiple: "gewogen",
+  },
+  {
+    cz: "vinout",
+    cz2: "navíjet",
+    base: "winden",
+    pastSimple: "wand",
+    pastParticiple: "gewunden",
+  },
+  {
+    cz: "vědět",
+    base: "wissen",
+    pastSimple: "wusste",
+    pastParticiple: "gewusst",
+  },
+  {
+    cz: "ždímat",
+    base: "wringen",
+    pastSimple: "wrang",
+    pastParticiple: "gewrungen",
+  },
+  {
+    cz: "táhnout",
+    base: "ziehen",
+    pastSimple: "zog",
+    pastParticiple: "gezogen",
+  },
+  {
+    cz: "nutit",
+    base: "zwingen",
+    pastSimple: "zwang",
+    pastParticiple: "gezwungen",
+  },
+];
