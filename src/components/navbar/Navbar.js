@@ -46,7 +46,7 @@ const Navbar = () => {
               <details className="cursor-pointer">
                 <summary className="uppercase logo"><strong>Deutsch</strong></summary>
                 <ul className="flex flex-col border-solid border-t-4 border-indigo-600">
-                  <Link to="/german">{`Unregelmä$ßige Verben (${VerbenData.length})`}</Link>
+                  <Link to="/german">{`Unregelmäßige Verben (${VerbenData.length})`}</Link>
                   <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
                   
                 </ul>
