@@ -3,12 +3,23 @@ import { Link } from "react-router-dom";
 import { CgClose } from "react-icons/cg";
 import { TiThMenu } from "react-icons/ti";
 
+import IrregularVerbsEng from "../data/json/IrregularVerbs";
+import OxfordB1 from "../data/json/OxfordB1";
+import OxfordB2 from '../data/json/OxfordB2';
+import OxfordC1 from '../data/json/OxfordC1';
+import LukesPhrasal from '../data/json/LukesPhrasal';
+
+import VerbenData from "../data/json/VerbenData";
+import Goethe from "../data/json/Goethe";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
+
+ 
   return (
     <nav className="w-full min-h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-start w-full h-full text-xl p-8">
@@ -22,12 +33,12 @@ const Navbar = () => {
           <details className="cursor-pointer">
                 <summary className="uppercase logo"><strong>English</strong></summary>
                 <ul className="flex flex-col border-solid border-t-4 border-indigo-600 ">
-                  <Link to="/english">Irregular verbs</Link>
-                  <Link to="/irregularSearch">Irregular List</Link>
-                  <Link to="/oxford-B1">Oxford B1</Link>
-                  <Link to="/oxford-B2">Oxford B2</Link>
-                  <Link to="/oxford-C1">Oxford C1</Link>
-                  <Link to="/phrasal-1">Phrasal verbs</Link>
+                  <Link to="/english">{`Irregular Verbs (${IrregularVerbsEng.length})`}</Link>
+                  <Link to="/irregularSearch">{`Irregular List (${IrregularVerbsEng.length})`}</Link>
+                  <Link to="/oxford-B1">{`Oxford B1 (${OxfordB1.length})`}</Link>
+                  <Link to="/oxford-B2">{`Oxford B2 (${OxfordB2.length})`}</Link>
+                  <Link to="/oxford-C1">{`Oxford C1 (${OxfordC1.length})`}</Link>
+                  <Link to="/phrasal-1">{`Phrasal Verbs-1 (${LukesPhrasal.length})`}</Link>
 
                 </ul>
               </details>
@@ -35,8 +46,8 @@ const Navbar = () => {
               <details className="cursor-pointer">
                 <summary className="uppercase logo"><strong>Deutsch</strong></summary>
                 <ul className="flex flex-col border-solid border-t-4 border-indigo-600">
-                  <Link to="/german">Unregelmäßige Verben</Link>
-                  <Link to="/goethe">Goethe</Link>
+                  <Link to="/german">{`Unregelmä$ßige Verben (${VerbenData.length})`}</Link>
+                  <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
                   
                 </ul>
               </details>
