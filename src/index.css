@@ -61,7 +61,7 @@ details[open] summary ~ * {
 
 .shadow{
 
-  border: 4px double rgb(37 99 235);
+  border: 4px double rgb(45, 99, 216);
 
   box-shadow: 10px 10px 5px 0px rgba(72, 70, 70, 0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(31, 31, 31, 0.75);
