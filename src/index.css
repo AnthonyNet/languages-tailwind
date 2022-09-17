@@ -40,7 +40,7 @@
   }
   
   strong{
-    color:#709dff;
+    color: rgb(56 189 248);
   }
 }
 
@@ -58,6 +58,17 @@
 details[open] summary ~ * {
   animation: sweep .5s ease-in-out;
 }
+
+.shadow{
+
+  border: 4px double rgb(37 99 235);
+
+  box-shadow: 10px 10px 5px 0px rgba(72, 70, 70, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(31, 31, 31, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(45, 44, 44, 0.75);
+}
+
+
 
 @keyframes sweep {
   0%    {opacity: 0; transform: translateX(-10px)}

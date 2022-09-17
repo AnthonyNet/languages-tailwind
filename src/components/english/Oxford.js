@@ -18,9 +18,9 @@ const OxfordB1 = ({ dataJSON }) => {
 
   return (
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
-      <div className="w-full sm:w-[30rem]  pb-8 border-double border-4 border-indigo-600 rounded-lg shadow-lg bg-white text-center">
+      <div className="w-full sm:w-[30rem]  pb-8 bg-white text-center shadow">
       {/*IF czWord exists */}
-      <ul className="flex flex-col justify-around text-center ">
+      <ul className="flex flex-col justify-around text-center">
       {
         <li className="font-bold cardListItems p-6">
           

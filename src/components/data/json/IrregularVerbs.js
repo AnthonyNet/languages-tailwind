@@ -5,12 +5,7 @@
     "cz"   : "vzniknout",  
     "base" : "arise", 		
     "pastSimple" :	"arose",
-   
-
     "pastParticiple" : "arisen"
-   
-
-    
 },
 
 {   "cz"   : "probudit", 

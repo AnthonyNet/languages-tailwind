@@ -25,7 +25,7 @@ const IrregularVerbs = ({dataJSON}) => {
     /*check inputs values and change font, border or background */
   }
   const handleChange = (e) => {
-    const value = e.target.value;
+    const value = e.target.value
     const data = e.target.attributes.data.value;
 
     const inputElement = e.target;
@@ -69,7 +69,7 @@ const IrregularVerbs = ({dataJSON}) => {
 
   return (
     <section className="flex justify-center items-center w-full h-[91vh]">
-      <div className="rounded-lg shadow-lg bg-white max-w-sm text-center">
+      <div className="rounded-lg shadow-lg border-double border-2 border-indigo-400 bg-white max-w-sm text-center shadow">
 
         <div className="py-3 px-6 border-b border-gray-300">
           Celkové skóre: <span>{totalScore > 0 ? totalScore : 0}</span>

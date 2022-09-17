@@ -27,12 +27,12 @@ const Navbar = () => {
           Learn <strong>languages</strong>
         </aside>
         <ul className="justify-around items-start w-full h-full hidden md:flex">
-          <Link 
+          <Link
           to="/"
           >Home</Link>
           <details className="cursor-pointer">
-                <summary className="uppercase logo"><strong>English</strong></summary>
-                <ul className="flex flex-col border-solid border-t-4 border-indigo-600 ">
+                <summary className="uppercase logo"><strong className="hover:text-sky-700">English</strong></summary>
+                <ul className="flex flex-col border-solid border-t-4 border-sky-400">
                   <Link to="/english">{`Irregular Verbs (${IrregularVerbsEng.length})`}</Link>
                   <Link to="/irregularSearch">{`Irregular List (${IrregularVerbsEng.length})`}</Link>
                   <Link to="/oxford-B1">{`Oxford B1 (${OxfordB1.length})`}</Link>
@@ -44,8 +44,8 @@ const Navbar = () => {
               </details>
               
               <details className="cursor-pointer">
-                <summary className="uppercase logo"><strong>Deutsch</strong></summary>
-                <ul className="flex flex-col border-solid border-t-4 border-indigo-600">
+                <summary className="uppercase logo"><strong className="hover:text-sky-700">Deutsch</strong></summary>
+                <ul className="flex flex-col border-solid border-t-4 border-sky-400">
                   <Link to="/german">{`Unregelmäßige Verben (${VerbenData.length})`}</Link>
                   <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
                   
