@@ -33,6 +33,7 @@ let pages = [];
     <>
       <article>
         <h1 className="text-center">Pagination</h1>
+        <h3 className="text-center">No responsive</h3>
         <table className="table-fixed w-auto m-auto">
         <thead>
           <tr>
