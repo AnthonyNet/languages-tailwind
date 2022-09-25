@@ -39,6 +39,7 @@ const Navbar = () => {
                   <Link to="/oxford-B2">{`Oxford B2 (${OxfordB2.length})`}</Link>
                   <Link to="/oxford-C1">{`Oxford C1 (${OxfordC1.length})`}</Link>
                   <Link to="/phrasal-1">{`Phrasal Verbs-1 (${LukesPhrasal.length})`}</Link>
+                  <Link to="/pagination">Pagination</Link>
 
                 </ul>
               </details>

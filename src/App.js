@@ -14,6 +14,8 @@ import Goethe from './pages/Goethe';
 import German from "./pages/Irregular_Ger";
 import Error from "./pages/Error";
 
+import Pagination from './pages/Pagination';
+
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route path="oxford-B2" element={<OxfordB2 />} />
           <Route path="oxford-C1" element={<OxfordC1 />} />
           <Route path="phrasal-1" element={<Phrasal1 />} />
+          <Route path="pagination" element={<Pagination />} />
 
           <Route path="goethe" element={<Goethe />} />
           <Route path="german" element={<German />} />
