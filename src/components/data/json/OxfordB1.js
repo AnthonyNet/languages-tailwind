@@ -167,4 +167,6 @@ export default [
   },
   { czWord: "	průzkum	", wordTranslated: "	survey	" },
   { czWord: "	dráha	", wordTranslated: "	track	" },
+
+  
 ];

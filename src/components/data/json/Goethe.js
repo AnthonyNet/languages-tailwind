@@ -12,7 +12,7 @@ export default [
   {
     czWord: "	Zde na obrázku můžete vidět, jak zapnout zařízení.	",
     sentenceTranslated:
-      "	Hier in der Abbildung sehen Sie, wie man das wordTranslatedät einschaltet.	",
+      "	Hier in der Abbildung sehen Sie, wie man das Gerät einschaltet.	",
     wordTranslated: "	die Abbildung, -en	",
   },
   {
@@ -28,7 +28,7 @@ export default [
   {
     czWord: "	Možná zůstaneme o pár dní déle, v závislosti na počasí.	",
     sentenceTranslated:
-      "	Vielleicht bleiben wir ein paar Tage länwordTranslated, das hängt vom Wetter ab.	",
+      "	Vielleicht bleiben wir ein paar Tage länger, das hängt vom Wetter ab.	",
     wordTranslated: "	abhängen, hängt ab, hing ab, hat abgehangen	",
   },
   {
@@ -58,7 +58,7 @@ export default [
   },
   {
     czWord: "	Rád bych se přihlásil k odběru tohoto časopisu.	",
-    sentenceTranslated: "	Diese Zeitschrift würde ich wordTranslatedne abonnieren.	",
+    sentenceTranslated: "	Diese Zeitschrift würde ich gerne abonnieren.	",
     wordTranslated: "	abonnieren, abonniert, abonnierte, hat abonniert	",
   },
   {
