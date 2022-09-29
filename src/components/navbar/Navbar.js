@@ -40,7 +40,6 @@ const Navbar = () => {
                   <Link to="/oxford-C1">{`Oxford C1 (${OxfordC1.length})`}</Link>
                   <Link to="/phrasal-1">{`Phrasal Verbs-1 (${LukesPhrasal.length})`}</Link>
                   <Link to="/pagination">Pagination</Link>
-
                 </ul>
               </details>
               
@@ -59,12 +58,12 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? "z-10 fixed left-0 top-0 w-full h-screen bg-black/70" : "z-0"}
+        className={nav ? " pokus snap-x z-10  fixed left-0 top-0 w-full h-screen bg-black/70" : "z-0"}
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
+              ? "fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
               : "fixed top-10 left-[-100%] ease-in duration-500"
           }
         >
@@ -76,11 +75,11 @@ const Navbar = () => {
               <CgClose />
             </div>
           </div>
-          <div className="border-b border-gray-300 my-4">
+          <div className="border-b border-gray-300 my-4 text-sm sm:text-lg">
             <p>Evolution means everyday learning</p>
           </div>
           <nav>
-            <ul className="flex flex-col text-2xl z-20">
+            <ul className="flex flex-col sm:text-2xl  z-20">
               <Link className="py-4 uppercase" to="/">
                 Home
               </Link>

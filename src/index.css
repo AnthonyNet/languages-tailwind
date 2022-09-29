@@ -76,7 +76,6 @@ details[open] summary ~ * {
 }
 
 
-
 @media screen and (max-height: 600px){
   .testSection{
     height: 120vh;
