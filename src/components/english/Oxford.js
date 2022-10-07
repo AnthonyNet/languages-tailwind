@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import CardButton from "../card/CardButton";
 import { CgClose } from "react-icons/cg";
 
-
 //import Data from "../data/json/OxfordB1";
 
 const OxfordB1 = ({ dataJSON }) => {
@@ -11,6 +10,56 @@ const OxfordB1 = ({ dataJSON }) => {
   const [switchLanguage, setSwitchLanguage] = useState(true);
   const [transparent, setTransparent] = useState(true);
 
+  const CardTrue = () => {
+   
+      return (
+        <>
+          <li  className="cardListItems">{data[rand].wordTranslated}</li>
+
+          {data[rand].sentenceTranslated?(
+            <li  className="cardListItems">{data[rand].sentenceTranslated}</li>
+          ):null}
+
+          <li
+              className={transparent?"hidden":"visible flex items-center cardListItems"}
+              onClick={() => setTransparent(!transparent)}
+            >
+              <strong className="m-auto mr-auto">
+                {data[rand].czWord}
+              </strong>
+              <div className="-mr-4">
+                <CgClose />
+              </div>
+            </li>
+        </>
+      );
+  };
+
+  const CardFalse = () =>{
+    return (
+      <>
+        <li  className="cardListItems">{data[rand].czWord}</li>
+
+        <li
+            className={transparent?"hidden":"visible flex items-center cardListItems"}
+            onClick={() => setTransparent(!transparent)}
+          >
+            <strong className="m-auto mr-auto">
+              {data[rand].wordTranslated}
+            </strong>
+            <div className="-mr-4">
+              <CgClose />
+            </div>
+          </li>
+          {data[rand].sentenceTranslated?(
+          <li  className={transparent?"hidden":"visible  items-center  cardListItems  w-full"}
+          onClick={() => setTransparent(!transparent)}
+          >{data[rand].sentenceTranslated}</li>
+        ):null}
+      </>
+    );
+  }
+
   const randomWord = () => {
     setRand(Math.floor(Math.random() * data.length));
     setTransparent(true);
@@ -18,53 +67,29 @@ const OxfordB1 = ({ dataJSON }) => {
 
   return (
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
-      <div className="w-full sm:w-[30rem]  pb-8 bg-white text-center shadow">
-      {/*IF czWord exists */}
-      <ul className="flex flex-col justify-around text-center">
-      {
-        <li className="font-bold cardListItems p-6">
-          
-            {switchLanguage ? (
-              <article>{data[rand].wordTranslated}</article>
-              
-            ) : (
-              <article>{data[rand].czWord}</article>
-            )}
-         
-        </li>
-      }
+      <div className="w-full sm:w-[30rem]  pb-8 card">
+        <ul className="flex flex-col justify-around text-center">
+          {switchLanguage? <CardTrue />: <CardFalse />}
 
+          {transparent ? (
+            <li
+              className="cardListItems"
+              onClick={() => setTransparent(!transparent)}
+            >
+              show answer
+            </li>
+          ) : null
+          }
 
-      {data[rand].sentenceTranslated? (
-            switchLanguage &&( <li className="cardListItems p-6">{data[rand].sentenceTranslated}</li>)
-        ):null}
+          <li className="flex justify-around text-center mt-8">
+            <CardButton onClick={randomWord} text={"Next word"} />
 
-        
-       
-            {transparent ? (
-              <li  className="cardListItems" 
-              onClick={() => setTransparent(!transparent)}>show answer</li>
-            ) : (
-              
-              <li className="flex flex-row flex-wrap justify-center items-center cardListItems" onClick={() => setTransparent(!transparent)}>
-                
-                <strong className="w-[95%] sm:w-[92%]">{switchLanguage ? data[rand].czWord : data[rand].wordTranslated}</strong>
-                <div className="oxfordClose sm:mr-2"><CgClose  /></div>
-                {!switchLanguage&&<div className="border-t border-indigo-600">{data[rand].sentenceTranslated}</div>} 
-              </li>
-              
-            )}
-
-
-        <ul className="flex justify-around text-center mt-8">
-          <CardButton onClick={randomWord} text={"Next word"} />
-
-          <CardButton
-            onClick={() => setSwitchLanguage(!switchLanguage)}
-            text={switchLanguage ? "CZ ➜ ENG" : "ENG ➜ CZ"}
-          />
+            <CardButton
+              onClick={() => setSwitchLanguage(!switchLanguage)}
+              text={switchLanguage ? "CZ ➜ ENG" : "ENG ➜ CZ"}
+            />
+          </li>
         </ul>
-       </ul>
       </div>
     </section>
   );

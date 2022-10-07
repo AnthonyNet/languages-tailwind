@@ -39,7 +39,7 @@ export default [
 {wordTranslated: "	Fall down", czWord: "	 spadnout na zem (ve většině případů náhodou)"},
 {wordTranslated: "	Fill (someone) in", czWord: "	 říct někomu podrobnosti o něčem"},
 {wordTranslated: "	Fill up", czWord: "	 naplnit něco (úplně naplnit)"},
-{wordTranslated: "	", czWord: "	"},
+
 {wordTranslated: "	Get away", czWord: "	 uniknout"},
 {wordTranslated: "	Get around", czWord: "	 řišit problém tím, že se vyhýbáte hlavnímu problému"},
 {wordTranslated: "	Get along (with)", czWord: "	 mít přátelský vztah s někým"},
@@ -76,9 +76,7 @@ export default [
 {wordTranslated: "	Look into", czWord: "	 prošetřit"},
 {wordTranslated: "	Look up", czWord: "	 zkontrolovat význam něčeho"},
 {wordTranslated: "	Look out", czWord: "	 dávat pozor na něco"},
-{wordTranslated: "	", czWord: "	"},
-{wordTranslated: "	", czWord: "	"},
-{wordTranslated: "	", czWord: "	"},
+
 {wordTranslated: "	Make after", czWord: "	 honit někoho (například policie zločince)"},
 {wordTranslated: "	Make out", czWord: "	 rozluštit (šifru), nalíčit se,"},
 {wordTranslated: "	Make up", czWord: "	 vymyslet si (například příběh)"},
@@ -95,9 +93,7 @@ export default [
 {wordTranslated: "	Put out", czWord: "	 uhasit"},
 {wordTranslated: "	Put up", czWord: "	 poskytnout finanční částku"},
 {wordTranslated: "	Rush into", czWord: "	 udělat něco zbrkle"},
-{wordTranslated: "	", czWord: "	"},
-{wordTranslated: "	", czWord: "	"},
-{wordTranslated: "	", czWord: "	"},
+
 {wordTranslated: "	Set off", czWord: "	 vyrazit (na cestu)"},
 {wordTranslated: "	Speed up", czWord: "	 zrychlit"},
 {wordTranslated: "	Take off", czWord: "	 vzlétnout, odcestovat, sundat si oblečení"},

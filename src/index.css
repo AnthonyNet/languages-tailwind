@@ -42,31 +42,31 @@
   strong{
     color: rgb(56 189 248);
   }
+
+  .scoreDiv span{
+    display: flex;
+    justify-content: center;
+    color: green;
+  }
+  
+  /* HTML details smooth animation */
+  
+  details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  
+  .card{
+    text-align: center;
+    background: white;
+    border: 4px double rgb(45, 99, 216);
+    border-radius: 2%;
+  
+    box-shadow: 10px 10px 5px 0px rgba(72, 70, 70, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(31, 31, 31, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(45, 44, 44, 0.75);
+  }
 }
 
-
-
-
-.scoreDiv span{
-  display: flex;
-  justify-content: center;
-  color: green;
-}
-
-/* HTML details smooth animation */
-
-details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-
-.shadow{
-
-  border: 4px double rgb(45, 99, 216);
-
-  box-shadow: 10px 10px 5px 0px rgba(72, 70, 70, 0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(31, 31, 31, 0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(45, 44, 44, 0.75);
-}
 
 
 
@@ -80,8 +80,8 @@ details[open] summary ~ * {
   .testSection{
     height: 120vh;
   }
- 
 }
+
 @media screen and (max-height: 370px){
   .testSection{
     height: 200vh;

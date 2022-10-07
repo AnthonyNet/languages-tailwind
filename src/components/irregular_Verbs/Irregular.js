@@ -44,7 +44,7 @@ const IrregularVerbs = ({dataJSON}) => {
 
   return (
     <section className="flex justify-center items-center w-full h-[91vh]">
-      <div className="rounded-lg shadow-lg bg-white max-w-sm text-center shadow">
+      <div className= "max-w-sm card">
 
         <div className="py-3 px-6 border-b border-gray-300">
           Celkové skóre: <span>{totalScore > 0 ? totalScore : 0}</span>
@@ -63,17 +63,21 @@ const IrregularVerbs = ({dataJSON}) => {
           setScore={setScore}
           setStars={setStars}
          
-         />
+        />
+        </div>
           
           {/*the function gives new random word & set up styles to default */}
+          <div className="border-t border-gray-300 text-gray-600"> 
          <CardButton
          onClick= {randomWord}
          text="next word"
           />
         </div>
-        <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
+
+        <div className="border-t border-gray-300 text-gray-600">
           {/* button toggle hint !hint */}
         <CardButton
+            
             onClick={() => setHint((hint) => !hint)}
             text="hint"
        />   
