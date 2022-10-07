@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import Card from "../card/Card";
+import CardInputs from "../card/Card_Inputs";
 import CardButton from '../card/CardButton';
 import CardHint from "../card/CardHint";
 
@@ -21,32 +21,7 @@ const IrregularVerbs = ({dataJSON}) => {
     localStorage.setItem("totalScore", JSON.stringify(totalScore));
 }, [totalScore]);
 
-  {
-    /*check inputs values and change font, border or background */
-  }
-  const handleChange = (e) => {
-    const value = e.target.value;
-    const data = e.target.attributes.data.value;
-
-    const inputElement = e.target;
-    if (value === "") {
-      inputElement.style.color = "gray";
-    } else if (data === value) {
-      inputElement.parentElement.style.backgroundColor = "MediumSeaGreen";
-
-      inputElement.readOnly = true;
-      setTotalScore((count) => +count + 1);
-      setScore((count) => count + 1);
-      setStars((count) => count + 1);
-    } else if (data.startsWith(value)) {
-      inputElement.style.color = "green";
-      inputElement.style.fontWeight = "bold";
-    } else {
-      inputElement.style.color = "red";
-      inputElement.style.fontWeight = "bold";
-    }
-  };
-
+ 
   {
     /* Gives a random number -> word from a list
       Change input styles to default
@@ -81,43 +56,15 @@ const IrregularVerbs = ({dataJSON}) => {
         <Score score={stars} />
 
         <div className="px-6">
-          <h5 className="text-gray-900 text-xl font-medium mb-2 border-b border-gray-300">
-            {dataJSON[rand].cz}
-          </h5>
-          <ul className="flex flex-col justify-around text-center mb-2">
-            <Card
-              data={dataJSON[rand].base}
-              handleChange={handleChange}
-              placeholder="Infinitive"
-            ></Card>
-            <Card
-              data={dataJSON[rand].pastSimple}
-              handleChange={handleChange}
-              placeholder="PastSimple"
-            ></Card>
 
-            {dataJSON[rand].pastSimple2 ? (
-              <Card
-                data={dataJSON[rand].pastSimple2}
-                handleChange={handleChange}
-                placeholder="PastSimple2"
-              ></Card>
-            ) : null}
-
-            <Card
-              data={dataJSON[rand].pastParticiple}
-              handleChange={handleChange}
-              placeholder="PastParticiple"
-            ></Card>
-
-            {dataJSON[rand].pastParticiple2 ? (
-              <Card
-                data={dataJSON[rand].pastParticiple2}
-                handleChange={handleChange}
-                placeholder="PastParticiple2"
-              ></Card>
-            ) : null}
-          </ul>
+         <CardInputs 
+          myData={dataJSON[rand]}
+          setTotalScore={setTotalScore}
+          setScore={setScore}
+          setStars={setStars}
+         
+         />
+          
           {/*the function gives new random word & set up styles to default */}
          <CardButton
          onClick= {randomWord}
