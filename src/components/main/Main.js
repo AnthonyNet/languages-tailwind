@@ -26,7 +26,7 @@ const Main = () => {
           <div className="border-2 w-full h-full">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg4.wikia.nocookie.net%2F__cb20081229142345%2Ffallout%2Fimages%2F2%2F2a%2FFallout2front.jpg&f=1&nofb=1"
-              className="w-full h-full"
+              className="w-full h-full" alt="fallout-logo"
             />
           </div>
           <div className="my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400">
