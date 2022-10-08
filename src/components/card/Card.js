@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardButton from "./CardButton";
 import { CgClose } from "react-icons/cg";
 
-const style = {
-  
-}
+
 
 const Card = ({ dataJSON }) => {
   const [data, setData] = useState(dataJSON);

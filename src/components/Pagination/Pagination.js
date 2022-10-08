@@ -16,19 +16,18 @@ const Pagination = ({ dataJSON }) => {
     });
   });
 
- 
   const [myData, setMyData] = useState(dataOxfordB1);
-  const [currentPage, setCurrentPage] = useState(2);
+  const [currentPage, setCurrentPage] = useState(1);
   const [wordsPerPage, setPostsPerPage] = useState(25);
   const [menuPosts, setMenuPosts] = useState();
 
   const [marginLeft, setMarginLeft] = useState(0);
 
-  //  20            1             20
+  //  25                    1             25
   const lastWordIndex = currentPage * wordsPerPage;
-  //      0              20           20
+  //      0              25                 25
   const firstWordIndex = lastWordIndex - wordsPerPage;
-  //                                0               20
+  //                                0                  25
   const currentPosts = myData.slice(firstWordIndex, lastWordIndex);
 
   let pages = [];
@@ -41,10 +40,14 @@ const Pagination = ({ dataJSON }) => {
     display: currentPage < currentPage - 1 ? "none" : "",
   };
 
+  const dataMenuStyle = {
+    borderBottom: "border-b-4 border-red-600",
+  };
+
   const prevPage = () => {
     if (currentPage < 2) {
       setCurrentPage(pages.length);
-      console.log(pages);
+     
     } else {
       setCurrentPage((page) => page - 1);
     }
@@ -53,37 +56,55 @@ const Pagination = ({ dataJSON }) => {
   const nextPage = () => {
     if (currentPage > pages.length - 1) {
       setCurrentPage(1);
-      console.log(pages);
+      
     } else {
       setCurrentPage((page) => page + 1);
     }
   };
 
-  const [myNumb, setMyNumb] = useState(0)
-  useEffect(()=>{
-    if(myNumb == 0){
-      setMyData(dataOxfordB1)
-    }else if(myNumb == 1){
-      setMyData(dataOxfordB2)
-    }else if(myNumb == 2){
-      setMyData(dataOxfordC1)
-    }else {
-      setMyData(Goethe)
-    }
-  },[myNumb])
+  const [myNumb, setMyNumb] = useState(0);
 
-const dataMenuStyle = {
-  borderBottom: "2px solid red",
- 
-}
+  useEffect(() => {
+    if (myNumb == 0) {
+      setMyData(dataOxfordB1);
+    } else if (myNumb == 1) {
+      setMyData(dataOxfordB2);
+    } else if (myNumb == 2) {
+      setMyData(dataOxfordC1);
+    } else {
+      setMyData(Goethe);
+    }
+  }, [myNumb]);
+
+
   return (
     <section className="min-h-screen flex flex-column justify-center items-baseline flex-wrap">
       <nav className=" w-full h-auto border-4">
-      <ul className="flex flex-row justify-around w-[50%] m-auto">
-          <li style={myNumb === 0 ? dataMenuStyle : null} onClick={()=>setMyNumb(0)}>Oxford B1</li>
-          <li style={myNumb === 1 ? dataMenuStyle : null} onClick={()=>setMyNumb(1)}>Oxford B2</li>
-          <li style={myNumb === 2 ? dataMenuStyle : null} onClick={()=>setMyNumb(2)}>Oxford C1</li>
-          <li style={myNumb === 3 ? dataMenuStyle : null} onClick={()=>setMyNumb(3)}>Goethe De</li>
+        <ul className="flex flex-row justify-around w-[50%] m-auto">
+          <li
+            className={myNumb === 0 ? dataMenuStyle.borderBottom : null}
+            onClick={() => setMyNumb(0)}
+          >
+            Oxford B1
+          </li>
+          <li
+            className={myNumb === 1 ? dataMenuStyle.borderBottom : null}
+            onClick={() => setMyNumb(1)}
+          >
+            Oxford B2
+          </li>
+          <li
+            className={myNumb === 2 ? dataMenuStyle.borderBottom : null}
+            onClick={() => setMyNumb(2)}
+          >
+            Oxford C1
+          </li>
+          <li
+            className={myNumb === 3 ? dataMenuStyle.borderBottom : null}
+            onClick={() => setMyNumb(3)}
+          >
+            Goethe De
+          </li>
         </ul>
       </nav>
 
@@ -107,13 +128,15 @@ const dataMenuStyle = {
                   <td className="w-[50%] border-red-400 border-r-4">
                     {item.czWord}
                   </td>
-                 {
-                  item.sentenceTranslated ? (
-                    <td className="w-[50%] text-right">{item.sentenceTranslated}</td>
+                  {item.sentenceTranslated ? (
+                    <td className="w-[50%] text-right">
+                      {item.sentenceTranslated}
+                    </td>
                   ) : (
-                    <td className="w-[50%] text-right">{item.wordTranslated}</td>
-                  )
-                  }
+                    <td className="w-[50%] text-right">
+                      {item.wordTranslated}
+                    </td>
+                  )}
                 </tr>
               );
             })}
@@ -123,8 +146,13 @@ const dataMenuStyle = {
 
       <article className="flex flex-row  w-auto  justify-center">
         <ul className="flex flex-row  items-center justify-center border-4">
-          <li className="w-[50px] px-4 -mb-2" onClick={prevPage}>
-            <div className="">
+
+          {/* 
+          PREVIOUS PAGE BUTTON
+          */}
+
+          <li className="sm:w-[50px] px-4 -mb-2" onClick={prevPage}>
+            <div>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -142,18 +170,23 @@ const dataMenuStyle = {
               </svg>
             </div>
           </li>
+
+            {/* 
+             PAGINATION MENU
+          */}
+
           {pages.map((page, index) => {
             return (
               <li
                 className={
                   page == currentPage
-                    ? "text-xl border-b border-red-400 w-[50px] text-center mt-2 h-[50px]"
+                    ? "text-xl border-b border-red-400  sm:w-[50px] text-center mt-2 h-[50px]"
                     : page < currentPage - 3
                     ? "hidden"
                     : // : page > currentPage + 4 && currentPage !=1 ? "hidden"
                     page > currentPage + 3 && page > 7
                     ? "hidden"
-                    : "w-[50px] h-[50px] p-4 visible"
+                    : "sm:w-[50px] sm:h-[50px] p-[2vw] sm:p-4 visible"
                 }
                 style={style}
                 key={index}
@@ -163,7 +196,12 @@ const dataMenuStyle = {
               </li>
             );
           })}
-          <li onClick={nextPage} className="w-[50px] p-4 -mb-2">
+
+          {/* 
+          NEXT PAGE BUTTON
+          */}
+
+          <li onClick={nextPage} className="sm:w-[50px] p-4 -mb-2">
             <div>
               <svg
                 aria-hidden="true"

@@ -135,7 +135,7 @@ export default [
   {
     wordTranslated: "	appeal n.  v.	",
     sentenceTranslated:
-      "	 He appealed to Adam to bring back what he stolehe said he would appeal against the conviction	",
+      "	 He appealed to Adam to bring back what he stole. He said he would appeal against the conviction.	",
     czWord: "	apelovat, odvolání		",
   },
   {
