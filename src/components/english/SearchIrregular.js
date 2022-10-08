@@ -63,7 +63,7 @@ const SearchIrregular = () => {
               || item.pastParticiple.toLowerCase().startsWith(search);
               ;
           }).map((item, index)=>(
-            <tr key={index}>
+            <tr key={index} className="border-b-2 border-blue-200">
               <th scope="col" className="text-sm font-medium text-black px-6 py-4">
                 {index + 1}
               </th>
