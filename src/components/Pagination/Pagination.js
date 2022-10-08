@@ -80,7 +80,7 @@ const Pagination = ({ dataJSON }) => {
   return (
     <section className="min-h-screen flex flex-column justify-center items-baseline flex-wrap">
       <nav className=" w-full h-auto border-4">
-        <ul className="flex flex-row justify-around w-[50%] m-auto">
+        <ul className="flex flex-row justify-around sm:w-[60%] m-auto">
           <li
             className={myNumb === 0 ? dataMenuStyle.borderBottom : null}
             onClick={() => setMyNumb(0)}

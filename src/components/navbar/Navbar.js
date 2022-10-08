@@ -93,6 +93,7 @@ const Navbar = () => {
                   <Link to="/oxford-B2">Oxford B2</Link>
                   <Link to="/oxford-C1">Oxford C1</Link>
                   <Link to="/phrasal-1">Phrasal verbs</Link>
+                  <Link to="/pagination">Pagination</Link>
                 </ul>
               </details>
 
