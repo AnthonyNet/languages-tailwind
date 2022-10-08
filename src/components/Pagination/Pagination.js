@@ -77,8 +77,8 @@ const dataMenuStyle = {
  
 }
   return (
-    <>
-      <nav className="m-auto  w-full h-auto border-4">
+    <section className="min-h-screen flex flex-column justify-center items-baseline flex-wrap">
+      <nav className=" w-full h-auto border-4">
       <ul className="flex flex-row justify-around w-[50%] m-auto">
           <li style={myNumb === 0 ? dataMenuStyle : null} onClick={()=>setMyNumb(0)}>Oxford B1</li>
           <li style={myNumb === 1 ? dataMenuStyle : null} onClick={()=>setMyNumb(1)}>Oxford B2</li>
@@ -87,7 +87,7 @@ const dataMenuStyle = {
         </ul>
       </nav>
 
-      <article>
+      <main className="w-full">
         <h1 className="text-center">Pagination</h1>
         <h3 className="text-center">No responsive</h3>
         <table className="table-fixed min-w-[50vw] m-auto">
@@ -119,9 +119,9 @@ const dataMenuStyle = {
             })}
           </tbody>
         </table>
-      </article>
+      </main>
 
-      <article className="flex flex-row  w-auto m-aut justify-center">
+      <article className="flex flex-row  w-auto  justify-center">
         <ul className="flex flex-row  items-center justify-center border-4">
           <li className="w-[50px] px-4 -mb-2" onClick={prevPage}>
             <div className="">
@@ -184,7 +184,7 @@ const dataMenuStyle = {
           </li>
         </ul>
       </article>
-    </>
+    </section>
   );
 };
 

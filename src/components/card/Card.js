@@ -2,19 +2,16 @@ import React, { useEffect, useState } from "react";
 import CardButton from "./CardButton";
 import { CgClose } from "react-icons/cg";
 
-//import Data from "../data/json/OxfordB1";
+const style = {
+  
+}
 
-const OxfordB1 = ({ dataJSON }) => {
+const Card = ({ dataJSON }) => {
   const [data, setData] = useState(dataJSON);
   const [rand, setRand] = useState(0);
   const [switchLanguage, setSwitchLanguage] = useState(true);
   const [transparent, setTransparent] = useState(true);
 
-data[rand].shit = function(){
-  console.log(this.czWord)
-}
-
-data[rand].shit()
 
 
   const CardTrue = () => {
@@ -102,4 +99,4 @@ data[rand].shit()
   );
 };
 
-export default OxfordB1;
+export default Card;
