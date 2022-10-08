@@ -75,12 +75,12 @@ data[rand].shit()
   return (
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0">
       <div className="w-full sm:w-[30rem]  pb-8 card">
-        <ul className="flex flex-col justify-around text-center">
+        <ul className="flex flex-col justify-around text-center font-semibold italic">
           {switchLanguage? <CardTrue />: <CardFalse />}
 
           {transparent ? (
             <li
-              className="cardListItems"
+              className="cardListItems text-cyan-500"
               onClick={() => setTransparent(!transparent)}
             >
               show answer

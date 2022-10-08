@@ -2427,7 +2427,7 @@ export default [
   },
   {
     czWord: "	Můžeme se dnes dívat déle na televizi?	",
-    sentenceTranslated: "	Dürfen wir heute länwordTranslated fernsehen	",
+    sentenceTranslated: "	Dürfen wir heute länger fernsehen	",
     wordTranslated: "	dürfen, darf, durfte, / … dürfen	",
   },
   {
