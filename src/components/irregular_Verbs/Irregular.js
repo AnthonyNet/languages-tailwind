@@ -16,6 +16,7 @@ const IrregularVerbs = ({ dataJSON }) => {
   const [rand, setRand] = useState(0);
 
 
+
   useEffect(() => {
     localStorage.setItem("totalScore", JSON.stringify(totalScore));
   }, [totalScore]);
@@ -40,6 +41,7 @@ const IrregularVerbs = ({ dataJSON }) => {
       input.style.fontWeight = "normal";
       input.readOnly = false;
       input.value = "";
+
      
     });
 
@@ -63,8 +65,8 @@ const IrregularVerbs = ({ dataJSON }) => {
             setTotalScore={setTotalScore}
             setScore={setScore}
             setStars={setStars}
-            rand={rand}
-            score={score}
+           
+           
            
           />
         </div>
