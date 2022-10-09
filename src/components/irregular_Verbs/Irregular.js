@@ -34,7 +34,7 @@ const IrregularVerbs = ({ dataJSON }) => {
     const myInputs = e.target.parentElement.previousSibling.querySelectorAll('input');
 
     myInputs.forEach((input) => {
-      console.log(input)
+     
       input.parentElement.style.backgroundColor = "transparent";
       input.style.color = "gray";
       input.style.fontWeight = "normal";
