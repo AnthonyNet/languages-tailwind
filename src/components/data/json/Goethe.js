@@ -201,7 +201,7 @@ export default [
   {
     czWord: "	Moje dcera je trochu nervózní. Nerada chodí na ulici sama.	",
     sentenceTranslated:
-      "	Meine Tochter ist etwas ängstlich. Sie geht nicht wordTranslatedn allein auf die Straße.	",
+      "	Meine Tochter ist etwas ängstlich. Sie geht nicht gern allein auf die Straße.	",
     wordTranslated: "	ängstlich	",
   },
   {
@@ -242,7 +242,7 @@ export default [
   {
     czWord: "	Zavolám ti večer.	",
     sentenceTranslated: "	Ich rufe Sie heute Abend an.	",
-    wordTranslated: "	anrufen, ruft an, rief an, hat anwordTranslatedufen	",
+    wordTranslated: "	anrufen, ruft an, rief an, hat angerufen	",
   },
   {
     czWord: "	Čekám na telefonát z Berlína.	",
@@ -437,7 +437,7 @@ export default [
   },
   {
     czWord: "	V průmyslu je stále méně pracovních míst.	",
-    sentenceTranslated: "	In der Industrie gibt es immer weniwordTranslated Arbeitsplätze.	",
+    sentenceTranslated: "	In der Industrie gibt es immer weniger Arbeitsplätze.	",
     wordTranslated: "der Arbeitsplatz, -e",
   },
   {
@@ -446,22 +446,22 @@ export default [
     wordTranslated: "	die Arbeitsstelle, -n	",
   },
   {
-    czWord: "	Netrap se.	",
-    sentenceTranslated: "	ÄrwordTranslatedn Sie sich nicht.	",
-    wordTranslated: "	ärwordTranslatedn, ärwordTranslatedt, ärwordTranslatedte, hat geärwordTranslatedt	",
+    czWord: "	Netrapte se.	",
+    sentenceTranslated: "	Ärger Sie sich nicht.	",
+    wordTranslated: "	ärgern, ärgert, ärgerte, hat geärgert	",
   },
   {
     czWord:
       "	Měl jsem dnes problémy v kanceláři. Pohádal jsem se s kolegou.	",
     sentenceTranslated:
-      "	Ich hatte heute ÄrwordTranslated im Büro. Ich habe mich mit einem Kollegen gestritten.	",
-    wordTranslated: "	der ÄrwordTranslated (Sg.)	",
+      "	Ich hatte heute Ärger im Büro. Ich habe mich mit einem Kollegen gestritten.	",
+    wordTranslated: "	der Ärger (Sg.)	",
   },
   {
     czWord: "	Vlak už má zase zpoždění. Tohle je fakt otravný.	",
     sentenceTranslated:
-      "	Der Zug hat schon wieder Verspätung. Das ist wirklich ärwordTranslatedlich.	",
-    wordTranslated: "	ärwordTranslatedlich	",
+      "	Der Zug hat schon wieder Verspätung. Das ist wirklich ärgerlich.	",
+    wordTranslated: "	ärgerlich	",
   },
   {
     czWord: "	Prosím, vybírejte peníze pro chudé děti!	",
@@ -585,13 +585,13 @@ export default [
     czWord: "	Před dovolenou si musím uklidit stůl.	",
     sentenceTranslated:
       "	Vor meinem Urlaub muss ich unbedingt noch meinen Schreibtisch aufräumen.	",
-    wordTranslated: "	aufräumen, räumt auf, räumte auf, hat aufwordTranslatedäumt	",
+    wordTranslated: "	aufräumen, räumt auf, räumte auf, hat aufgeräumt	",
   },
   {
     czWord: "	Štve mě, že musím zase pracovat přesčas.	",
     sentenceTranslated:
       "	Es regt mich auf, dass ich schon wieder Überstunden machen muss.	",
-    wordTranslated: "	aufregen, regt auf, regte auf, hat aufwordTranslatedegt	",
+    wordTranslated: "	aufregen, regt auf, regte auf, hat aufgeregt	",
   },
   {
     czWord: "	Jsem vzhůru už dvě hodiny.	",
@@ -640,7 +640,7 @@ export default [
     czWord:
       "	Chystal jsem se zaparkovat. V tu chvíli vyjelo z východu auto.	",
     sentenceTranslated:
-      "	Ich wollte wordTranslatedade parken. In dem Augenblick ist ein Wagen aus der Ausfahrt gekommen.	",
+      "	Ich wollte gerade parken. In dem Augenblick ist ein Wagen aus der Ausfahrt gekommen.	",
     wordTranslated: "	der Augenblick, -e	",
   },
   {
@@ -722,7 +722,7 @@ export default [
   },
   {
     czWord: "	Chtěl bych nějaké informace.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn eine Auskunft.	",
+    sentenceTranslated: "	Ich hätte gern eine Auskunft.	",
     wordTranslated: "die Auskunft, -e",
   },
   {
@@ -760,7 +760,7 @@ export default [
   {
     czWord: "	Můj manžel tam není. Mám mu něco říct?	",
     sentenceTranslated: "	Mein Mann ist nicht da. Soll ich ihm etwas ausrichten	",
-    wordTranslated: "	ausrichten, richtet aus, richtete aus, hat auswordTranslatedichtet	",
+    wordTranslated: "	ausrichten, richtet aus, richtete aus, hat ausdichtet	",
   },
   {
     czWord: "	Nemůžu tolik zaplatit. To nepřipadá v úvahu.	",
@@ -954,7 +954,7 @@ export default [
   },
   {
     czWord: "	Rád si hraju se svými dětmi.	",
-    sentenceTranslated: "	Ich spiele wordTranslatedn mit meinen Kindern Ball.	",
+    sentenceTranslated: "	Ich spiele gern mit meinen Kindern Ball.	",
     wordTranslated: "der Ball, -e",
   },
   {
@@ -1230,7 +1230,7 @@ export default [
     wordTranslated: "	beleidigen, beleidigt, beleidigte, hat beleidigt	",
   },
   {
-    czWord: "	Tato hra je velmi populární mezi teenawordTranslatedy.	",
+    czWord: "	Tato hra je velmi populární mezi teenagery.	",
     sentenceTranslated: "	Dieses Spiel ist bei Jugendlichen sehr beliebt.	",
     wordTranslated: "	beliebt	",
   },
@@ -1395,7 +1395,7 @@ export default [
   },
   {
     czWord: "	Je uveden popis zařízení.	",
-    sentenceTranslated: "	Eine Beschreibung des wordTranslatedäts liegt bei.	",
+    sentenceTranslated: "	Eine Beschreibung des Geräts liegt bei.	",
     wordTranslated: "	die Beschreibung, -en	",
   },
   {
@@ -1603,7 +1603,7 @@ export default [
   },
   {
     czWord: "	V létě rádi chodíme v neděli do pivní zahrady.	",
-    sentenceTranslated: "	Im Sommer gehen wir sonntags wordTranslatedne in einen Biergarten.	",
+    sentenceTranslated: "	Im Sommer gehen wir sonntags gerne in einen Biergarten.	",
     wordTranslated: "der Biergarten, -",
   },
   {
@@ -1719,7 +1719,7 @@ export default [
   },
   {
     czWord: "	Chtěla bych bílou blůzu.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedne eine weiße Bluse.	",
+    sentenceTranslated: "	Ich hätte gerne eine weiße Bluse.	",
     wordTranslated: "	die Bluse, -n	",
   },
   {
@@ -1739,17 +1739,17 @@ export default [
   },
   {
     czWord: "	Chtěl bych tři listy balicího papíru.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn drei Bögen Geschenkpapier.	",
+    sentenceTranslated: "	Ich hätte gern drei Bögen Geschenkpapier.	",
     wordTranslated: "der Bogen, -",
   },
   {
     czWord: "	Rád jím fazole.	",
-    sentenceTranslated: "	Ich esse wordTranslatedn Bohnen.	",
+    sentenceTranslated: "	Ich esse gern Bohnen.	",
     wordTranslated: "	die Bohne, -n	",
   },
   {
     czWord: "	Náš syn miluje sladkosti.	",
-    sentenceTranslated: "	Unser Sohn isst sehr wordTranslatedne Bonbons.	",
+    sentenceTranslated: "	Unser Sohn isst sehr gerne Bonbons.	",
     wordTranslated: "	das Bonbon, -s	",
   },
   {
@@ -1821,7 +1821,7 @@ export default [
   },
   {
     czWord: "	Nerad píšu dopisy.	",
-    sentenceTranslated: "	Ich schreibe nicht wordTranslatedn Briefe.	",
+    sentenceTranslated: "	Ich schreibe nicht gern Briefe.	",
     wordTranslated: "	der Brief, -e	",
   },
   {
@@ -1836,12 +1836,12 @@ export default [
   },
   {
     czWord: "	Už tam byl pošťák?	",
-    sentenceTranslated: "	War der BriefträwordTranslated schon da	",
-    wordTranslated: "	der BriefträwordTranslated, -	",
+    sentenceTranslated: "	War der Briefträger schon da	",
+    wordTranslated: "	der Briefträger, -	",
   },
   {
     czWord: "	Chtěl bych 50 obálek.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn 50 Briefumschläge.	",
+    sentenceTranslated: "	Ich hätte gern 50 Briefumschläge.	",
     wordTranslated: "der Briefumschlag, -e",
   },
   {
@@ -1921,20 +1921,20 @@ export default [
   },
   {
     czWord: "	Pokud jste německý občan, můžete volit.	",
-    sentenceTranslated: "	Wenn Sie deutscher StaatsbürwordTranslated sind, dürfen Sie wählen.	",
-    wordTranslated: "	der BürwordTranslated, -	",
+    sentenceTranslated: "	Wenn Sie deutscher Staatsbürger sind, dürfen Sie wählen.	",
+    wordTranslated: "	der Bürger, -	",
   },
   {
     czWord:
       "	Pokud máte nějaké otázky ohledně voleb, můžete jít do občanské kanceláře.	",
     sentenceTranslated:
-      "	Wenn Sie Fragen zur Wahl haben, können Sie ins BürwordTranslatedbüro gehen.	",
-    wordTranslated: "	das BürwordTranslatedbüro, -s	",
+      "	Wenn Sie Fragen zur Wahl haben, können Sie ins Bürgerbüro gehen.	",
+    wordTranslated: "	das Bürgerbüro, -s	",
   },
   {
     czWord: "	Parkování je povoleno na chodníku.	",
-    sentenceTranslated: "	Hier ist Parken auf dem BürwordTranslatedsteig erlaubt.	",
-    wordTranslated: "	der BürwordTranslatedsteig, -e	",
+    sentenceTranslated: "	Hier ist Parken auf dem Bürgersteig erlaubt.	",
+    wordTranslated: "	der Bürgersteig, -e	",
   },
   {
     czWord: "	Naše kancelář je v sobotu zavřená.	",
@@ -1970,7 +1970,7 @@ export default [
   {
     czWord: "	Rádi jezdíme kempovat, protože to není tak drahé.	",
     sentenceTranslated:
-      "	Wir machen wordTranslatedn Camping- Urlaub, weil das nicht so teuer ist.	",
+      "	Wir machen gern Camping- Urlaub, weil das nicht so teuer ist.	",
     wordTranslated: "	das Camping (Sg.)	",
   },
   {
@@ -1991,7 +1991,7 @@ export default [
   },
   {
     czWord: "	Moje děti si rády povídají s přáteli na internetu.	",
-    sentenceTranslated: "	Meine Kinder chatten wordTranslatedn im Internet mit ihren Freunden.	",
+    sentenceTranslated: "	Meine Kinder chatten gern im Internet mit ihren Freunden.	",
     wordTranslated: "	chatten	",
   },
   {
@@ -2037,7 +2037,7 @@ export default [
   },
   {
     czWord: "	Dal bych si krém na ruce.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn eine Creme für die Hände.	",
+    sentenceTranslated: "	Ich hätte gern eine Creme für die Hände.	",
     wordTranslated: "	die Creme, -s	",
   },
   {
@@ -2091,7 +2091,7 @@ export default [
     czWord:
       "	Když mi bylo 15, chtěla jsem se naučit hrát na klavír. Ale tehdy jsem na to neměl peníze.	",
     sentenceTranslated:
-      "	Mit 15 wollte ich wordTranslatedne Klavier spielen lernen. Aber damals hatte ich kein Geld dafür.	",
+      "Im 15 wollte ich ne Klavier spielen lernen. Aber damals hatte ich kein Geld dafür.	",
     wordTranslated: "	damals	",
   },
   {
@@ -2182,7 +2182,7 @@ export default [
   },
   {
     czWord: "	Na co myslíš?	",
-    sentenceTranslated: "	Was denkst du wordTranslatedade	",
+    sentenceTranslated: "	Was denkst du gerade	",
     wordTranslated: "	denken, denkt, dachte, hat gedacht	",
   },
   {
@@ -2230,7 +2230,7 @@ export default [
   },
   {
     czWord: "	Jsem moc tlustá. Musím jíst míň.	",
-    sentenceTranslated: "	Ich bin zu dick. Ich muss weniwordTranslated essen.	",
+    sentenceTranslated: "	Ich bin zu dick. Ich muss weniger essen.	",
     wordTranslated: "	dick	",
   },
   {
@@ -2278,7 +2278,7 @@ export default [
   },
   {
     czWord: "	Rád bych mluvil s ředitelem.	",
-    sentenceTranslated: "	Ich möchte wordTranslatedn mit dem Direktor sprechen.	",
+    sentenceTranslated: "	Ich möchte gern mit dem Direktor sprechen.	",
     wordTranslated: "	der Direktor, -en	",
   },
   {
@@ -2315,7 +2315,7 @@ export default [
   },
   {
     czWord: "	Chtěli bychom manželskou postel.	",
-    sentenceTranslated: "	Wir hätten wordTranslatedn ein Doppelbett.	",
+    sentenceTranslated: "	Wir hätten gern ein Doppelbett.	",
     wordTranslated: "	Doppel-	",
   },
   {
@@ -2360,8 +2360,8 @@ export default [
   },
   {
     czWord: "	V lékárně se dá sehnat prací prášek.	",
-    sentenceTranslated: "	Waschmittel bekommst du in der DrowordTranslatedie.	",
-    wordTranslated: "	die DrowordTranslatedie, -n	",
+    sentenceTranslated: "	Waschmittel bekommst du in der Drogerie.	",
+    wordTranslated: "	die Drogerie, -n	",
   },
   {
     czWord: "	Támhle naproti je autobusová zastávka.	",
@@ -2385,7 +2385,7 @@ export default [
   },
   {
     czWord: "	Stisknutím tlačítka zapnete zařízení.	",
-    sentenceTranslated: "	Durch einen Knopfdruck schaltet man das wordTranslatedät ein.	",
+    sentenceTranslated: "	Durch einen Knopfdruck schaltet man das Gerät ein.	",
     wordTranslated: "	der Druck (Sg.)	",
   },
   {
@@ -2689,8 +2689,8 @@ export default [
   },
   {
     czWord: "	Zařídil jsem si vlastní byt.	",
-    sentenceTranslated: "	Ich habe meine Wohnung selbst einwordTranslatedichtet.	",
-    wordTranslated: "	einrichten, richtet ein, richtete ein, hat einwordTranslatedichtet	",
+    sentenceTranslated: "	Ich habe meine Wohnung selbst eingerichtet.	",
+    wordTranslated: "	einrichten, richtet ein, richtete ein, hat eigerichtet	",
   },
   {
     czWord: "	Váš byt je velmi útulný, Líbí se mi výzdoba velmi.	",
@@ -3218,12 +3218,12 @@ export default [
   {
     czWord: "	Dostanete náhradu za rozbité zařízení od naší společnosti.	",
     sentenceTranslated:
-      "	Sie bekommen von unserer Firma einen Ersatz für das kaputte wordTranslatedät.	",
+      "	Sie bekommen von unserer Firma einen Ersatz für das kaputte Gerät.	",
     wordTranslated: "	der Ersatz (Sg.)	",
   },
   {
-    czWord: "	Do you have spare parts for this device	",
-    sentenceTranslated: "	Haben Sie für dieses wordTranslatedät Ersatzteile	",
+    czWord: "	Máte pro toto zařízení náhradní díly?",
+    sentenceTranslated: "	Haben Sie für dieses Gerät Ersatzteile	",
     wordTranslated: "	das Ersatzteil, -e	",
   },
   {
@@ -3667,8 +3667,8 @@ export default [
   },
   {
     czWord: "	Alessandro si pořezal prst.	",
-    sentenceTranslated: "	Alessandro hat sich in den FinwordTranslated geschnitten.	",
-    wordTranslated: "	der FinwordTranslated, -	",
+    sentenceTranslated: "	Alessandro hat sich in den Finger geschnitten.	",
+    wordTranslated: "	der Finger, -	",
   },
   {
     czWord: "	Odkdy pracuješ v téhle firmě?	",
@@ -3763,7 +3763,7 @@ export default [
   },
   {
     czWord: "	Letadlo právě přistálo.	",
-    sentenceTranslated: "	Das Flugzeug ist wordTranslatedade gelandet.	",
+    sentenceTranslated: "	Das Flugzeug ist gerade gelandet.	",
     wordTranslated: "	das Flugzeug, -e	",
   },
   {
@@ -3852,7 +3852,7 @@ export default [
   },
   {
     czWord: "	Rád fotím.	",
-    sentenceTranslated: "	Ich fotografiere wordTranslatedn.	",
+    sentenceTranslated: "	Ich fotografiere gern.	",
     wordTranslated: "	fotografieren, fotografiert, fotografierte, hat fotografiert	",
   },
   {
@@ -3902,17 +3902,17 @@ export default [
   },
   {
     czWord: "	Ve volném čase rád poslouchám hudbu.	",
-    sentenceTranslated: "	In meiner Freizeit höre ich wordTranslatedn Musik.	",
+    sentenceTranslated: "	In meiner Freizeit höre ich gern Musik.	",
     wordTranslated: "	die Freizeit, -en	",
   },
   {
     czWord: "	Někdy se dobrovolně hlásím, že zůstanu v kanceláři déle.	",
-    sentenceTranslated: "	Manchmal bleibe ich freiwillig länwordTranslated im Büro.	",
+    sentenceTranslated: "	Manchmal bleibe ich freiwillig länger im Büro.	",
     wordTranslated: "	freiwillig	",
   },
   {
     czWord: "	Rád cestuji do cizích zemí.	",
-    sentenceTranslated: "	Ich reise wordTranslatedn in fremde Länder.	",
+    sentenceTranslated: "	Ich reise gern in fremde Länder.	",
     wordTranslated: "	fremd	",
   },
   {
@@ -3992,7 +3992,7 @@ export default [
   },
   {
     czWord: "	Sedíme u snídaně.	",
-    sentenceTranslated: "	Wir sitzen wordTranslatedade beim Frühstück.	",
+    sentenceTranslated: "	Wir sitzen gerade beim Frühstück.	",
     wordTranslated: "	das Frühstück, -e	",
   },
   {
@@ -4052,13 +4052,13 @@ export default [
   },
   {
     czWord: "	Tahle cesta je jen pro chodce.	",
-    sentenceTranslated: "	Dieser Weg ist nur für FußgänwordTranslated.	",
-    wordTranslated: "	der FußgänwordTranslated, -	",
+    sentenceTranslated: "	Dieser Weg ist nur für Fußgänger.	",
+    wordTranslated: "	der Fußgänger, -	",
   },
   {
     czWord: "	Sejdeme se ve tři v pěší zóně.	",
-    sentenceTranslated: "	Wir treffen uns um 15 Uhr in der FußgänwordTranslatedzone.	",
-    wordTranslated: "	die FußgänwordTranslatedzone, -n	",
+    sentenceTranslated: "	Wir treffen uns um 15 Uhr in der Fußgängerzone.	",
+    wordTranslated: "	die Fußgängerzone, -n	",
   },
   {
     czWord: "	Potřebujeme další vidličku, prosím.	",
@@ -4088,7 +4088,7 @@ export default [
   {
     czWord: "	Nemůžu zaručit, že to zařízení bude hotové příští týden.	",
     sentenceTranslated:
-      "	Ich kann Ihnen nicht garantieren, dass das wordTranslatedät nächste Woche fertig ist.	",
+      "	Ich kann Ihnen nicht garantieren, dass das Gerät nächste Woche fertig ist.	",
     wordTranslated: "	garantieren, garantiert, garantierte, hat garantiert	",
   },
   {
@@ -4340,47 +4340,42 @@ export default [
   },
   {
     czWord: "	Obraz nevisí rovně.	",
-    sentenceTranslated: "	Das Bild hängt nicht wordTranslatedade.	",
-    wordTranslated: "	wordTranslatedade	",
+    sentenceTranslated: "	Das Bild hängt nicht gerade.	",
+    wordTranslated: "gerade	",
   },
   {
     czWord: "	Pokračujte rovně na další křižovatku.	",
-    sentenceTranslated: "	Fahren Sie wordTranslatedadeaus bis zur nächsten Kreuzung.	",
-    wordTranslated: "	wordTranslatedadeaus	",
+    sentenceTranslated: "	Fahren Sie geradeaus bis zur nächsten Kreuzung.	",
+    wordTranslated: "	geradeaus	",
   },
   {
     czWord:
       "	Vždycky si kupuju použité elektrické spotřebiče. Tohle je mnohem levnější.	",
     sentenceTranslated:
-      "	Ich kaufe meine ElektrowordTranslatedäte immer gebraucht. Das ist viel billiwordTranslated.	",
-    wordTranslated: "	das wordTranslatedät, -e	",
+      "	Ich kaufe meine Elektrogeräte immer gebraucht. Das ist viel billiger.	",
+    wordTranslated: "	das Gerät, -e	",
   },
   {
     czWord: "	Jiní za tuhle práci dostanou víc peněz. To není fér.	",
     sentenceTranslated:
-      "	Andere bekommen für diese Arbeit mehr Lohn. Das finde ich nicht wordTranslatedecht.	",
-    wordTranslated: "	wordTranslatedecht	",
+      "	Andere bekommen für diese Arbeit mehr Lohn. Das finde ich nicht Gerecht.	",
+    wordTranslated: "gerecht	",
   },
   {
     czWord: "	Moje oblíbené jídlo je Pizza.	",
-    sentenceTranslated: "	Mein LieblingswordTranslatedicht ist Pizza.	",
-    wordTranslated: "	das wordTranslatedicht, -e	",
+    sentenceTranslated: "	Mein Lieblingsgericht ist Pizza.	",
+    wordTranslated: "	das Gericht, -e	",
   },
   {
-    czWord: "	Minulý měsíc jsem měl nehodu. Zítra je soud.	",
+    czWord: "	Minulý měsíc jsem měl nehodu. Zítra je soudní jednání.	",
     sentenceTranslated:
-      "	Ich hatte letzten Monat einen Unfall. Morgen ist die wordTranslatedichtsverhandlung.	",
-    wordTranslated: "	die wordTranslatedichtsverhandlung, -en	",
-  },
-  {
-    czWord: "	Náš tým měl jen malou šanci.	",
-    sentenceTranslated: "	Unsere Mannschaft hatte nur eine wordTranslatedinge Chance.	",
-    wordTranslated: "	wordTranslateding	",
+      "	Ich hatte letzten Monat einen Unfall. Morgen ist die Gerichtsverhandlung.	",
+    wordTranslated: "	die Gerichtsverhandlung, -en	",
   },
   {
     czWord: "	Rád vám pomůžu.	",
-    sentenceTranslated: "	Ich helfe Ihnen wordTranslatedn.	",
-    wordTranslated: "	wordTranslatedn/wordTranslatedne	",
+    sentenceTranslated: "	Ich helfe Ihnen gern.	",
+    wordTranslated: "gern/gerne	",
   },
   {
     czWord: "	Celá populace je proti tomu.	",
@@ -4399,7 +4394,7 @@ export default [
   },
   {
     czWord: "	Díky za pomoc. - Není zač.	",
-    sentenceTranslated: "	Vielen Dank für Ihre Hilfe. - wordTranslatedn geschehen.	",
+    sentenceTranslated: "	Vielen Dank für Ihre Hilfe. - Gern geschehen.	",
     wordTranslated: "	geschehen, geschieht, geschah, ist geschehen	",
   },
   {
@@ -4469,8 +4464,8 @@ export default [
     wordTranslated: "	gespannt	",
   },
   {
-    czWord: "	Pan Müller právě konverzuje.	",
-    sentenceTranslated: "	Herr Müller ist wordTranslatedade in einem Gespräch.	",
+    czWord: "	Pan Müller je právě na pohovoru	",
+    sentenceTranslated: "	Herr Müller ist gerade in einem Gespräch.	",
     wordTranslated: "	das Gespräch, -e	",
   },
   {
@@ -4688,7 +4683,7 @@ export default [
   },
   {
     czWord: "	Líbí se mi žít ve velkém městě.	",
-    sentenceTranslated: "	Ich lebe wordTranslatedn in einer Großstadt.	",
+    sentenceTranslated: "	Ich lebe gern in einer Großstadt.	",
     wordTranslated: "die Großstadt, -e",
   },
   {
@@ -4765,7 +4760,7 @@ export default [
   },
   {
     czWord: "	Máme hlad.	",
-    sentenceTranslated: "	Wir haben HunwordTranslated.	",
+    sentenceTranslated: "	Wir haben Hunger.	",
     wordTranslated: "	haben, hat, hatte, hat gehabt	",
   },
   {
@@ -4781,7 +4776,7 @@ export default [
   },
   {
     czWord: "	Dal bych si půlku kuřete s hranolkama, prosím.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn ein halbes Hähnchen mit Pommes frites, bitte.	",
+    sentenceTranslated: "	Ich hätte gern ein halbes Hähnchen mit Pommes frites, bitte.	",
     wordTranslated: "	das Hähnchen, -	",
   },
   {
@@ -4958,7 +4953,7 @@ export default [
   },
   {
     czWord: "	Chtěl bych sešit.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn ein Schreibheft.	",
+    sentenceTranslated: "	Ich hätte gern ein Schreibheft.	",
     wordTranslated: "	das Heft, -e	",
   },
   {
@@ -5222,7 +5217,7 @@ export default [
   },
   {
     czWord: "	Rád jím chlebové rolky s medem a máslem k snídani.	",
-    sentenceTranslated: "	Ich esse wordTranslatedn Brötchen mit Honig und Butter zum Frühstück.	",
+    sentenceTranslated: "	Ich esse gern Brötchen mit Honig und Butter zum Frühstück.	",
     wordTranslated: "	der Honig, -e	",
   },
   {
@@ -5262,8 +5257,8 @@ export default [
   },
   {
     czWord: "	Nemám hlad.	",
-    sentenceTranslated: "	Ich habe keinen HunwordTranslated.	",
-    wordTranslated: "	der HunwordTranslated (Sg.)	",
+    sentenceTranslated: "	Ich habe keinen Hunger.	",
+    wordTranslated: "	der Hunger(Sg.)	",
   },
   {
     czWord: "	Mám velký hlad.	",
@@ -5400,7 +5395,7 @@ export default [
   },
   {
     czWord: "	Rád bych si tentokrát vzal dovolenou na ostrově.	",
-    sentenceTranslated: "	Ich würde dieses Mal wordTranslatedn auf einer Insel Ferien machen.	",
+    sentenceTranslated: "	Ich würde dieses Mal gern auf einer Insel Ferien machen.	",
     wordTranslated: "	die Insel, -n	",
   },
   {
@@ -5617,7 +5612,7 @@ export default [
   },
   {
     czWord: "	Mnoho mladých lidí rádo chodí na diskotéku.	",
-    sentenceTranslated: "	Viele Jugendliche gehen wordTranslatedne in die Disko.	",
+    sentenceTranslated: "	Viele Jugendliche gehen gerne in die Disko.	",
     wordTranslated: "	der Jugendliche, -n	",
   },
   {
@@ -5743,7 +5738,7 @@ export default [
   },
   {
     czWord: "	Svátky byly katastrofa. Jen pršelo.	",
-    sentenceTranslated: "	Der Urlaub war eine Katastrophe. Es hat nur wordTranslatedegnet.	",
+    sentenceTranslated: "	Der Urlaub war eine Katastrophe. Es hat nur geregnet.	",
     wordTranslated: "	die Katastrophe, -n	",
   },
   {
@@ -6010,7 +6005,7 @@ export default [
   },
   {
     czWord: "	Rád vařím.	",
-    sentenceTranslated: "	Ich koche wordTranslatedn.	",
+    sentenceTranslated: "	Ich koche gern.	",
     wordTranslated: "	kochen, kocht, kochte, hat gekocht	",
   },
   {
@@ -6169,7 +6164,7 @@ export default [
   },
   {
     czWord: "	Moje žena ráda nosí kostýmy.	",
-    sentenceTranslated: "	Meine Frau trägt wordTranslatedne Kostüme.	",
+    sentenceTranslated: "	Meine Frau trägt gerne Kostüme.	",
     wordTranslated: "	das Kostüm, -e	",
   },
   {
@@ -6219,12 +6214,12 @@ export default [
   },
   {
     czWord: "	Můj bratr pracuje jako sestra v nemocnici.	",
-    sentenceTranslated: "	Mein Bruder arbeitet als KrankenpflewordTranslated im Krankenhaus.	",
-    wordTranslated: "	der KrankenpflewordTranslated, -	",
+    sentenceTranslated: "	Mein Bruder arbeitet als Krankenpfleger im Krankenhaus.	",
+    wordTranslated: "	der Krankenpfleger, -	",
   },
   {
     czWord: "	Můj bratranec chce být sestřičkou.	",
-    sentenceTranslated: "	Meine Cousine möchte wordTranslatedn Krankenschwester werden.	",
+    sentenceTranslated: "	Meine Cousine möchte gern Krankenschwester werden.	",
     wordTranslated: "	die Krankenschwester, -n	",
   },
   {
@@ -6441,8 +6436,8 @@ export default [
     czWord:
       "	Nevím, jestli máme tuhle botu ve vaší velikosti. Zkontroluju tábor.	",
     sentenceTranslated:
-      "	Ich weiß nicht, ob wir diesen Schuh in Ihrer Größe haben. Ich sehe mal im LawordTranslated nach.	",
-    wordTranslated: "das LawordTranslated, -",
+      "	Ich weiß nicht, ob wir diesen Schuh in Ihrer Größe haben. Ich sehe mal im Lager nach.	",
+    wordTranslated: "das Lager, -",
   },
   {
     czWord: "	Koupil jsem novou lampu.	",
@@ -7088,7 +7083,7 @@ export default [
   {
     czWord: "	Už jsem volal dvakrát. - Ale nikdo neodpovídá.	",
     sentenceTranslated:
-      "	Ich habe schon zweimal anwordTranslatedufen. - Aber es meldet sich niemand.	",
+      "	Ich habe schon zweimal angerufen. - Aber es meldet sich niemand.	",
     wordTranslated: "	melden, meldet, meldete, hat gemeldet	",
   },
   {
@@ -7150,8 +7145,8 @@ export default [
   },
   {
     czWord: "	Tenhle řezník má velmi dobrou klobásu.	",
-    sentenceTranslated: "	Diese MetzwordTranslatedei hat sehr gute Wurst.	",
-    wordTranslated: "	die MetzwordTranslatedei, -en	",
+    sentenceTranslated: "	Dieser Metzger hat sehr gute Wurst.	",
+    wordTranslated: "	der Metzger, -en	",
   },
   {
     czWord: "	Pronajali jsme si byt na tři roky.	",
@@ -7296,7 +7291,7 @@ export default [
   },
   {
     czWord: "	Byt je moderně zařízený.	",
-    sentenceTranslated: "	Die Wohnung ist modern einwordTranslatedichtet.	",
+    sentenceTranslated: "	Die Wohnung ist modern eingerichtet.	",
     wordTranslated: "	modern	",
   },
   {
@@ -7461,7 +7456,7 @@ export default [
   },
   {
     czWord: "	Rád bych se setkal se svou rodinou v Německu.	",
-    sentenceTranslated: "	Ich möchte wordTranslatedne meine Familie nach Deutschland nachholen.	",
+    sentenceTranslated: "	Ich möchte gerne meine Familie nach Deutschland nachholen.	",
     wordTranslated: "	nachholen, holt nach, holte nach, hat nachgeholt	",
   },
   {
@@ -7560,7 +7555,7 @@ export default [
   },
   {
     czWord: "	Strašně pršelo. Jsem celá mokrá.	",
-    sentenceTranslated: "	Es hat schrecklich wordTranslatedegnet. Ich bin ganz nass geworden.	",
+    sentenceTranslated: "	Es hat schrecklich geregnet. Ich bin ganz nass geworden.	",
     wordTranslated: "	nass	",
   },
   {
@@ -7852,7 +7847,7 @@ export default [
   {
     czWord: "	Právě jsem udělala pizzu. Je to čerstvé z trouby.	",
     sentenceTranslated:
-      "	Ich habe wordTranslatedade eine Pizza gemacht. Sie ist ganz frisch aus dem Ofen.	",
+      "	Ich habe gerade eine Pizza gemacht. Sie ist ganz frisch aus dem Ofen.	",
     wordTranslated: "der Ofen, -",
   },
   {
@@ -7923,7 +7918,7 @@ export default [
   },
   {
     czWord: "	Kupuji mnoho věcí online. Tohle je často levnější.	",
-    sentenceTranslated: "	Ich kaufe jetzt viele Sachen online. Das ist oft billiwordTranslated.	",
+    sentenceTranslated: "	Ich kaufe jetzt viele Sachen online. Das ist oft billiger.	",
     wordTranslated: "	online	",
   },
   {
@@ -7958,7 +7953,7 @@ export default [
   },
   {
     czWord: "	Rád jím pomeranče.	",
-    sentenceTranslated: "	Ich esse wordTranslatedn Orangen.	",
+    sentenceTranslated: "	Ich esse gern Orangen.	",
     wordTranslated: "	die Orange, -n	",
   },
   {
@@ -8075,7 +8070,7 @@ export default [
   },
   {
     czWord: "	Rád chodím do parku.	",
-    sentenceTranslated: "	Ich gehe wordTranslatedn im Park spazieren.	",
+    sentenceTranslated: "	Ich gehe gern im Park spazieren.	",
     wordTranslated: "	der Park, -s	",
   },
   {
@@ -8110,7 +8105,7 @@ export default [
   },
   {
     czWord: "	Musím si prodloužit pas.	",
-    sentenceTranslated: "	Ich muss meinen Pass verlänwordTranslatedn lassen.	",
+    sentenceTranslated: "	Ich muss meinen Pass verlängern lassen.	",
     wordTranslated: "der Pass, -e",
   },
   {
@@ -8211,7 +8206,7 @@ export default [
   },
   {
     czWord: "	Rád jím švestky a ještě lepší švestkový koláč.	",
-    sentenceTranslated: "	Ich esse wordTranslatedn Pflaumen und noch lieber Pflaumenkuchen.	",
+    sentenceTranslated: "	Ich esse gern Pflaumen und noch lieber Pflaumenkuchen.	",
     wordTranslated: "	die Pflaume, -n	",
   },
   {
@@ -8221,8 +8216,8 @@ export default [
   },
   {
     czWord: "	Moje přítelkyně si našla práci jako pečovatelka.	",
-    sentenceTranslated: "	Meine Freundin hat eine Stelle als AltenpflewordTranslatedin gefunden.	",
-    wordTranslated: "	der PflewordTranslated, -	",
+    sentenceTranslated: "	Meine Freundin hat eine Stelle als Altenpflegerin gefunden.	",
+    wordTranslated: "	der Pfleger, die Pflegerin	",
   },
   {
     czWord:
@@ -8250,7 +8245,7 @@ export default [
   },
   {
     czWord: "	Můj zeť studuje fyziku.	",
-    sentenceTranslated: "	Mein SchwiewordTranslatedsohn studiert Physik.	",
+    sentenceTranslated: "	Mein Schwiegersohn studiert Physik.	",
     wordTranslated: "	die Physik (Sg.)	",
   },
   {
@@ -8313,7 +8308,7 @@ export default [
   {
     czWord: "	Často diskutuji o politických problémech se svým tchánem.	",
     sentenceTranslated:
-      "	Ich diskutiere mit meinem SchwiewordTranslatedvater oft über politische Probleme.	",
+      "	Ich diskutiere mit meinem Schwiegervater oft über politische Probleme.	",
     wordTranslated: "	politisch	",
   },
   {
@@ -8323,12 +8318,12 @@ export default [
   },
   {
     czWord: "	Semafor byl rozbitý. Policista reguloval provoz.	",
-    sentenceTranslated: "	Die Ampel war kaputt. Ein Polizist hat den Verkehr wordTranslatedegelt.	",
+    sentenceTranslated: "	Die Ampel war kaputt. Ein Polizist hat den Verkehr geregelt.	",
     wordTranslated: "	der Polizist, -en	",
   },
   {
     czWord: "	Děti rády jedí klobásy s hranolkama.	",
-    sentenceTranslated: "	Die Kinder essen wordTranslatedn Würstchen mit Pommes frites.	",
+    sentenceTranslated: "	Die Kinder essen gerne Würstchen mit Pommes frites.	",
     wordTranslated: "	die Pommes frites (Pl.)	",
   },
   {
@@ -8421,7 +8416,7 @@ export default [
   },
   {
     czWord: "	José nerad mluví o svých problémech.	",
-    sentenceTranslated: "	José spricht nicht wordTranslatedn über seine Probleme.	",
+    sentenceTranslated: "	José spricht nicht gern über seine Probleme.	",
     wordTranslated: "	das Problem, -e	",
   },
   {
@@ -8537,8 +8532,8 @@ export default [
     wordTranslated: "	die Qualität, -en	",
   },
   {
-    czWord: "	For breakfast I like to eat cottage cheese with fruits.	",
-    sentenceTranslated: "	Zum Frühstück esse ich wordTranslatedne Quark mit Früchten.	",
+    czWord: "	K snídani nejraději jím tvaroh s ovocem.	",
+    sentenceTranslated: "	Zum Frühstück esse ich gerne Quark mit Früchten.	",
     wordTranslated: "	der Quark (Sg.)	",
   },
   {
@@ -8627,7 +8622,7 @@ export default [
   {
     czWord: "	Kouření je zakázáno!	",
     sentenceTranslated: "	Hier ist Rauchen verboten!	",
-    wordTranslated: "	rauchen, raucht, rauchte, hat wordTranslatedaucht	",
+    wordTranslated: "	rauchen, raucht, rauchte, hat geraucht	",
   },
   {
     czWord: "	Je tu kuřácká místnost?	",
@@ -8665,7 +8660,7 @@ export default [
   {
     czWord: "	Moje dcera se může spolehnout.	",
     sentenceTranslated: "	Meine Tochter kann gut rechnen.	",
-    wordTranslated: "	rechnen, rechnet, rechnete, hat wordTranslatedechnet	",
+    wordTranslated: "	rechnen, rechnet, rechnete, hat gerechnet	",
   },
   {
     czWord: "	Můj počítač je rozbitý.	",
@@ -8714,8 +8709,8 @@ export default [
   },
   {
     czWord: "	O čem jste včera mluvili?	",
-    sentenceTranslated: "	Worüber habt ihr gestern wordTranslatededet	",
-    wordTranslated: "	reden, redet, redete, hat wordTranslatededet	",
+    sentenceTranslated: "	Worüber habt ihr gestern gerededet	",
+    wordTranslated: "	reden, redet, redete, hat gerededet	",
   },
   {
     czWord: "	Prezident měl projev.	",
@@ -8739,7 +8734,7 @@ export default [
   },
   {
     czWord: "	Moje dcera se učí ve škole dopravní pravidla.	",
-    sentenceTranslated: "	Meine Tochter lernt in der Schule wordTranslatedade die Verkehrsregeln.	",
+    sentenceTranslated: "	Meine Tochter lernt in der Schule  die Verkehrsregeln.	",
     wordTranslated: "	die Regel, -n	",
   },
   {
@@ -8750,12 +8745,12 @@ export default [
   {
     czWord: "	Semafor je rozbitý. Policista řídí provoz.	",
     sentenceTranslated: "	Die Ampel ist kaputt. Ein Polizist regelt den Verkehr.	",
-    wordTranslated: "	regeln, regelt, regelte, hat wordTranslatedegelt	",
+    wordTranslated: "	regeln, regelt, regelte, hatgeregelt	",
   },
   {
     czWord: "	Včera pršelo celý den.	",
-    sentenceTranslated: "	Es hat gestern den ganzen Tag wordTranslatedegnet.	",
-    wordTranslated: "	regnen, es regnet, es regnete, es hat wordTranslatedegnet	",
+    sentenceTranslated: "	Es hat gestern den ganzen Tag geregnet.	",
+    wordTranslated: "	regnen, es regnet, es regnete, es hat geregnet	",
   },
   {
     czWord: "	V případě deště je koncert zrušen.	",
@@ -8769,7 +8764,7 @@ export default [
   },
   {
     czWord: "	Můžete jet regionálním vlakem. Tohle je levnější.	",
-    sentenceTranslated: "	Du kannst mit einer Regionalbahn fahren. Das ist billiwordTranslated.	",
+    sentenceTranslated: "	Du kannst mit einer Regionalbahn fahren. Das ist billiger.	",
     wordTranslated: "	regional	",
   },
   {
@@ -8780,7 +8775,7 @@ export default [
   {
     czWord: "	Beru jen jednu polévku. To mi stačí.	",
     sentenceTranslated: "	Ich nehme nur eine Suppe. Das reicht mir.	",
-    wordTranslated: "	reichen, reicht, reichte, hat wordTranslatedeicht	",
+    wordTranslated: "	reichen, reicht, reichte, hat gereicht	",
   },
   {
     czWord: "	Nemůžeš jíst banán.	",
@@ -8805,7 +8800,7 @@ export default [
   {
     czWord: "	Chci ten oblek vyčistit.	",
     sentenceTranslated: "	Ich möchte diesen Anzug reinigen lassen.	",
-    wordTranslated: "	reinigen, reinigt, reinigte, hat wordTranslatedeinigt	",
+    wordTranslated: "	reinigen, reinigt, reinigte, hat gereinigt	",
   },
   {
     czWord: "	Můžeš prosím přinést halenku do čistírny?	",
@@ -8819,8 +8814,8 @@ export default [
   },
   {
     czWord: "	Rád cestuju.	",
-    sentenceTranslated: "	Ich reise wordTranslatedn.	",
-    wordTranslated: "	reisen, reist, reiste, ist wordTranslatedeist	",
+    sentenceTranslated: "	Ich reise gern.	",
+    wordTranslated: "	reisen, reist, reiste, ist gereist	",
   },
   {
     czWord: "	Zamluvili jsme si výlet do Rakouska.	",
@@ -8834,8 +8829,8 @@ export default [
   },
   {
     czWord: "	Moje dcera by se ráda naučila jezdit.	",
-    sentenceTranslated: "	Meine Tochter möchte wordTranslatedne reiten lernen.	",
-    wordTranslated: "	reiten, reitet, ritt, ist wordTranslateditten	",
+    sentenceTranslated: "	Meine Tochter möchte gerne reiten lernen.	",
+    wordTranslated: "	reiten, reitet, ritt, ist geritten	",
   },
   {
     czWord: "	V plavání je nový světový rekord.	",
@@ -8849,8 +8844,8 @@ export default [
   },
   {
     czWord: "	Běžel jsem velmi rychle, ale autobus už byl pryč.	",
-    sentenceTranslated: "	Ich bin sehr schnell wordTranslatedannt, aber der Bus war schon weg.	",
-    wordTranslated: "	rennen, rennt, rannte, ist wordTranslatedannt	",
+    sentenceTranslated: "	Ich bin sehr schnell gerannt, aber der Bus war schon weg.	",
+    wordTranslated: "	rennen, rennt, rannte, ist gerannt	",
   },
   {
     czWord: "	Nejdřív musíme zrenovovat byt.	",
@@ -8900,7 +8895,7 @@ export default [
   {
     czWord: "	Doktor byl stále schopen zachránit dítě.	",
     sentenceTranslated: "	Der Arzt konnte das Kind noch retten.	",
-    wordTranslated: "	retten, rettet, rettete, hat wordTranslatedettet	",
+    wordTranslated: "	retten, rettet, rettete, hat gerettet	",
   },
   {
     czWord: "	Tyto tablety jsou dostupné pouze na lékařský předpis.	",
@@ -8935,7 +8930,7 @@ export default [
   {
     czWord: "	Ten parfém voní velmi dobře.	",
     sentenceTranslated: "	Dieses Parfüm riecht sehr gut.	",
-    wordTranslated: "	riechen, riecht, roch, hat wordTranslatedochen	",
+    wordTranslated: "	riechen, riecht, roch, hat gerochen	",
   },
   {
     czWord: "	Město je obrovské.	",
@@ -8969,7 +8964,7 @@ export default [
   },
   {
     czWord: "	Rád čtu romány.	",
-    sentenceTranslated: "	Ich lese wordTranslatedn Romane.	",
+    sentenceTranslated: "	Ich lese gern Romane.	",
     wordTranslated: "	der Roman, -e	",
   },
   {
@@ -9020,8 +9015,8 @@ export default [
   {
     czWord: "	Volala jsem dětem, ale neslyšeli mě.	",
     sentenceTranslated:
-      "	Ich habe die Kinder wordTranslatedufen, aber sie haben mich nicht gehört.	",
-    wordTranslated: "	rufen, ruft, rief, hat wordTranslatedufen	",
+      "	Ich habe die Kinder gerufen, aber sie haben mich nicht gehört.	",
+    wordTranslated: "	rufen, ruft, rief, hat gerufen	",
   },
   {
     czWord: "	Ticho, prosím!	",
@@ -9036,7 +9031,7 @@ export default [
   {
     czWord: "	Musíš dobře míchat polévku.	",
     sentenceTranslated: "	Die Suppe musst du gut umrühren.	",
-    wordTranslated: "	rühren, rührt, rührte, hat wordTranslatedührt	",
+    wordTranslated: "	rühren, rührt, rührte, hat gerührt	",
   },
   {
     czWord: "	Koupili jsme kulatý stůl do obýváku.	",
@@ -9061,7 +9056,7 @@ export default [
   },
   {
     czWord: "	Chtěl bych pytlík brambor.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn einen Sack Kartoffeln.	",
+    sentenceTranslated: "	Ich hätte gern einen Sack Kartoffeln.	",
     wordTranslated: "der Sack, -e",
   },
   {
@@ -9076,7 +9071,7 @@ export default [
   },
   {
     czWord: "	Dala bych si zmrzlinu se smetanou.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn ein Eis mit Sahne.	",
+    sentenceTranslated: "	Ich hätte gern ein Eis mit Sahne.	",
     wordTranslated: "	die Sahne (Sg.)	",
   },
   {
@@ -9116,13 +9111,13 @@ export default [
   },
   {
     czWord: "	Děti si rády hrají v písku.	",
-    sentenceTranslated: "	Die Kinder spielen wordTranslatedn im Sand.	",
+    sentenceTranslated: "	Die Kinder spielen gerne im Sand.	",
     wordTranslated: "	der Sand, -e	",
   },
   {
     czWord: "	Jak najdete toho zpěváka?	",
-    sentenceTranslated: "	Wie findest du diesen SänwordTranslated	",
-    wordTranslated: "	der SänwordTranslated, -	",
+    sentenceTranslated: "	Wie findest du diesen Sänger?	",
+    wordTranslated: "	der Sänger, -	",
   },
   {
     czWord: "	Chceš něco jiného?	",
@@ -9146,7 +9141,7 @@ export default [
   },
   {
     czWord: "	Chtěl bych krabici cigaret.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn eine Schachtel Zigaretten.	",
+    sentenceTranslated: "	Ich hätte gern eine Schachtel Zigaretten.	",
     wordTranslated: "	die Schachtel, -n	",
   },
   {
@@ -9238,7 +9233,7 @@ export default [
   },
   {
     czWord: "	Včera pršelo. Dnes zase svítí slunce.	",
-    sentenceTranslated: "	Gestern hat es wordTranslatedegnet. Heute scheint wieder die Sonne.	",
+    sentenceTranslated: "	Gestern hat es geregnet. Heute scheint wieder die Sonne.	",
     wordTranslated: "	scheinen, scheint, schien, hat geschienen	",
   },
   {
@@ -9553,14 +9548,14 @@ export default [
     wordTranslated: "	schwach	",
   },
   {
-    czWord: "	Můj bratranec je ve třetím měsíci.	",
-    sentenceTranslated: "	Meine Cousine ist im dritten Monat schwanwordTranslated.	",
-    wordTranslated: "	schwanwordTranslated	",
+    czWord: "	Moje sestřenice je ve třetím měsíci těhotenství.	",
+    sentenceTranslated: "	Meine Cousine ist im dritten Monat Schwangerschaft.	",
+    wordTranslated: "	die Schwangerschaft, -en die Gravidität, -en	",
   },
   {
     czWord: "	Během těhotenství nesmíte kouřit.	",
-    sentenceTranslated: "	Sie dürfen während der SchwanwordTranslatedschaft nicht rauchen.	",
-    wordTranslated: "	die SchwanwordTranslatedschaft, -en	",
+    sentenceTranslated: "	Sie dürfen während der Schwangerschaft nicht rauchen.	",
+    wordTranslated: "	die Schwangerschaft, -en	",
   },
   {
     czWord: "	Líbí se mi Černá Barva.	",
@@ -9583,9 +9578,9 @@ export default [
     wordTranslated: "	die Schwester, -n	",
   },
   {
-    czWord: "	Zítra navštívíme mé příbuzné.	",
-    sentenceTranslated: "	Wir besuchen morgen meine SchwiewordTranslatedeltern.	",
-    wordTranslated: "	SchwiewordTranslated	",
+    czWord: "	Zítra navštívíme mé příbuzné.	Tchán, tchýně.",
+    sentenceTranslated: "	Wir besuchen morgen meine Schwiegereltern.	",
+    wordTranslated: "	die Schwiegereltern.	",
   },
   {
     czWord: "	Zkouška byla velmi obtížná.	",
@@ -9734,7 +9729,7 @@ export default [
   },
   {
     czWord: "	Chtěl bych pohodlné křeslo.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn einen bequemen Sessel.	",
+    sentenceTranslated: "	Ich hätte gern einen bequemen Sessel.	",
     wordTranslated: "	der Sessel, -	",
   },
   {
@@ -9772,11 +9767,11 @@ export default [
   {
     czWord: "	Kdo vyhrál?	",
     sentenceTranslated: "	Wer hat gewonnen	",
-    wordTranslated: "	der SiewordTranslated, -	",
+    wordTranslated: "	der Sieger, -	",
   },
   {
     czWord: "	Rád zpívám.	",
-    sentenceTranslated: "	Ich singe wordTranslatedn.	",
+    sentenceTranslated: "	Ich singe gern.	",
     wordTranslated: "	singen, singt, sang, hat gesungen	",
   },
   {
@@ -9835,7 +9830,7 @@ export default [
   },
   {
     czWord: "	Chtěli bychom moderní pohovku.	",
-    sentenceTranslated: "	Wir hätten wordTranslatedn ein modernes Sofa.	",
+    sentenceTranslated: "	Wir hätten gern ein modernes Sofa.	",
     wordTranslated: "	das Sofa, -s	",
   },
   {
@@ -9945,7 +9940,7 @@ export default [
   },
   {
     czWord: "	Můj švagr pracuje jako sociální pracovník.	",
-    sentenceTranslated: "	Ein SchwawordTranslated von mir arbeitet als Sozialarbeiter.	",
+    sentenceTranslated: "	Mein Schwager von mir arbeitet als Sozialarbeiter.	",
     wordTranslated: "	der Sozialarbeiter, -	",
   },
   {
@@ -10032,7 +10027,7 @@ export default [
   {
     czWord: "	Ráda bych viděla, jak mi padnou šaty. Máš zrcadlo?	",
     sentenceTranslated:
-      "	Ich möchte wordTranslatedne sehen, wie mein Kleid sitzt. Hast du einen Spiegel	",
+      "	Ich möchte gerne sehen, wie mein Kleid sitzt. Hast du einen Spiegel	",
     wordTranslated: "	der Spiegel, -	",
   },
   {
@@ -10186,7 +10181,7 @@ export default [
   {
     czWord: "	Už jsem párkrát volal své přítelkyni. Je neustále obsazeno.	",
     sentenceTranslated:
-      "	Ich habe schon ein paar Mal bei meiner Freundin anwordTranslatedufen. Es ist ständig besetzt.	",
+      "	Ich habe schon ein paar Mal bei meiner Freundin angerufen. Es ist ständig besetzt.	",
     wordTranslated: "	ständig	",
   },
   {
@@ -10196,7 +10191,7 @@ export default [
   },
   {
     czWord: "	Tahle zpěvačka je velká hvězda v Německu.	",
-    sentenceTranslated: "	Diese SänwordTranslatedin ist ein großer Star in Deutschland.	",
+    sentenceTranslated: "	Diese Sängerin ist ein großer Star in Deutschland.	",
     wordTranslated: "	der Star, -s	",
   },
   {
@@ -10425,7 +10420,7 @@ export default [
   },
   {
     czWord: "	Chtěl bych krabici sirek.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn eine Schachtel Streichhölzer.	",
+    sentenceTranslated: "	Ich hätte gern eine Schachtel Streichhölzer.	",
     wordTranslated: "das Streichholz, -er",
   },
   {
@@ -10552,7 +10547,7 @@ export default [
   },
   {
     czWord: "	Rád jím sladké věci.	",
-    sentenceTranslated: "	Ich esse wordTranslatedn süße Sachen.	",
+    sentenceTranslated: "	Ich esse gern süße Sachen.	",
     wordTranslated: "	süß	",
   },
   {
@@ -10684,7 +10679,7 @@ export default [
   },
   {
     czWord: "	Rád pracuju v týmu.	",
-    sentenceTranslated: "	Ich arbeite wordTranslatedne im Team.	",
+    sentenceTranslated: "	Ich arbeite gerne im Team.	",
     wordTranslated: "	das Team, -s	",
   },
   {
@@ -11148,7 +11143,7 @@ export default [
   },
   {
     czWord: "	Včera řidič přejel chodce.	",
-    sentenceTranslated: "	Gestern hat ein Autofahrer einen FußgänwordTranslated überfahren.	",
+    sentenceTranslated: "	Gestern hat ein Autofahrer einen Fußgänger überfahren.	",
     wordTranslated: "	überfahren, überfährt, überfuhr, hat überfahren	",
   },
   {
@@ -11991,7 +11986,7 @@ export default [
   {
     czWord: "	Soud odsoudil pachatele na tři roky vězení.	",
     sentenceTranslated:
-      "	Das wordTranslatedicht hat den Täter zu drei Jahren Gefängnis verurteilt.	",
+      "	Das Gericht hat den Täter zu drei Jahren Gefängnis verurteilt.	",
     wordTranslated: "	verurteilen, verurteilt, verurteilte, hat verurteilt	",
   },
   {
@@ -12041,7 +12036,7 @@ export default [
   },
   {
     czWord: "	Talal musí brzy prodloužit vízum.	",
-    sentenceTranslated: "	Talal muss sein Visum bald verlänwordTranslatedn.	",
+    sentenceTranslated: "	Talal muss sein Visum bald verlängern.	",
     wordTranslated: "	das Visum, die Visa	",
   },
   {
@@ -12061,12 +12056,12 @@ export default [
   },
   {
     czWord: "	Rád bych pracoval na plný úvazek.	",
-    sentenceTranslated: "	Ich möchte wordTranslatedne Vollzeit arbeiten.	",
+    sentenceTranslated: "	Ich möchte gerne Vollzeit arbeiten.	",
     wordTranslated: "	die Vollzeit, -en	",
   },
   {
     czWord: "	Právě jsem přišel od zubaře.	",
-    sentenceTranslated: "	Ich komme wordTranslatedade vom Zahnarzt.	",
+    sentenceTranslated: "	Ich komme gerade vom Zahnarzt.	",
     wordTranslated: "	von	",
   },
   {
@@ -12116,7 +12111,7 @@ export default [
   },
   {
     czWord: "	Předevčírem mi volal.	",
-    sentenceTranslated: "	Er hat mich vorgestern anwordTranslatedufen.	",
+    sentenceTranslated: "	Er hat mich vorgestern angerufen.	",
     wordTranslated: "	vorgestern	",
   },
   {
@@ -12131,7 +12126,7 @@ export default [
   },
   {
     czWord: "	Heidrun před chvílí volal. Zavoláš jim zpátky.	",
-    sentenceTranslated: "	Vorhin hat Heidrun anwordTranslatedufen. Du sollst sie zurückrufen.	",
+    sentenceTranslated: "	Vorhin hat Heidrun angeruferufen. Du sollst sie zurückrufen.	",
     wordTranslated: "	vorhin	",
   },
   {
@@ -12222,8 +12217,8 @@ export default [
   },
   {
     czWord: "	Prosím, nakreslete vodorovnou čáru.	",
-    sentenceTranslated: "	Ziehen Sie bitte einen waawordTranslatedechten Strich.	",
-    wordTranslated: "	waawordTranslatedecht	",
+    sentenceTranslated: "	Ziehen Sie bitte einen waagerechten Strich.	",
+    wordTranslated: "	waagerecht",
   },
   {
     czWord: "	Už jsi dlouho vzhůru?	",
@@ -12263,7 +12258,7 @@ export default [
   },
   {
     czWord: "	Prosím, řekni mi pravdu. Už zase kouříš?	",
-    sentenceTranslated: "	Sag mir bitte die Wahrheit. Hast du wieder wordTranslatedaucht	",
+    sentenceTranslated: "	Sag mir bitte die Wahrheit. Hast du wieder geraucht?	",
     wordTranslated: "	die Wahrheit, -en	",
   },
   {
@@ -12339,7 +12334,7 @@ export default [
   },
   {
     czWord: "	Právě jsem vyprala blůzu čerstvou.	",
-    sentenceTranslated: "	Ich habe die Bluse wordTranslatedade frisch gewaschen.	",
+    sentenceTranslated: "	Ich habe die Bluse geradedade frisch gewaschen.	",
     wordTranslated: "	waschen, wäscht, wusch, hat gewaschen	",
   },
   {
@@ -12491,7 +12486,7 @@ export default [
   {
     czWord: "	Nemám hlad. - Sněz aspoň kousek dortu.	",
     sentenceTranslated:
-      "	Ich habe keinen HunwordTranslated. - Ach, essen Sie wenigstens ein Stück Kuchen.	",
+      "	Ich habe keinen Hunger. - Ach, essen Sie wenigstens ein Stück Kuchen.	",
     wordTranslated: "	wenigstens	",
   },
   {
@@ -12502,7 +12497,7 @@ export default [
   { czWord: "	Kdo je to?	", sentenceTranslated: "	Wer ist das	", wordTranslated: "	wer	" },
   {
     czWord: "	Rád vidím reklamy v televizi.	",
-    sentenceTranslated: "	Ich sehe wordTranslatedn die Werbung im Fernsehen.	",
+    sentenceTranslated: "	Ich sehe gernn die Werbung im Fernsehen.	",
     wordTranslated: "	die Werbung, -en	",
   },
   {
@@ -12845,7 +12840,7 @@ export default [
   {
     czWord: "	Moje děti se učí dopravní značky ve škole.	",
     sentenceTranslated:
-      "	Meine Kinder lernen in der Schule wordTranslatedade die Verkehrszeichen.	",
+      "	Meine Kinder lernen Verkehrszeichen in der Schule.	",
     wordTranslated: "	das Verkehrszeichen, -	",
   },
   {
@@ -12971,7 +12966,7 @@ export default [
   },
   {
     czWord: "	Dal bych si čaj s citrónem.	",
-    sentenceTranslated: "	Ich hätte wordTranslatedn einen Tee mit Zitrone.	",
+    sentenceTranslated: "	Ich hätte gern einen Tee mit Zitrone.	",
     wordTranslated: "	die Zitrone, -n	",
   },
   {
@@ -13039,7 +13034,7 @@ export default [
   },
   {
     czWord: "	Tohle je váš budoucí šéf, Pane Webere.	",
-    sentenceTranslated: "	Das ist Ihr zukünftiwordTranslated Chef, Herr Weber.	",
+    sentenceTranslated: "	Das ist Ihr zukünftiger Chef, Herr Weber.	",
     wordTranslated: "	zukünftig	",
   },
   {
