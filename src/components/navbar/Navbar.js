@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="w-full min-h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-start w-full h-full text-xl p-8">
-        <aside className="logo w-1/3 mr-4">
+        <aside className="logo sm:w-1/3">
           Learn <strong>languages</strong>
         </aside>
         <ul className="justify-around items-start w-full h-full hidden md:flex">
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? " pokus snap-x z-10  fixed left-0 top-0 w-full h-screen bg-black/70" : "z-0"}
+        className={nav ? "snap-x z-10  fixed left-0 top-0 w-full h-screen bg-black/70" : "z-0"}
       >
         <div
           className={
@@ -68,7 +68,7 @@ const Navbar = () => {
           }
         >
           <div className="flex justify-between items-center">
-            <aside className="logo mr-40">
+            <aside className="logo sm:mr-40">
               Learn <strong>languages</strong>
             </aside>
             <div onClick={handleNav} className="navClose rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
