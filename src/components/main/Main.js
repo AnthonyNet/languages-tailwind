@@ -19,7 +19,7 @@ const Main = () => {
 
   return (
     <section className={"responsiveSection flex flex-col justify-center items-center w-full h-[100vh] border-t-2"}
-    style={darkMode?stylesSwitch.dark.slate:stylesSwitch.light.basic}
+    style={darkMode?stylesSwitch.dark.slate:stylesSwitch.transparent}
     >
       <h1 className="ml-[-50px] mt-8"
       style={darkMode?stylesSwitch.dark.slate.font:null}

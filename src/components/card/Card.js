@@ -72,7 +72,9 @@ const Card = ({ dataJSON }) => {
     <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0"
      style={darkMode?stylesSwitch.dark.slate:stylesSwitch.transparent}
     >
-      <div className="w-full sm:w-[30rem]  pb-8 card">
+      <div className="w-full sm:w-[30rem]  pb-8 card"
+       style={darkMode?stylesSwitch.dark.basic:stylesSwitch.transparent}
+      >
         <ul className="flex flex-col justify-around text-center font-semibold italic">
           {switchLanguage? <CardTrue />: <CardFalse />}
 

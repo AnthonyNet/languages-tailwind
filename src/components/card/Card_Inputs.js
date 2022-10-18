@@ -1,10 +1,10 @@
 import React from "react";
-import { useEffect } from "react";
 
 const Card_Inputs = ({ myData, setTotalScore, setScore, setStars }) => {
   {
     /*check inputs values and change font, border or background */
   }
+ 
 
   const handleChange = (e) => {
     const value = e.target.value;
@@ -33,7 +33,7 @@ const Card_Inputs = ({ myData, setTotalScore, setScore, setStars }) => {
 
   return (
     <>
-      <h5 className="text-gray-900 text-xl font-medium mb-2 border-b border-gray-300">
+      <h5 className={'text-xl font-medium mb-2 border-b border-gray-300'}>
         {myData.cz}
       </h5>
       <ul className="flex flex-col justify-around text-center mb-2">

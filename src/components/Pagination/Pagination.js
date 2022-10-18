@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
 
 import dataOxfordB1 from "../data/json/OxfordB1";
 import dataOxfordB2 from "../data/json/OxfordB2";
@@ -7,6 +7,7 @@ import dataOxfordC1 from "../data/json/OxfordC1";
 
 import Goethe from "../data/json/Goethe";
 import OxfordB2 from "../data/json/OxfordB2";
+import { ThemeContext } from "../../ThemeContext";
 
 const Pagination = ({ dataJSON }) => {
   //add id to all myData items
@@ -15,7 +16,7 @@ const Pagination = ({ dataJSON }) => {
       item.id = index + 1;
     });
   });
-
+  const {darkMode, stylesSwitch} = useContext(ThemeContext);
   const [myData, setMyData] = useState(dataOxfordB1);
   const [currentPage, setCurrentPage] = useState(1);
   const [wordsPerPage, setPostsPerPage] = useState(25);
@@ -78,7 +79,9 @@ const Pagination = ({ dataJSON }) => {
 
 
   return (
-    <section className="min-h-screen flex flex-column justify-center items-baseline flex-wrap">
+    <section className="min-h-screen flex flex-column justify-center items-baseline flex-wrap"
+    style={darkMode? stylesSwitch.dark.exerciseCards : null}
+    >
       <nav className=" w-full h-auto border-4">
         <ul className="flex flex-row justify-around sm:w-[60%] m-auto">
           <li

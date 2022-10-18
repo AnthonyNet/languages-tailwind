@@ -53,7 +53,9 @@ const IrregularVerbs = ({ dataJSON }) => {
     <section className="flex justify-center items-center w-full h-[91vh]"
     style={darkMode?stylesSwitch.dark.slate:stylesSwitch.transparent}
     >
-      <div className="max-w-sm card">
+      <div className="max-w-sm card"
+      style={darkMode?stylesSwitch.dark.exerciseCards:stylesSwitch.light.basic}
+      >
         <div className="py-3 px-6 border-b border-gray-300">
           Celkové skóre: <span>{totalScore > 0 ? totalScore : 0}</span>
         </div>
@@ -63,7 +65,8 @@ const IrregularVerbs = ({ dataJSON }) => {
 
         <Score score={stars} />
 
-        <div className="px-6 inputs">
+        <div className="px-6 inputs"
+        >
           <CardInputs
             myData={dataJSON[rand]}
             setTotalScore={setTotalScore}

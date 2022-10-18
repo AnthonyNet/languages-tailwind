@@ -1,4 +1,5 @@
 import React, { createContext, useState } from "react";
+import { FaRegBell } from "react-icons/fa";
 
 export const ThemeContext = createContext();
 
@@ -10,14 +11,14 @@ export const ThemeProvider = (props) => {
       basic: {
         backgroundColor: "white",
         transitionTimingFunction: "ease-in",
-        transition: "2s",
+        transition: "1s",
       },
     },
     dark: {
       basic: {
         backgroundColor: "black",
         transitionTimingFunction: "ease-in",
-        transition: "12",
+        transition: "2s",
       },
       slate: {
         backgroundColor: "#0f172a",
@@ -31,14 +32,16 @@ export const ThemeProvider = (props) => {
         backgroundColor: "rgb(7, 7, 26)"
       },
       exerciseCards:{
-        basic:{
-          backgroundColor: "red"
-        }
+        color: "rgb(56 189 248)",
+        backgroundColor: "rgb(15 23 42)",
+        transitionTimingFunction: "ease-in",
+        transition: "2s",
+       
       }
     },
     transparent:{
       backgroundColor: "transparent",
-      transitionTimingFunction: "ease-in",
+      transitionTimingFunction: "ease-out",
       transition: "2s",
     }
   };
