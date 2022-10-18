@@ -31,6 +31,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 @layer utilities {
+
+
   .cardListItems{
     border-bottom: 1px solid #645d5d;
     padding: 2rem;
@@ -77,13 +79,13 @@
 
 
 @media screen and (max-height: 600px){
-  .testSection{
+  .responsiveSection{
     height: 120vh;
   }
 }
 
 @media screen and (max-height: 370px){
-  .testSection{
+  .responsiveSection{
     height: 200vh;
   }
 }

@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
+import ThemeButton from "../../ThemeButton";
 import { Link } from "react-router-dom";
 import { CgClose } from "react-icons/cg";
 import { TiThMenu } from "react-icons/ti";
@@ -14,18 +16,27 @@ import Goethe from "../data/json/Goethe";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const {darkMode} = useContext(ThemeContext);
+  const {stylesSwitch} = useContext(ThemeContext);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
- 
+
+
+ /* ${darkMode?'bg-black ease-in duration-500':'bg-white ease-in duration-500'} */
   return (
-    <nav className="w-full min-h-20 shadow-xl z-[100]">
-      <div className="flex justify-between items-start w-full h-full text-xl p-8">
+    <nav className={` w-full min-h-20 shadow-xl z-[100]`}
+    style={darkMode?stylesSwitch.dark.basic:stylesSwitch.light.basic}
+   >
+      <div className="flex relative justify-between items-start w-full h-full text-xl p-8">
         <aside className="logo sm:w-1/3">
-          Learn <strong>languages</strong>
+          Learn <strong>languages</strong> 
         </aside>
+        <span className="hidden md:flex absolute bottom-2 right-4 text-3xl">
+            <ThemeButton />
+          </span>
         <ul className="justify-around items-start w-full h-full hidden md:flex">
           <Link
           to="/"

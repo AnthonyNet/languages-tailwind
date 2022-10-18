@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 
 import CardInputs from "../card/Card_Inputs";
 import CardButton from "../card/CardButton";
@@ -7,6 +7,7 @@ import CardHint from "../card/CardHint";
 // import functions
 import getLocalStorage from "../Functions";
 import Score from "../card/Score";
+import { ThemeContext } from "../../ThemeContext";
 
 const IrregularVerbs = ({ dataJSON }) => {
   const [totalScore, setTotalScore] = useState(getLocalStorage());
@@ -14,7 +15,8 @@ const IrregularVerbs = ({ dataJSON }) => {
   const [stars, setStars] = useState(0);
   const [hint, setHint] = useState(false);
   const [rand, setRand] = useState(0);
-
+  const {darkMode, stylesSwitch} = useContext(ThemeContext);
+ 
 
 
   useEffect(() => {
@@ -48,7 +50,9 @@ const IrregularVerbs = ({ dataJSON }) => {
   }
 
   return (
-    <section className="flex justify-center items-center w-full h-[91vh]">
+    <section className="flex justify-center items-center w-full h-[91vh]"
+    style={darkMode?stylesSwitch.dark.slate:stylesSwitch.transparent}
+    >
       <div className="max-w-sm card">
         <div className="py-3 px-6 border-b border-gray-300">
           Celkové skóre: <span>{totalScore > 0 ? totalScore : 0}</span>

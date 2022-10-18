@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { ThemeContext } from "../../ThemeContext"
 import Table from './Table';
 
 const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
 const Main = () => {
   const [myData, setMyData] = useState(null);
-
+  const {darkMode} = useContext(ThemeContext);
+  const {stylesSwitch} = useContext(ThemeContext);
 
   useEffect(() =>{
     fetch(url)
@@ -16,8 +18,12 @@ const Main = () => {
 
 
   return (
-    <div className="testSection flex flex-col justify-center items-center w-full h-[100vh] border-2">
-      <h1 className="ml-[-50px] mt-8">Welcome</h1>
+    <section className={"responsiveSection flex flex-col justify-center items-center w-full h-[100vh] border-t-2"}
+    style={darkMode?stylesSwitch.dark.slate:stylesSwitch.light.basic}
+    >
+      <h1 className="ml-[-50px] mt-8"
+      style={darkMode?stylesSwitch.dark.slate.font:null}
+      >Welcome</h1>
       <h1 className="ml-[50px]">
         <strong>humans...</strong>
       </h1>
@@ -29,7 +35,9 @@ const Main = () => {
               className="w-full h-full" alt="fallout-logo"
             />
           </div>
-          <div className="my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400">
+          <div className="my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400"
+           style={darkMode?stylesSwitch.dark.card:stylesSwitch.light.basic}
+    >
             <div className="text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ">
               <h1 className="my-4 text-3xl font-semibold self-center">{myData&&myData.chartName}</h1>
              {myData&&<Table data={myData}/>}
@@ -43,7 +51,7 @@ const Main = () => {
         </div>
        
       </div>
-    </div>
+    </section>
   );
 };
 
