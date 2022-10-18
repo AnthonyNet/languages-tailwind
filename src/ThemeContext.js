@@ -37,6 +37,10 @@ export const ThemeProvider = (props) => {
         transitionTimingFunction: "ease-in",
         transition: "2s",
        
+      },
+      responsiveMenu: {
+        color: "rgb(56 189 248)",
+        backgroundColor: "rgb(15 23 42)",
       }
     },
     transparent:{
