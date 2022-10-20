@@ -1,3 +1,4 @@
+
 ## English German to Czech
 
 There is my simple app for learning english and german vocabulary, phrases etc.
@@ -6,7 +7,7 @@ There is my simple app for learning english and german vocabulary, phrases etc.
 
 ### Technologies&gadgets which has been used
 
- * **React**
+ * **[React](https://reactjs.org/docs/getting-started.html"Here we go"")**
   Router, Hooks(useState, useEffect, useContext)
 
  * **Tailwind**
