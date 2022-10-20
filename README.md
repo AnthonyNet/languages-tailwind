@@ -19,13 +19,13 @@ There is my simple app for learning english and german vocabulary, phrases etc.
  
 ## Menu
   * **Home**
-    There is a simple fetch data behind the picture. Surprise
+    * There is a simple fetch data behind the picture. Surprise
   * **Irregular Verbs / Unregelmäßige Verben**
-    Get score and stars for correct answers in exercises.
+    * Get score and stars for correct answers in exercises.
   * **OxfordB1,B2,C1, Phrasal verbs, Goethe**
-    Use simple cards to practice or learn new vocabulary or phrases from vast lists of words.  
+    * Use simple cards to practice or learn new vocabulary or phrases from vast lists of words.  
   * **Irregular List**
-    Simple search a word from a list
+    * Simple search a word from a list
   * **Pagination**
-    See the lists of words via the pagination page.
+    * See the lists of words via the pagination page.
 
