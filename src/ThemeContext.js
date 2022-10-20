@@ -10,20 +10,20 @@ export const ThemeProvider = (props) => {
     light: {
       basic: {
         backgroundColor: "white",
-        transitionTimingFunction: "ease-in",
-        transition: "1s",
+       
+        transition: "1s ease-in",
       },
     },
     dark: {
       basic: {
         backgroundColor: "black",
-        transitionTimingFunction: "ease-in",
-        transition: "2s",
+       
+        transition: "2s ease-in",
       },
       slate: {
         backgroundColor: "#0f172a",
-        transitionTimingFunction: "ease-in",
-        transition: "2s",
+       
+        transition: "2s ease-in",
         font: {
           color: "#2274cc"
         }
@@ -34,8 +34,8 @@ export const ThemeProvider = (props) => {
       exerciseCards:{
         color: "rgb(56 189 248)",
         backgroundColor: "rgb(15 23 42)",
-        transitionTimingFunction: "ease-in",
-        transition: "2s",
+       
+        transition: "2s ease-in",
        
       },
       responsiveMenu: {
@@ -45,8 +45,8 @@ export const ThemeProvider = (props) => {
     },
     transparent:{
       backgroundColor: "transparent",
-      transitionTimingFunction: "ease-out",
-      transition: "2s",
+    
+      transition: "2s ease-in",
     }
   };
   return (

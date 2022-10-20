@@ -69,7 +69,7 @@ const Card = ({ dataJSON }) => {
   };
 
   return (
-    <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0"
+    <section className="flex justify-center items-center w-full h-[100vh] p-2 sm:p-0 responsiveSection"
      style={darkMode?stylesSwitch.dark.slate:stylesSwitch.transparent}
     >
       <div className="w-full sm:w-[30rem]  pb-8 card"
