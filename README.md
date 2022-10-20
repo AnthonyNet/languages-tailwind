@@ -15,3 +15,5 @@ There is my simple app for learning english and german vocabulary, phrases etc.
  * **JavaScript**
  
  [Link to Portfolio Website](https://gaganpreetkaurkalsi.netlify.app “My Portfolio Website”)
+
+ [Link to Portfolio Website](https://gaganpreetkaurkalsi.netlify.app/)
