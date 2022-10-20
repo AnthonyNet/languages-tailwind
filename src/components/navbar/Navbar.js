@@ -78,7 +78,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
+              ? "responsiveMenu fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
               : "fixed top-10 left-[-100%] ease-in duration-500"
           }
           style={darkMode? stylesSwitch.dark.responsiveMenu: null}
@@ -98,8 +98,8 @@ const Navbar = () => {
             <p>Evolution means everyday learning</p>
           </div>
           <nav>
-            <ul className="flex flex-col sm:text-2xl  z-20">
-             <div className="flex justify-between items-center">
+            <ul className="flex flex-col  z-20">
+             <div className="flex justify-between items-center ble">
              <Link className="py-4 uppercase" to="/">
                 Home
               </Link>
@@ -108,7 +108,8 @@ const Navbar = () => {
               </span>
              </div>
 
-              <details className="py-4 cursor-pointer">
+             <main>
+             <details className="py-4 cursor-pointer">
                 <summary className="uppercase border-gray-300 border-b logo">
                   <strong>English</strong>
                 </summary>
@@ -125,13 +126,14 @@ const Navbar = () => {
 
               <details className="cursor-pointer">
                 <summary className="uppercase border-gray-300 border-b logo">
-                  Deutsch
+                 <strong> Deutsch</strong>
                 </summary>
                 <ul className="flex flex-col navDetails">
                   <Link to="/german">{`Unregelmäßige Verben (${VerbenData.length})`}</Link>
                   <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
                 </ul>
               </details>
+             </main>
             </ul>
           </nav>
         </div>

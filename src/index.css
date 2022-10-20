@@ -83,11 +83,28 @@
 }
 
 
-@media screen and (max-height: 600px){
+@media screen and (max-height: 600px), screen and (max-width: 639px){
+  .responsiveMenu{
+    width: 100vw;
+    padding: 1rem;
+  }
+  .responsiveMenu nav ul main{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   border: 2px solid red;
+  }
   .responsiveSection{
     height: 120vh;
   }
+  .responsiveMenu nav ul main details{
+
+    padding: 0;
+  }
 }
+
+
 
 @media screen and (max-height: 370px){
   .responsiveSection{
