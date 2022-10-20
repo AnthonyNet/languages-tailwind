@@ -42,7 +42,7 @@ const Navbar = () => {
             <summary className="uppercase logo">
               <strong className="hover:text-sky-700">English</strong>
             </summary>
-            <ul className="flex flex-col border-solid border-t-4 border-sky-400">
+            <ul className="flex flex-col border-solid border-t-4 border-sky-400 navDetails">
               <Link to="/english">{`Irregular Verbs (${IrregularVerbsEng.length})`}</Link>
               <Link to="/irregularSearch">{`Irregular List (${IrregularVerbsEng.length})`}</Link>
               <Link to="/oxford-B1">{`Oxford B1 (${OxfordB1.length})`}</Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <summary className="uppercase logo">
               <strong className="hover:text-sky-700">Deutsch</strong>
             </summary>
-            <ul className="flex flex-col border-solid border-t-4 border-sky-400">
+            <ul className="flex flex-col border-solid border-t-4 border-sky-400 navDetails">
               <Link to="/german">{`Unregelmäßige Verben (${VerbenData.length})`}</Link>
               <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
             </ul>
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <summary className="uppercase border-gray-300 border-b logo">
                   <strong>English</strong>
                 </summary>
-                <ul className="flex flex-col">
+                <ul className="flex flex-col navDetails">
                   <Link to="/english">{`Irregular verbs (${IrregularVerbsEng.length})`}</Link>
                   <Link to="/irregularSearch">{`Irregular list (${IrregularVerbsEng.length})`}</Link>
                   <Link to="/oxford-B1">{`Oxford B1 (${OxfordB1.length})`}</Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
                 <summary className="uppercase border-gray-300 border-b logo">
                   Deutsch
                 </summary>
-                <ul className="flex flex-col">
+                <ul className="flex flex-col navDetails">
                   <Link to="/german">{`Unregelmäßige Verben (${VerbenData.length})`}</Link>
                   <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
                 </ul>
