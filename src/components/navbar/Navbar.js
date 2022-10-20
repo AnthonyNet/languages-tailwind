@@ -113,12 +113,12 @@ const Navbar = () => {
                   <strong>English</strong>
                 </summary>
                 <ul className="flex flex-col">
-                  <Link to="/english">Irregular verbs</Link>
-                  <Link to="/irregularSearch">Irregular List</Link>
-                  <Link to="/oxford-B1">Oxford B1</Link>
-                  <Link to="/oxford-B2">Oxford B2</Link>
-                  <Link to="/oxford-C1">Oxford C1</Link>
-                  <Link to="/phrasal-1">Phrasal verbs</Link>
+                  <Link to="/english">{`Irregular verbs (${IrregularVerbsEng.length})`}</Link>
+                  <Link to="/irregularSearch">{`Irregular list (${IrregularVerbsEng.length})`}</Link>
+                  <Link to="/oxford-B1">{`Oxford B1 (${OxfordB1.length})`}</Link>
+                  <Link to="/oxford-B2">{`Oxford B2 (${OxfordB2.length})`}</Link>
+                  <Link to="/oxford-C1">{`Oxford C1 (${OxfordC1.length})`}</Link>
+                  <Link to="/phrasal-1">{`Lukes Phrasal (${LukesPhrasal.length})`}</Link>
                   <Link to="/pagination">Pagination</Link>
                 </ul>
               </details>
@@ -128,8 +128,8 @@ const Navbar = () => {
                   Deutsch
                 </summary>
                 <ul className="flex flex-col">
-                  <Link to="/german">Unregelmäßige Verben</Link>
-                  <Link to="/goethe">Goethe</Link>
+                  <Link to="/german">{`Unregelmäßige Verben (${VerbenData.length})`}</Link>
+                  <Link to="/goethe">{`Goethe (${Goethe.length})`}</Link>
                 </ul>
               </details>
             </ul>
