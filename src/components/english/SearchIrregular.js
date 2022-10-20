@@ -27,38 +27,38 @@ const SearchIrregular = () => {
 
         <div className="flex flex-col">
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
+            <div className="inline-block min-w-full sm:px-6 lg:px-8">
               <div className="overflow-hidden">
                 <table className="min-w-full text-center">
                   <thead className="border-b bg-gray-800">
                     <tr>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-white px-6 py-4"
+                        className="text-sm font-medium text-white p-2 sm:p-4"
                       >
                         #
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-white px-6 py-4"
+                        className="text-sm font-medium text-white p-2 sm:p-4"
                       >
                         CZ
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-white px-6 py-4"
+                        className="text-sm font-medium text-white p-2 sm:p-4"
                       >
                         ENG
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-white px-6 py-4"
+                        className="text-sm font-medium text-white p-2 sm:p-4"
                       >
                         Past Simple
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-white px-6 py-4"
+                        className="text-sm font-medium text-white p-2 sm:p-4"
                       >
                         Past Perfect
                       </th>
@@ -82,31 +82,31 @@ const SearchIrregular = () => {
                         <tr key={index} className="border-b-2 border-blue-200">
                           <th
                             scope="col"
-                            className="text-sm font-medium  px-6 py-4"
+                            className="text-sm font-medium  p-2 sm:p-4"
                           >
                             {index + 1}
                           </th>
                           <th
                             scope="col"
-                            className="text-sm font-medium  px-6 py-4"
+                            className="text-sm font-medium  p-2 sm:p-4"
                           >
                             {item.cz}
                           </th>
                           <th
                             scope="col"
-                            className="text-sm font-medium  px-6 py-4"
+                            className="text-sm font-medium  p-2 sm:p-4"
                           >
                             {item.base}
                           </th>
                           <th
                             scope="col"
-                            className="text-sm font-medium  px-6 py-4"
+                            className="text-sm font-medium  p-2 sm:p-4"
                           >
                             {item.pastSimple}
                           </th>
                           <th
                             scope="col"
-                            className="text-sm font-medium px-6 py-4"
+                            className="text-sm font-medium p-2 sm:p-4"
                           >
                             {item.pastParticiple}
                           </th>
