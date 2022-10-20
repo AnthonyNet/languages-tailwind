@@ -1,5 +1,5 @@
 
-## English German to Czech
+## Learn Egnlish and German App
 
 There is my simple app for learning english and german vocabulary, phrases etc.
 
