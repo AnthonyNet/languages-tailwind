@@ -17,16 +17,13 @@ export const ThemeProvider = (props) => {
     dark: {
       basic: {
         backgroundColor: "black",
-
         transition: "2s ease-in",
       },
       slate: {
         backgroundColor: "#0f172a",
-
+        color: "#2274cc",
         transition: "2s ease-in",
-        font: {
-          color: "#2274cc",
-        },
+       
       },
       card: {
         backgroundColor: "rgb(7, 7, 26)",

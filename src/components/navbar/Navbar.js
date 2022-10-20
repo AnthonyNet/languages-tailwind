@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { ThemeContext } from "../../ThemeContext";
-import ThemeButton from "../../ThemeButton";
+import ThemeButton from "../ThemeButton";
 import { Link } from "react-router-dom";
 import { CgClose } from "react-icons/cg";
 import { TiThMenu } from "react-icons/ti";
@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="flex relative justify-between items-start w-full h-full text-xl p-8">
         <aside className="logo sm:w-1/3">
-          Learn <strong>languages</strong>
+        <Link to="/">Learn <strong>languages</strong></Link>
         </aside>
         <span className="hidden md:flex absolute bottom-2 right-4 text-3xl">
           <ThemeButton />
@@ -85,7 +85,7 @@ const Navbar = () => {
         >
           <div className="flex justify-between items-center">
             <aside className="logo sm:mr-40">
-              Learn <strong>languages</strong>
+            <Link to="/">Learn <strong>languages</strong></Link>
             </aside>
             <div
               onClick={handleNav}

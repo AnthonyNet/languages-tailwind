@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import {GiNightSky} from "react-icons/gi"
-import { ThemeContext } from './ThemeContext';
+import { ThemeContext } from '../ThemeContext';
 import { FaRegLightbulb } from 'react-icons/fa';
 
 const ThemeButton = () => {
