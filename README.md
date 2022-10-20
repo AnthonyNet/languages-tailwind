@@ -2,7 +2,7 @@
 
 There is my simple app for learning english and german vocabulary, phrases etc.
 
->It´s always time to learn something new...
+>I´m learning by doing.
 
 ### Technologies&gadgets which has been used
 
