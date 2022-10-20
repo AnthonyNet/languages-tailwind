@@ -7,13 +7,10 @@ There is my simple app for learning english and german vocabulary, phrases etc.
 
 ### Technologies&gadgets which has been used
 
- * **[React](https://reactjs.org/docs/getting-started.html "Here we go")**
-  Router, Hooks(useState, useEffect, useContext)
+ * **[React](https://reactjs.org/docs/getting-started.html "React docs")**
+ <p> Router, Hooks(useState, useEffect, useContext) </p>
 
- * **Tailwind**
+ * **[React](https://tailwindcss.com/docs/installation "Tailwind docs")**
 
  * **JavaScript**
  
- [Link to Portfolio Website](https://gaganpreetkaurkalsi.netlify.app “My Portfolio Website”)
-
- [Link to Portfolio Website](https://gaganpreetkaurkalsi.netlify.app/)
