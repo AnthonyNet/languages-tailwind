@@ -8,9 +8,9 @@ There is my simple app for learning english and german vocabulary, phrases etc.
 ### Technologies&gadgets which has been used
 
  * **[React](https://reactjs.org/docs/getting-started.html "React docs")**
- <p>&nbsp Router, Hooks(useState, useEffect, useContext) </p>
+ <p>&nbsp&rarr Router, Hooks(useState, useEffect, useContext) </p>
 
- * **[Tailwin](https://tailwindcss.com/docs/installation "Tailwind docs")**
+ * **[Tailwind](https://tailwindcss.com/docs/installation "Tailwind docs")**
 
  * **JavaScript**
  
