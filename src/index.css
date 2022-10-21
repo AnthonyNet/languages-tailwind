@@ -82,8 +82,14 @@
   100%  {opacity: 1; transform: translateX(0)}
 }
 
+@media screen and (max-height: 550px) and (max-width:528px){
+  main details ul{
+    font-size: 90%;
+  }
+}
 
-@media screen and (max-height: 600px), screen and (max-width: 639px){
+@media screen and (max-height: 550px) and (orientation: landscape) and (max-width:639px)
+{
   .responsiveMenu{
     width: 100vw;
     padding: 1rem;
@@ -92,8 +98,12 @@
 
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-   border: 2px solid red;
+  /*align-items: flex-start;*/
+ 
+  }
+  .responsiveMenu nav ul main details{
+    width: 50%;
+
   }
   .responsiveSection{
     height: 120vh;
@@ -106,10 +116,17 @@
 
 
 
-@media screen and (max-height: 370px){
+@media screen and (max-height: 370px) and (orientation: landscape){
   .responsiveSection{
     height: 200vh;
   }
+  .mottoCover{
+    margin:0;
+  }
+  .responsiveMenu nav ul nav ul{
+    padding: 0px 0px;
+  }
+
 }
 
 @media screen and (max-width: 450px){

@@ -78,7 +78,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "responsiveMenu fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
+              ? "responsiveMenu fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
               : "fixed top-10 left-[-100%] ease-in duration-500"
           }
           style={darkMode? stylesSwitch.dark.responsiveMenu: null}
@@ -94,12 +94,12 @@ const Navbar = () => {
               <CgClose />
             </div>
           </div>
-          <div className="border-b border-gray-300 my-4 text-sm sm:text-lg">
+          <div className="mottoCover border-b border-gray-300 my-4 text-sm sm:text-lg">
             <p>Evolution means everyday learning</p>
           </div>
           <nav>
             <ul className="flex flex-col  z-20">
-             <div className="flex justify-between items-center ble">
+             <div className="flex justify-between items-center">
              <Link className="py-4 uppercase" to="/">
                 Home
               </Link>
