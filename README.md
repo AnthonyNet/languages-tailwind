@@ -8,13 +8,13 @@
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/plague.jpg?raw=true" width="350"></img>
 :arrow_right: [Morbus Tschengi](https://morbus-tschengi.vercel.app/ "Visit page")
 
-## CN GROUP Resume 11/2022 &rarr; TypeScript React &rarr; ~~first TS ducktaped~~...
+## CN GROUP ~~ghosting company~~  Resume 11/2022 &rarr; TypeScript React &rarr; ~~first TS ducktaped~~...
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/console.png?raw=true" width="250"></img>
-:arrow_right: [Morbus Tschengi](https://cv-11-2022.vercel.app/ "Visit page")
+:arrow_right: [Resume](https://cv-11-2022.vercel.app/ "Visit page")
 
-## :arrow_down: My first "interactive" Resumé from end of 2021  **Czech / English / German** :arrow_lower_left:
+## :arrow_down: My first "interactive" Resumé 2021  **Czech / English / German** :arrow_lower_left:
 <img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn2.png?raw=true" width="350"></img>
-:arrow_right: [They didn´t even answer](https://anthonyzet.github.io/MyCV/ "Visit page")
+:arrow_right: [Interactive Resume](https://anthonyzet.github.io/MyCV/ "Visit page")
 
 
 ## Simple Webpages
