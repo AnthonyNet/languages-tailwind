@@ -23,7 +23,7 @@
  ### 
  ### Dacia Bootstrap page
  <a href="https://anthonyzet.github.io/Bootstrap-simple-page"><img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn5.png?raw=true" width="350" /> </a>
- ### 4 My Resume-React 2022
+ ### My Resume-React 2022
  [👀 My Resume-React 2022](https://resume-one-rosy.vercel.app "Visit resume 2022")
  
 ## Legacy of Learn languages App
