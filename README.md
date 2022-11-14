@@ -1,7 +1,8 @@
 ## Learn Languages App &rarr; React + Tailwind   
 
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/Languages.png?raw=true" width="150" />  
-👀 [Learn Languages](https://languages-tailwind.vercel.app/"Visit page")
+👀 [Learn Languages](https://languages-tailwind.vercel.app/ "Visit page")
+
 
 ## Morbus Tschengi &rarr; Astro TypeScript
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/plague.jpg?raw=true" width="350" />
