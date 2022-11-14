@@ -30,7 +30,7 @@
  
  ### Dacia Bootstrap page
  <img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn5.png?raw=true" width="350"></img>
-  :arrow_right: [Vanilla Craftsman](https://anthonyzet.github.io/Bootstrap-simple-page/ "Visit page")
+  :arrow_right: [Dacia](https://anthonyzet.github.io/Bootstrap-simple-page/ "Visit page")
   
  ### My Resume-React 2022
  [👀 My Resume-React 2022](https://resume-one-rosy.vercel.app "Visit resume 2022")
