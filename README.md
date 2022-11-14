@@ -1,5 +1,5 @@
 ## Learn Languages App &rarr; React + Tailwind   
-:de: :gb: czech
+:de:
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/Languages.png?raw=true" width="150"></img>
 :arrow_right: [Learn Languages](https://languages-tailwind.vercel.app/ "Visit page")
 
