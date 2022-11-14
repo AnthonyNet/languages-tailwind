@@ -1,19 +1,20 @@
 ## Learn Languages App &rarr; React + Tailwind   
-[Learn Languages](https://languages-tailwind.vercel.app/ "Visit page")
-<img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/Languages.png?raw=true" width="150"></img>
 
+<img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/Languages.png?raw=true" width="150"></img>
+[Learn Languages](https://languages-tailwind.vercel.app/ "Visit page")
 
 
 ## Morbus Tschengi &rarr; Astro TypeScript
-<img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/plague.jpg?raw=true" width="350" />
+<img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/plague.jpg?raw=true" width="350"></img>
 [Morbus Tschengi](https://morbus-tschengi.vercel.app/"Visit page")
 
 ## CN GROUP Resume 11/2022 &rarr; TypeScript React &rarr; ~~first TS ducktaped~~...
-<a href="https://cv-11-2022.vercel.app/"><img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/console.png?raw=true" width="250" /> </a>
+<img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/console.png?raw=true" width="250"></img>
+[Morbus Tschengi](https://cv-11-2022.vercel.app/"Visit page")
 
 ## :arrow_down: My first "interactive" Resumé from end of 2021  **Czech / English / German** :arrow_lower_left:
-<a href="https://anthonyzet.github.io/MyCV/#"><img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn2.png?raw=true" width="350" /> </a>
-
+<img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn2.png?raw=true" width="350" />
+[Morbus Tschengi](https://anthonyzet.github.io/MyCV/"Visit page")
 
 
 ## Simple Webpages
