@@ -13,21 +13,26 @@
 :arrow_right: [Morbus Tschengi](https://cv-11-2022.vercel.app/ "Visit page")
 
 ## :arrow_down: My first "interactive" Resumé from end of 2021  **Czech / English / German** :arrow_lower_left:
-<img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn2.png?raw=true" width="350" />
-:arrow_right: [Morbus Tschengi](https://anthonyzet.github.io/MyCV/ "Visit page")
+<img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn2.png?raw=true" width="350"></img>
+:arrow_right: [They didn´t even answer](https://anthonyzet.github.io/MyCV/ "Visit page")
 
 
 ## Simple Webpages
  **request: use images with completely different resolutions and quality**
- ### Craftsman´s webpage in React
-
- <a href="https://react-remeslnik.vercel.app/"><img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn3.png?raw=true" width="350" /> </a>
- ### Craftsman´s simple web
  
- <a href="https://remeslnik.vercel.app/"><img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn4.png?raw=true" width="350" /> </a>
- ### 
+ ### Craftsman´s webpage in React
+<img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn3.png?raw=true" width="350"></img>
+ :arrow_right: [React Craftsman](https://react-remeslnik.vercel.app/ "Visit page")
+ 
+ 
+ ### Craftsman´s simple web
+<img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn4.png?raw=true" width="350"></img>
+ :arrow_right: [Vanilla Craftsman](https://remeslnik.vercel.app/ "Visit page")
+ 
  ### Dacia Bootstrap page
- <a href="https://anthonyzet.github.io/Bootstrap-simple-page"><img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn5.png?raw=true" width="350" /> </a>
+ <img src="https://github.com/AnthonyZet/Resume/blob/main/src/components/portfolio/img/learn5.png?raw=true" width="350"></img>
+  :arrow_right: [Vanilla Craftsman](https://anthonyzet.github.io/Bootstrap-simple-page/ "Visit page")
+  
  ### My Resume-React 2022
  [👀 My Resume-React 2022](https://resume-one-rosy.vercel.app "Visit resume 2022")
  
