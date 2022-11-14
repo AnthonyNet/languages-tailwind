@@ -1,12 +1,12 @@
 ## Learn Languages App &rarr; React + Tailwind   
 
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/Languages.png?raw=true" width="150" />  
-👀 [Learn Languages](https://languages-tailwind.vercel.app/ "Visit page")
+[Learn Languages](https://languages-tailwind.vercel.app/ "Visit page")
 
 
 ## Morbus Tschengi &rarr; Astro TypeScript
 <img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/plague.jpg?raw=true" width="350" />
-👀 [Morbus Tschengi](https://morbus-tschengi.vercel.app/"Visit page")
+[Morbus Tschengi](https://morbus-tschengi.vercel.app/"Visit page")
 
 ## CN GROUP Resume 11/2022 &rarr; TypeScript React &rarr; ~~first TS ducktaped~~...
 <a href="https://cv-11-2022.vercel.app/"><img src="https://github.com/AnthonyZet/morbus_tschengi/blob/main/public/images/wall/console.png?raw=true" width="250" /> </a>
