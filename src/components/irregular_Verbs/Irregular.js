@@ -18,7 +18,7 @@ const IrregularVerbs = ({ dataJSON }) => {
   const {darkMode, stylesSwitch} = useContext(ThemeContext);
  
 
-
+//Set totalScore from localStorage
   useEffect(() => {
     localStorage.setItem("totalScore", JSON.stringify(totalScore));
   }, [totalScore]);
@@ -28,6 +28,7 @@ const IrregularVerbs = ({ dataJSON }) => {
       Change input styles to default
 */
   }
+  
   function randomWord(e) {
     setRand(Math.floor(Math.random() * dataJSON.length));
   

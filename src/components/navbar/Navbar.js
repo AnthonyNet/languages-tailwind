@@ -23,7 +23,12 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  /* ${darkMode?'bg-black ease-in duration-500':'bg-white ease-in duration-500'} */
+ {
+  /*  1.ThemeButton switches dark/light mode 
+      2.  - Span and Ul are from 0width to md:hidden
+          - TiThMenu icon is md and higher hidden
+      3. MobileNav div>div is left - 100% and click on TiThMenu give him left-0 top-0 position and makes him visible then    
+  */} 
   return (
     <nav
       className={` w-full min-h-20 shadow-xl z-[100]`}

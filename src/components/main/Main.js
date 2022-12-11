@@ -2,13 +2,17 @@ import React, { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "../../ThemeContext"
 import Table from './Table';
 
+//This is a simple API for BitCoin currency
 const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
+
+//The whole components is imported  into pages/Home
 
 const Main = () => {
   const [myData, setMyData] = useState(null);
   const {darkMode} = useContext(ThemeContext);
   const {stylesSwitch} = useContext(ThemeContext);
 
+  //Save API data into myData variable
   useEffect(() =>{
     fetch(url)
     .then((resp) => resp.json())

@@ -1,7 +1,6 @@
 import "./App.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {react, useState} from 'react';
 
 import Home from "./pages/Home";
 import English from "./pages/Irregular_Eng";

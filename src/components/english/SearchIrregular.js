@@ -65,7 +65,9 @@ const SearchIrregular = () => {
                     </tr>
                   </thead>
                   <tbody className="text-green">
-                    {data
+                    {
+                      // Find all matching words with the same value which has been written into the input
+                      data
                       .filter((item) => {
                         return search.toLowerCase() === ""
                           ? item
