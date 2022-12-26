@@ -31,7 +31,7 @@ const Navbar = () => {
   */} 
   return (
     <nav
-      className={` w-full min-h-20 shadow-xl z-[100]`}
+      className={` w-full  min-h-20 shadow-xl z-[100]`}
       style={darkMode ? stylesSwitch.dark.basic : stylesSwitch.light.basic}
     >
       <div className="flex relative justify-between items-start w-full h-full text-xl p-8">
