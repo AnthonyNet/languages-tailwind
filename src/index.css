@@ -106,9 +106,7 @@
 
   }
   
-  .responsiveSection{
-    height: 120vh;
-  }
+ 
   .responsiveMenu nav ul main details{
 
     padding: 0;
@@ -119,9 +117,7 @@
 
 
 @media screen and (max-height: 370px) and (orientation: landscape){
-  .responsiveSection{
-    height: 200vh;
-  }
+ 
   .mottoCover{
     margin:0;
   }

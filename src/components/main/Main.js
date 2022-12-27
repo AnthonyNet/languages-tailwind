@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "../../ThemeContext";
 import Table from "./Table";
+import "./Main.css"
 
 //This is a simple API for BitCoin currency
 const url = "https://api.coindesk.com/v1/bpi/currentprice.json";
@@ -24,7 +25,7 @@ const Main = () => {
   return (
     <section
       className={
-        "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] sm:h-[90%] border-red-300  border-t-2"
+        "responsiveSection flex flex-col justify-center items-center w-full min-h-[88vh] h-auto sm:h-[90%] border-red-300  border-t-2"
       }
       style={darkMode ? stylesSwitch.dark.slate : stylesSwitch.transparent}
     >
@@ -37,7 +38,7 @@ const Main = () => {
       <h1 className="ml-[50px]">
         <strong>humans...</strong>
       </h1>
-      <div className="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective">
+      <div className="mainCard w-[300px] h-[420px] bg-transparent cursor-pointer group perspective">
         <div className="preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="border-2 w-full h-full">
             <img
@@ -47,7 +48,7 @@ const Main = () => {
             />
           </div>
           <div
-            className="my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400"
+            className="mainCardBack my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 mt-[-420px] overflow-hidden shadow-lg shadow-gray-400"
             style={darkMode ? stylesSwitch.dark.card : stylesSwitch.light.basic}
           >
             <div className="text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 ">

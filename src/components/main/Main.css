@@ -1,0 +1,26 @@
+@media screen and (max-height: 550px) and (orientation: landscape) and (max-width:639px)
+{
+    .responsiveSection{
+        height: 120vh;
+      }
+}
+
+@media screen and (max-height: 370px) and (orientation: landscape){
+    .responsiveSection{
+      height: 200vh;
+    }
+}
+
+/*
+MAGIC !
+*/
+
+@media screen and (max-height: 630px) and (orientation: portrait){
+  .mainCard{
+    width: 50vh;
+    height: 60vh;
+  }
+  .mainCardBack{
+    margin-top: -60vh;
+  }
+}
