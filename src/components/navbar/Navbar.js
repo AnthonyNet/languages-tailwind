@@ -34,7 +34,7 @@ const Navbar = () => {
       className={` w-full  min-h-20 shadow-xl z-[100]`}
       style={darkMode ? stylesSwitch.dark.basic : stylesSwitch.light.basic}
     >
-      <div className="flex relative justify-between items-start w-full h-full text-xl p-8">
+      <div className="flex relative justify-between items-start w-full h-full text-xl  p-4 sm:p-8">
         <aside className="logo sm:w-1/3">
         <Link to="/">Learn <strong>languages</strong></Link>
         </aside>

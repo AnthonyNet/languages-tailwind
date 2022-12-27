@@ -83,8 +83,8 @@ const Pagination = ({ dataJSON }) => {
     style={darkMode? stylesSwitch.dark.exerciseCards : null}
     >
       <nav className=" w-full h-auto border-4">
-        <ul className="flex flex-row justify-around sm:w-[60%] m-auto">
-          <li
+        <ul className="flex flex-row justify-around sm:w-[60%] m-auto flex-wrap">
+          <li 
             className={myNumb === 0 ? dataMenuStyle.borderBottom : null}
             onClick={() => setMyNumb(0)}
           >
