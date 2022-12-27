@@ -83,7 +83,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "responsiveMenu fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-2 sm:p-10 ease-in duration-500"
+              ? "responsiveMenu fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-4 sm:p-8 ease-in duration-500"
               : "fixed top-10 left-[-100%] ease-in duration-500"
           }
           style={darkMode? stylesSwitch.dark.responsiveMenu: null}
