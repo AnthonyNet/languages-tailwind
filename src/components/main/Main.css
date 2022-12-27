@@ -5,7 +5,7 @@
       }
 }
 
-@media screen and (max-height: 370px) and (orientation: landscape){
+@media screen and (max-height: 376px) and (orientation: landscape){
     .responsiveSection{
       height: 200vh;
     }
