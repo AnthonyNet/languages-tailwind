@@ -88,7 +88,7 @@
   }
 }
 
-@media screen and (max-height: 550px) and (orientation: landscape) and (max-width:639px)
+@media screen and (max-height: 550px) and (orientation: landscape) and (max-width:813px)
 {
   .responsiveMenu{
     width: 100vw;
@@ -116,7 +116,7 @@
 
 
 
-@media screen and (max-height: 370px) and (orientation: landscape){
+@media screen and (max-height: 376px) and (orientation: landscape){
  
   .mottoCover{
     margin:0;
