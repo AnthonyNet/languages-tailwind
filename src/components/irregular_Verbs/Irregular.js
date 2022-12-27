@@ -54,7 +54,7 @@ const IrregularVerbs = ({ dataJSON }) => {
     <section className="flex justify-center items-center w-full h-[91vh] responsiveSection"
     style={darkMode?stylesSwitch.dark.slate:stylesSwitch.transparent}
     >
-      <div className="max-w-sm card"
+      <div className="max-w-sm card my-8 sm:my-0"
       style={darkMode?stylesSwitch.dark.exerciseCards:stylesSwitch.light.basic}
       >
         <div className="py-3 px-6 border-b border-gray-300">

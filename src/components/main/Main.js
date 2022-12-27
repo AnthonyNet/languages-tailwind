@@ -30,7 +30,7 @@ const Main = () => {
       style={darkMode ? stylesSwitch.dark.slate : stylesSwitch.transparent}
     >
       <h1
-        className="ml-[-50px] mt-[-10%] sm:mt-0"
+        className="ml-[-50px] mt-2 sm:mt-0"
         style={darkMode ? stylesSwitch.dark.slate.font : null}
       >
         Welcome

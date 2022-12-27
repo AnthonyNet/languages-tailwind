@@ -1,16 +1,15 @@
 @media screen and (max-height: 602px) and (orientation: landscape) and (max-width:639px)
 {
     .responsiveSection{
-        height: 120vh;
+        height: auto;
       }
 }
 
-@media screen and (max-height: 376px) and (orientation: landscape){
+@media screen and (max-height: 550px) and (orientation: portrait){
     .responsiveSection{
-      height: 200vh;
-    }
+        height: auto;
+      }
 }
-
 /*
 MAGIC !
 */
